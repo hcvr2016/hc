@@ -155,7 +155,7 @@ $('#clofri').on('click',function () {
 		
 		$('#treaNum').children('p').hide();
 		
-		$('.trea').on('click',function () {
+		$('#treaNum').on('click',function () {
 
 			window.location.href = 'hc/chest';
 			
@@ -1026,11 +1026,11 @@ function krpanoReady(krpanObj)
 			krpano.call("loadscene('scene__________');");
 			
 			
-			//$('#treaNum').off('click',function () {
+			$('#treaNum').on('click',function () {
 	
-			//	window.location.href = 'hc/chest';
+				window.location.href = '';
 				
-			//})
+			})
 			
 			
 			$('#treaNum').removeClass('trea');
@@ -1040,7 +1040,11 @@ function krpanoReady(krpanObj)
 			
 			
 			$('#treaNum').children('p').show();
-			
+			$('#treaNum').on('click',function () {
+	
+				window.location.href = '';
+				
+			})
 			
 			
 		} else if ( $('#gobtn').text() == '邀请好友' ) {
@@ -1264,7 +1268,7 @@ function krpanoReady(krpanObj)
 									
 									$('#treaNum').children('p').hide();
 									
-									$('.trea').on('click',function () {
+									$('#treaNum').on('click',function () {
 	
 										window.location.href = 'hc/chest';
 										
@@ -1338,11 +1342,11 @@ function krpanoReady(krpanObj)
 		$('.chatDiv').hide();
 		
 		
-		//$('#treaNum').off('click',function () {
+		$('#treaNum').on('click',function () {
 	
-		//	window.location.href = 'hc/chest';
+			window.location.href = '';
 			
-		//})
+		})
 		
 		
 //		krpano.call('hideHotSpots');
