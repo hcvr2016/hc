@@ -891,13 +891,13 @@
 	</action>
 
 
-	<action name="skin_showloading">
+	<!--<action name="skin_showloading">
 		if(display.stereo == true,
 			set(layer[skin_loadingtext].visible, false); 
 		  ,
 			set(layer[skin_loadingtext].visible, %1);
 		  );
-	</action>
+	</action>-->
 
 
 	<action name="skin_hidetooltips">
