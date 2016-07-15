@@ -1026,12 +1026,11 @@ function krpanoReady(krpanObj)
 			krpano.call("loadscene('scene__________');");
 			
 			
-			$('.treaNum').on('click',function () {
+			//$('#treaNum').off('click',function () {
 	
 			//	window.location.href = 'hc/chest';
-			alert(1);
 				
-			})
+			//})
 			
 			
 			$('#treaNum').removeClass('trea');
@@ -1262,6 +1261,7 @@ function krpanoReady(krpanObj)
 									
 									
 									$('.trea').on('click',function () {
+										alert(1);
 	
 										window.location.href = 'hc/chest';
 										
@@ -1339,12 +1339,11 @@ function krpanoReady(krpanObj)
 		$('.chatDiv').hide();
 		
 		
-		$('.treaNum').on('click',function () {
+		//$('#treaNum').off('click',function () {
 	
 		//	window.location.href = 'hc/chest';
-		alert(111)
 			
-		})
+		//})
 		
 		
 //		krpano.call('hideHotSpots');
