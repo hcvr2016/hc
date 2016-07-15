@@ -531,7 +531,7 @@ function hideGameInfo () {
 
 
 $('#treaNum').on('click',function () {
-	if(this.hasClass('.trea')){
+	if($('#treaNum').hasClass('trea')){
 		window.location.href = 'hc/chest';
 	}
 	else{
