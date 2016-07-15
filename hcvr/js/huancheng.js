@@ -770,8 +770,7 @@ function getClickLotus (prizeName) {
 			console.log('mouse.stagex  '+krpano.get('mouse.stagex'));
 			
 			
-			//$('#treaNum').children('p').text(String(getPrizeCount));
-			$('#treaNum').children('p').text('0').show();
+			$('#treaNum').children('p').text(String(getPrizeCount));
 			console.log($('treaNum p').text());
 			
 			
@@ -825,6 +824,8 @@ function getClickLotus (prizeName) {
 			
 			
 			$('#yinlianNum').children('p').text(String(getFLowerCount));
+			$('#treaNum').children('p').text(String(getPrizeCount));
+			console.log($('treaNum p').text());
 		
 		}
 		
