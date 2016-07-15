@@ -770,8 +770,7 @@ function getClickLotus (prizeName) {
 			console.log('mouse.stagex  '+krpano.get('mouse.stagex'));
 			
 			
-			$('#treaNum').children('p').text(String(getPrizeCount));
-			console.log($('treaNum p').text());
+			$('#treaNum').children('p').text(String(getPrizeCount));;
 			
 			
 		} else {
@@ -836,8 +835,10 @@ function getClickLotus (prizeName) {
    		console.log('clickTime from kranpo '+ krpano.get('clickTime') );
 	
 }
+
+//wcy
 $('#treaNum').children('p').text(String(getPrizeCount));
-			console.log($('treaNum p').text());
+
 
 function showTxt (ifTriggerInvite) {
 	
