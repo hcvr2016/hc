@@ -156,7 +156,7 @@
 		 -->
 		 
 		 
-		 <layer name="test" url="img/1.jpg" align="center"
+		 <!--<layer name="test" url="img/1.jpg" align="center"
  
 			alpha="0" visible="false"
 			 
@@ -175,7 +175,7 @@
 				 
 				delayedcall(3,tween(layer[test].alpha,0);delayedcall(0.3,set(layer[test].visible,false)));
 				
-				"/>
+				"/>-->
 			
 		
 	
