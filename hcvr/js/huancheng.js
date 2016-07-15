@@ -155,7 +155,7 @@ $('#clofri').on('click',function () {
 		
 		$('#treaNum').children('p').hide();
 		
-		$('#treaNum.trea').on('click',function () {
+		$('.trea').on('click',function () {
 alert(1);
 			window.location.href = 'hc/chest';
 			
@@ -530,7 +530,7 @@ function hideGameInfo () {
 }
 
 
-$('#treaNum.trea').on('click',function () {
+$('.trea').on('click',function () {
 	alert(2);
 	window.location.href = 'hc/chest';
 	
@@ -1026,7 +1026,7 @@ function krpanoReady(krpanObj)
 			krpano.call("loadscene('scene__________');");
 			
 			
-			$('#treaNum.treaNum').on('click',function () {
+			$('.treaNum').on('click',function () {
 	alert(3);
 				//window.location.href = '';
 				
@@ -1040,7 +1040,7 @@ function krpanoReady(krpanObj)
 			
 			
 			$('#treaNum').children('p').show();
-			$('#treaNum.treaNum').on('click',function () {
+			$('.treaNum').on('click',function () {
 	alert(4);
 				//window.location.href = '';
 				
@@ -1268,7 +1268,7 @@ function krpanoReady(krpanObj)
 									
 									$('#treaNum').children('p').hide();
 									
-									$('#treaNum.trea').on('click',function () {
+									$('.trea').on('click',function () {
 	alert(5);
 										window.location.href = 'hc/chest';
 										
@@ -1342,7 +1342,7 @@ function krpanoReady(krpanObj)
 		$('.chatDiv').hide();
 		
 		
-		$('#treaNum.treaNum').on('click',function () {
+		$('.treaNum').on('click',function () {
 	alert(6);
 			//window.location.href = '';
 			
