@@ -826,6 +826,7 @@ function getClickLotus (prizeName) {
 			$('#yinlianNum').children('p').text(String(getFLowerCount));
 			$('#treaNum').children('p').text(String(getPrizeCount));
 			console.log($('treaNum p').text());
+			
 		
 		}
 		
