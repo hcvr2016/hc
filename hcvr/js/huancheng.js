@@ -152,7 +152,7 @@ $('#clofri').on('click',function () {
 		
 		
 		$('.trea').on('click',function () {
-
+alert(1);
 			window.location.href = 'hc/chest';
 			
 		})
@@ -531,7 +531,7 @@ function hideGameInfo () {
 
 
 $('.trea').on('click',function () {
-	
+	alert(1);
 	window.location.href = 'hc/chest';
 	
 })
