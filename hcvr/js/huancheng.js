@@ -149,20 +149,20 @@ $('#clofri').on('click',function () {
 		
 		
 		$('.chatDiv').show();
-		
-		
-		$('.trea').on('click',function () {
-alert(1);
-			window.location.href = 'hc/chest';
-			
-		})
-		
-		
 		$('#treaNum').removeClass('treaNum');
 		
 		$('#treaNum').addClass('trea');
 		
 		$('#treaNum').children('p').hide();
+		
+		$('.trea').on('click',function () {
+
+			window.location.href = 'hc/chest';
+			
+		})
+		
+		
+		
 	
 })
 
@@ -531,7 +531,7 @@ function hideGameInfo () {
 
 
 $('.trea').on('click',function () {
-	alert(1);
+	
 	window.location.href = 'hc/chest';
 	
 })
@@ -1258,21 +1258,20 @@ function krpanoReady(krpanObj)
 									
 									
 									$('.chatDiv').show();
+									$('#treaNum').removeClass('treaNum');
 									
+									$('#treaNum').addClass('trea');
+									
+									$('#treaNum').children('p').hide();
 									
 									$('.trea').on('click',function () {
-										alert(1);
 	
 										window.location.href = 'hc/chest';
 										
 									});
 									
 									
-									$('#treaNum').removeClass('treaNum');
 									
-									$('#treaNum').addClass('trea');
-									
-									$('#treaNum').children('p').hide();
 									
 								}
 								
