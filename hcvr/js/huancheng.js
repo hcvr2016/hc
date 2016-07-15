@@ -771,7 +771,7 @@ function getClickLotus (prizeName) {
 			
 			
 			//$('#treaNum').children('p').text(String(getPrizeCount));
-			$('#treaNum').children('p').text(0);
+			$('#treaNum').children('p').text('0').show();
 			
 			
 		} else {
