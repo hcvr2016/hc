@@ -237,7 +237,7 @@
 		height="100%"
 		bgcolor="0x000000"
 		bgalpha="1" >
-	 -->
+	 
 	<layer name="skin_title_logo3"
 		zorder="100"
 		keep="true"
@@ -253,7 +253,7 @@
 		set(layer[startpic_container].visible,false);
 		stopdelayedcall(startpic1);stopdelayedcall(startpic2);"
 		enabled="false" />
-	 
+	 -->
 	<layer name="skin_title_pr"
 		background="true"
 		backgroundcolor="0x999999"
