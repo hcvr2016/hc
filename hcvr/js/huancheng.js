@@ -927,7 +927,7 @@ function showTxt (ifTriggerInvite) {
 		setTimeout(function () {
 			
 			
-			$('#clickShow').animate({'opacity':'0'},1000,function() {
+			$('#clickShow').animate({'opacity':'0'},10,function() {
 		
 			    // Animation complete.
 			    
