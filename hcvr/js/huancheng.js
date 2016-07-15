@@ -1,12 +1,18 @@
 var krpano, constantScreenWidth, constantScreenHeight, resizeTimer, 
 WRatio, HRatio, chatData, whPortraitArr = [], whLandscapeErr = [], chatCanvas, 
-ifshowChat = false, adoptRatio, devicefontSize,
+ifshowChat = false, adoptRatio, devicefontSize, friPage = 1,
 resizeTriggerNum = 0, screen_nameArr = [], uidArr = [], fritoken = '', 
 uidString = '', leftCount = 0, totalCount = 7, playCount = 0, respondTxt = '', 
 getPrizeCount = 0, simulateClickResult = 0, getFLowerCount = 0, ifGetNull = false, 
 ifGetPrize = false;
 
 //$('.chat').hide();
+
+$(document).on("touchmove", function(evt) {
+				
+				evt.preventDefault();
+				
+			}, false);
 
 //字体图片随窗体缩放
 function door() {
@@ -95,7 +101,7 @@ window.onresize = function () {
 }
 
 
-alert(' $(this).width()  '+$(this).width()+ '  $(this).height()  '+$(this).height())
+/*alert(' $(this).width()  '+$(this).width()+ '  $(this).height()  '+$(this).height())
 
 
 alert('window.screen.width  '+window.screen.width+ '  window.screen.height  '+window.screen.height);
@@ -106,6 +112,7 @@ alert('window.innerWidth  '+window.innerWidth + '  window.innerHeight  '+window.
 
 alert('document.documentElement.clientWidth  '+ document.documentElement.clientWidth + '  document.documentElement.clientHeight  '+ document.documentElement.clientHeight);
 
+*/
 
 constantScreenWidth = window.innerWidth;
 
@@ -142,20 +149,19 @@ $('#clofri').on('click',function () {
 		
 		
 		$('.chatDiv').show();
-		
-		
-		$('#treaNum').on('click',function () {
-
-			window.location.href = 'http://hcvr.github.io/hc/chest';
-			
-		})
-		
-		
 		$('#treaNum').removeClass('treaNum');
 		
 		$('#treaNum').addClass('trea');
 		
 		$('#treaNum').children('p').hide();
+		
+		$('.trea').on('click',function () {
+			window.location.href = 'hc/chest';
+			
+		})
+		
+		
+		
 	
 })
 
@@ -428,16 +434,13 @@ function calcWHratio() {
 }
 
 
-/*alert('window.orientation  '+window.orientation);
-
-alert('window.devicePixelRatio  '+window.devicePixelRatio); 
-*/
-
 
 // Listen for orientation changes      
 window.addEventListener("orientationchange", function() {
 	
     // Announce the new orientation number
+    
+//	alert('window.orientation  '+window.orientation);
     
     /*$(window).one('resizestop', 0, function() {
 	
@@ -527,9 +530,9 @@ function hideGameInfo () {
 
 
 $('#treaNum').on('click',function () {
-	
-	window.location.href = 'http://hcvr.github.io/hc/chest';
-	
+	if($('#treaNum').hasClass('trea')){
+		window.location.href = 'hc/chest';
+	}
 })
 
 
@@ -548,6 +551,8 @@ document.addEventListener("showGameInfo", function (event) {
 	
 	var curSce = krpano.get('xml.scene');
 	
+	console.log('showGameInfo  curSce  '+curSce);
+	
 	if (curSce == 'scene_____________2-ok') {
 		
 		$('#VR').show();
@@ -556,10 +561,12 @@ document.addEventListener("showGameInfo", function (event) {
 		
 		$('.packageInfo').show();
 		
+		$('.userInfo').css('display','inline-block');
+		
 		$('.userInfo').show();
+		 
 		
-		
-		html2canvas( $('.chatShow'), {
+/*		html2canvas( $('.chatShow'), {
 		
 			    	
 	     	onrendered: function (canvas) {
@@ -580,7 +587,7 @@ document.addEventListener("showGameInfo", function (event) {
 	            
          	}
 	     	
- 		});
+ 		});*/
   	
 //		$('.chatShow').hide();
 		
@@ -616,21 +623,21 @@ function getClickLotus (prizeName) {
 		playCount++;
 		
 		
-		if (playCount == 5) {
+		if (playCount == 6) {
 			
 			
 			if (leftCount == 0) {
 				
 				
-				leftCount = totalCount - playCount;
+				leftCount = totalCount - ( playCount - 1);
 				
 			} else {
 				
-				leftCount = leftCount - playCount;
+				leftCount = leftCount - ( playCount - 1 );
 				
 			}
 			
-			console.log('剩余 采摘次数  leftCount  '+leftCount)
+			console.log('剩余 采摘次数  leftCount  '+leftCount);
 			
 			
 			if (leftCount < 5) {
@@ -674,7 +681,7 @@ function getClickLotus (prizeName) {
 				
 				$('.titbg').html('隐莲+1');
 				
-//				$('.yinLNum').attr('src','img/yinlianPlus.png');
+				$('.yinLNum').attr('src','http://hcvr.github.io/hc/hcvr/img/yinlianPlus.png');
 				
 				respondTxt = '太好了，采到隐莲了！';
 			
@@ -686,7 +693,7 @@ function getClickLotus (prizeName) {
 				
 				$('.titbg').html('隐莲-1');
 				
-//				$('.yinLNum').attr('src','img/yinlianSub.png');
+				$('.yinLNum').attr('src','http://hcvr.github.io/hc/hcvr/img/yinlianSub.png');
 				
 				respondTxt = '倒霉！不小心 采到毒药了！';
 				
@@ -762,8 +769,7 @@ function getClickLotus (prizeName) {
 			console.log('mouse.stagex  '+krpano.get('mouse.stagex'));
 			
 			
-			//$('#treaNum').children('p').text(String(getPrizeCount));
-			$('#treaNum').children('p').text(0);
+			$('#treaNum').children('p').text(String(getPrizeCount));;
 			
 			
 		} else {
@@ -816,6 +822,8 @@ function getClickLotus (prizeName) {
 			
 			
 			$('#yinlianNum').children('p').text(String(getFLowerCount));
+			
+			
 		
 		}
 		
@@ -826,6 +834,9 @@ function getClickLotus (prizeName) {
    		console.log('clickTime from kranpo '+ krpano.get('clickTime') );
 	
 }
+
+//wcy
+$('#treaNum').children('p').text(String(getPrizeCount));
 
 
 function showTxt (ifTriggerInvite) {
@@ -915,7 +926,7 @@ function showTxt (ifTriggerInvite) {
 		setTimeout(function () {
 			
 			
-			$('#clickShow').animate({'opacity':'0'},500,function() {
+			$('#clickShow').animate({'opacity':'0'},10,function() {
 		
 			    // Animation complete.
 			    
@@ -928,6 +939,9 @@ function showTxt (ifTriggerInvite) {
 		
 		
 	} else {
+		
+		
+		krpano.call('hideHotSpots');
 		
 		
 		$('#clickShow').css('width','2rem');
@@ -952,7 +966,7 @@ function showTxt (ifTriggerInvite) {
 }
 
 
-embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"only+webgl", initvars:{design:"flat"}, passQueryParameters:true, onready:krpanoReady});
+embedpano({swf:"http://hcvr.github.io/hc/hcvr/tour.swf", xml:"http://hcvr.github.io/hc/hcvr/tour.xml", target:"pano", html5:"only+webgl", initvars:{design:"flat"}, passQueryParameters:true, onready:krpanoReady});
 
 
 function krpanoReady(krpanObj)
@@ -1011,10 +1025,8 @@ function krpanoReady(krpanObj)
 			krpano.call("loadscene('scene__________');");
 			
 			
-			$('#treaNum').off('click',function () {
-	
-				window.location.href = 'http://hcvr.github.io/hc/chest';
-				
+			$('.treaNum').on('click',function () {
+				//window.location.href = '';
 			})
 			
 			
@@ -1025,7 +1037,10 @@ function krpanoReady(krpanObj)
 			
 			
 			$('#treaNum').children('p').show();
-			
+			$('.treaNum').on('click',function () {
+				//window.location.href = '';
+				
+			})
 			
 			
 		} else if ( $('#gobtn').text() == '邀请好友' ) {
@@ -1043,14 +1058,25 @@ function krpanoReady(krpanObj)
 	});
 	
 	
-	$('#changeFir').on('click', getFri);
+	$('#changeFir').on('click', function () {
+		
+		friPage++;
+		
+		getFri();
+		
+	});
 	
 	
 	function getFri() {
 		
+		var postFri = {
+			
+			page: friPage
+		}
+		
 		if (IF_NET) {
 					
-			ajaxRequest(false, "get", 'getfriend', '', function(result) {
+			ajaxRequest(false, "post", 'getfriend', postFri, function(result) {
 			
 			
 						if (result.code != 10000) {
@@ -1086,31 +1112,65 @@ function krpanoReady(krpanObj)
 							
 							console.log('fritoken  '+fritoken);
 							
-							for (var i = 0; i < result.data.user.length; i++) {
+							if (result.data.user.length > 0) {
 								
-								uidArr.push(String(result.data.user[i].uid))
 								
-								screen_nameArr.push(String(result.data.user[i].screen_name))
+								for (var i = 0; i < result.data.user.length; i++) {
+									
+									uidArr.push(String(result.data.user[i].uid))
+									
+									screen_nameArr.push(String(result.data.user[i].screen_name))
+									
+	//										uidString += String(result.data.user[i].uid)+',';
+									
+									var content = '<div class="friendP"><img src="'+ result.data.user[i].avatar_large +'" class="clip-circle" /></div>'
+									
+									$('.picCon').append(content);
+								}
 								
-//										uidString += String(result.data.user[i].uid)+',';
-								
-								var content = '<div class="friendP"><img src="'+ result.data.user[i].avatar_large +'" class="clip-circle" /></div>'
-								
-								$('.picCon').append(content);
 							}
 							
 							
-							uidString = uidArr[0]+','+uidArr[1]+','+uidArr[2];
+							if (uidArr.length < 3) {
+								
+								
+								if (uidArr.length == 2) {
+									
+									
+									uidString = uidArr[0]+','+uidArr[1];
+									
+									screen_nameStr = screen_nameArr[0]+','+screen_nameArr[1];
+									
+									
+								} else {
+									
+									
+									uidString = uidArr[0];
+									
+									screen_nameStr = screen_nameArr[0];
+									
+								}
+								
+								
+							} else {
+								
+								uidString = uidArr[0]+','+uidArr[1]+','+uidArr[2];
+								
+								screen_nameStr = screen_nameArr[0]+','+screen_nameArr[1]+','+screen_nameArr[2];
+								
+							}
 							
-							screen_nameStr = screen_nameArr[0]+','+screen_nameArr[1]+','+screen_nameArr[2];
+							
 							
 							console.log('if uidString is string '+ typeof uidString);
 							
 							console.log('uidString.length  '+uidString.length)
 
+
 //									uidString.substring(0, uidString.length - 1);
 //									
 //									uidString.slice(1, - 1);
+							
 							
 							console.log('uidString  '+uidString);
 							
@@ -1198,20 +1258,19 @@ function krpanoReady(krpanObj)
 									
 									
 									$('.chatDiv').show();
-									
-									
-									$('#treaNum').on('click',function () {
-	
-										window.location.href = 'http://hcvr.github.io/hc/chest';
-										
-									})
-									
-									
 									$('#treaNum').removeClass('treaNum');
 									
 									$('#treaNum').addClass('trea');
 									
 									$('#treaNum').children('p').hide();
+									
+									$('.trea').on('click',function () {
+										window.location.href = 'hc/chest';
+										
+									});
+									
+									
+									
 									
 								}
 								
@@ -1225,13 +1284,18 @@ function krpanoReady(krpanObj)
 	
 	$('#sentTxt').on('click', function () {
 		
+		
 		if ($('.chatTxtVal').val() != '') {
+			
 		    
 		    var chatTxt = $('.chatTxtVal').val();
 		    
+		    
 		    $('.chatUI').html(chatTxt);
 		    
+		    
 		    html2canvas( $('.chatUI'), {
+		    	
 		    	
 	         onrendered: function (canvas) {
 	         	
@@ -1270,13 +1334,12 @@ function krpanoReady(krpanObj)
 		console.log("krpano.get('xml.scene')  "+krpano.get('xml.scene') );
 		
 		
-		
 		$('.chatDiv').hide();
 		
 		
-		$('#treaNum').off('click',function () {
-	
-			window.location.href = 'http://hcvr.github.io/hc/chest';
+		$('.treaNum').on('click',function () {
+	alert(6);
+			//window.location.href = '';
 			
 		})
 		
@@ -1302,7 +1365,7 @@ function krpanoReady(krpanObj)
 		onnewSceneLay();
 		
 		
-		$('.chat').hide();
+//		$('.chat').hide();
 		
 	});
 	
@@ -1400,7 +1463,7 @@ function krpanoReady(krpanObj)
 	if (IF_NET) {
 		
 	
-			/*ajaxRequest(false, "get", "getvruser", '', function(result) {
+			ajaxRequest(false, "get", "getvruser", '', function(result) {
 			
 			
 						if (result.code != 10000) {
@@ -1411,7 +1474,7 @@ function krpanoReady(krpanObj)
 							    {
 							        msg:result.msg
 							    }
-							);
+							);*/
 						
 						
 						} else {
@@ -1435,14 +1498,14 @@ function krpanoReady(krpanObj)
 							    {
 							        msg:'获取 登录用户的基本信息和隐莲信息 成功   当前用户 剩余可玩次数   '+totalCount
 							    }
-							);
+							);*/
 							
 							console.log('当前用户 剩余可玩次数   '+totalCount)
 						}
 						
 						
 				
-					}, errorReturn);*/
+					}, errorReturn);
 					
 					
 			} else {
