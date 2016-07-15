@@ -1264,6 +1264,12 @@ function krpanoReady(krpanObj)
 	
 										window.location.href = 'hc/chest';
 										
+									});
+									$('.treaNum').on('click',function () {
+	
+										//window.location.href = 'hc/chest';
+										console.log(123);
+										
 									})
 									
 									
