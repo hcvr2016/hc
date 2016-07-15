@@ -245,7 +245,7 @@
 		y="0"
 		align="center"
 		url="img/1.jpg"
-		scale="1"
+		scale="0.95"
 		alpha="0"
 		onloaded="tween(alpha,1.0);tween(layer[skin_title_pr].alpha,1.0);"
 		onclick="tween(layer[startpic_container].ox,-2500,1);
