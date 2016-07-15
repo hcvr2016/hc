@@ -824,8 +824,7 @@ function getClickLotus (prizeName) {
 			
 			
 			$('#yinlianNum').children('p').text(String(getFLowerCount));
-			$('#treaNum').children('p').text(String(getPrizeCount));
-			console.log($('treaNum p').text());
+			
 			
 		
 		}
@@ -837,7 +836,8 @@ function getClickLotus (prizeName) {
    		console.log('clickTime from kranpo '+ krpano.get('clickTime') );
 	
 }
-
+$('#treaNum').children('p').text(String(getPrizeCount));
+			console.log($('treaNum p').text());
 
 function showTxt (ifTriggerInvite) {
 	
