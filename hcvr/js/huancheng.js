@@ -530,11 +530,11 @@ function hideGameInfo () {
 }
 
 
-//$('#treaNum').on('click',function () {
+$('.trea').on('click',function () {
 	
-//	window.location.href = 'hc/chest';
+	window.location.href = 'hc/chest';
 	
-//})
+})
 
 
 
@@ -1026,11 +1026,11 @@ function krpanoReady(krpanObj)
 			krpano.call("loadscene('scene__________');");
 			
 			
-			$('#treaNum').off('click',function () {
+			//$('#treaNum').off('click',function () {
 	
-				window.location.href = 'hc/chest';
+			//	window.location.href = 'hc/chest';
 				
-			})
+			//})
 			
 			
 			$('#treaNum').removeClass('trea');
@@ -1338,11 +1338,11 @@ function krpanoReady(krpanObj)
 		$('.chatDiv').hide();
 		
 		
-		$('#treaNum').off('click',function () {
+		//$('#treaNum').off('click',function () {
 	
-			window.location.href = 'hc/chest';
+		//	window.location.href = 'hc/chest';
 			
-		})
+		//})
 		
 		
 //		krpano.call('hideHotSpots');
