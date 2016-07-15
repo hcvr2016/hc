@@ -530,11 +530,14 @@ function hideGameInfo () {
 }
 
 
-//$('.trea').on('click',function () {
-//	alert(2);
-//	window.location.href = 'hc/chest';
-	
-//})
+$('#treaNum').on('click',function () {
+	if(this.hasClass('.trea')){
+		window.location.href = 'hc/chest';
+	}
+	else{
+		alert(000);
+	}
+})
 
 
 
