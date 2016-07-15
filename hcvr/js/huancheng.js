@@ -1260,7 +1260,7 @@ function krpanoReady(krpanObj)
 									$('.chatDiv').show();
 									
 									
-									$('#treaNum').on('click',function () {
+									$('.trea').on('click',function () {
 	
 										window.location.href = 'hc/chest';
 										
