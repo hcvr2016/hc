@@ -156,7 +156,6 @@ $('#clofri').on('click',function () {
 		$('#treaNum').children('p').hide();
 		
 		$('.trea').on('click',function () {
-alert(1);
 			window.location.href = 'hc/chest';
 			
 		})
@@ -1027,9 +1026,7 @@ function krpanoReady(krpanObj)
 			
 			
 			$('.treaNum').on('click',function () {
-	alert(3);
 				//window.location.href = '';
-				
 			})
 			
 			
@@ -1041,7 +1038,6 @@ function krpanoReady(krpanObj)
 			
 			$('#treaNum').children('p').show();
 			$('.treaNum').on('click',function () {
-	alert(4);
 				//window.location.href = '';
 				
 			})
@@ -1269,7 +1265,6 @@ function krpanoReady(krpanObj)
 									$('#treaNum').children('p').hide();
 									
 									$('.trea').on('click',function () {
-	alert(5);
 										window.location.href = 'hc/chest';
 										
 									});
