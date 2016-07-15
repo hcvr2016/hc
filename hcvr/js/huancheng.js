@@ -534,9 +534,6 @@ $('#treaNum').on('click',function () {
 	if($('#treaNum').hasClass('trea')){
 		window.location.href = 'hc/chest';
 	}
-	else{
-		alert(000);
-	}
 })
 
 
