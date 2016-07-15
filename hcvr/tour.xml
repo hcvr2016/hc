@@ -221,7 +221,7 @@
 
 
 	<!-- load -->
-	 <layer name="startpic_container"
+	<!-- <layer name="startpic_container"
 		preload="true"
 		alpha="1"
 		onloaded="tween(alpha,1.0);delayedcall(0,loadscene(get(startscene), null, MERGE));"
@@ -238,7 +238,7 @@
 		bgcolor="0x000000"
 		bgalpha="1" >
 	 
-	<!--<layer name="skin_title_logo3"
+	<layer name="skin_title_logo3"
 		zorder="100"
 		keep="true"
 		x="0"
@@ -285,7 +285,7 @@
 		stopdelayedcall(startpic1);stopdelayedcall(startpic2);"
 		enabled="false"
 	 
-	/>-->
+	/>
 	 
 	</layer>
 	 
@@ -297,7 +297,7 @@
 		delayedcall(startpic1,4,tween(layer[startpic_container].ox,-2500,1));
 		delayedcall(startpic2,5,set(layer[startpic_container].enabled,false);set(layer[startpic_container].visible,false));)
 	"/>
- 
+ -->
 <!-- 启动画面结束 -->
 
 	
