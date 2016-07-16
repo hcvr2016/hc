@@ -482,3 +482,16 @@ html {
     max-width: .7rem;
     height: auto;
 }
+@media screen and (orientation: landscape) {    
+.gameInfo {
+    width: 1rem;
+    height: 1rem; 
+}
+.gameInfo >p {
+    top: .3rem;
+    font-size: .08rem;
+}
+#begin {
+    max-width: .4rem;
+}
+} 
