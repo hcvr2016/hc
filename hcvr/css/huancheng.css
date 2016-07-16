@@ -247,7 +247,7 @@ html {
 		position: absolute;
 	  top: 2%;
     right: 3%;
-    
+    z-index:2002;
 	/*border-radius: 7px 7px 20px 7px; 
 	-moz-border-radius: 7px 7px 20px 7px; 
 	-webkit-border-radius: 7px 7px 20px 7px; 
@@ -305,6 +305,7 @@ html {
     height: .3rem;
     background-size: 100% 100%;
     background-image: url(../img/titile.png); no-repeat;
+    z-index:2002;
 }
 
 .userPic {
@@ -381,7 +382,7 @@ html {
 
 
 #VR {
-	
+	z-index:2002;
 	display: none;
 	position: absolute;
 	right: 5%; bottom: 18%;
