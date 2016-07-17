@@ -52,7 +52,7 @@
 	         enabled="false"
 	         distorted="true"
 	         crop="0|0|80|80"
-	         scale="0.3"
+	         scale="0"
 	         depth="1000"
 	         />
 
