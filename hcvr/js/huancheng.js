@@ -123,7 +123,7 @@ constantScreenHeight = window.innerHeight;
 $('.closebtn').on('click',function () {
 	
 	
-	$('.friendsP,.clickShow').hide();
+	$('.friendsP,#clickShow').hide();
 									
 									
 		respondTxt = '正在返回大厅...';
