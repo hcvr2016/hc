@@ -120,10 +120,10 @@ constantScreenHeight = window.innerHeight;
 
 
 
-$('#clofri').on('click',function () {
+$('.closebtn').on('click',function () {
 	
 	
-	$('.friendsP').hide();
+	$('.friendsP,.clickShow').hide();
 									
 									
 		respondTxt = '正在返回大厅...';
