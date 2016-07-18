@@ -855,10 +855,12 @@ function showTxt (ifTriggerInvite) {
 	if (!ifTriggerInvite) {
 		
 		$('#gobtn').css('display','none');
+		$('#clofri2').css('display','none');
 		
 	} else {
 		
 		$('#gobtn').css('display','inline-block');
+		$('#clofri2').css('display','inline-block');
 		
 	}
 	
