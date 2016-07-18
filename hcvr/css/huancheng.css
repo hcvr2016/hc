@@ -105,8 +105,8 @@ html {
 .closebtn {
 	
 	position: absolute; 
-	    top: 0;
-    right: 0;
+	    top: -5px;
+    right: -10px;
     width: .25rem;
     height: .25rem;
     background-size:100% 100%;
