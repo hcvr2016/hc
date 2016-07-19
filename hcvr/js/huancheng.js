@@ -605,7 +605,7 @@ document.addEventListener("showGameInfo", function (event) {
 function getClickLotus (prizeName) {
 	
 		console.log('总 采摘次数  totalCount  '+totalCount);
-		if (totalCount < 5) {
+		if (totalCount <= 0) {
 			
 			// 不够次数，需要邀请好友  邀请好友弹窗
 				
@@ -639,7 +639,7 @@ function getClickLotus (prizeName) {
 			console.log('剩余 采摘次数  leftCount  '+leftCount);
 			
 			
-			if (leftCount < totalCount) {
+			if (leftCount < 5) {
 				
 				// 不够次数，需要邀请好友  邀请好友弹窗
 				
