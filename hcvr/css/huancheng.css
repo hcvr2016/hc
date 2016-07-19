@@ -4,7 +4,8 @@ html {
 }
 
 #clickShow {
-	
+
+    width: 70% !important;
 	    display: none;
     text-align: center;
     color: white;
@@ -451,8 +452,9 @@ html {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 2rem;
-    height: 2rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    padding:0 .2em;
     background-size: 100% 100%;
     background-image: url(../img/gameInfo.png); no-repeat;	
 	
