@@ -1497,7 +1497,7 @@ function krpanoReady(krpanObj)
 							
 							
 							$('#yinlianNum').children('p').text(String( result.data.lotus ));
-							
+							$('#treaNum').children('p').text(String( result.data.treasures ));
 							/*Lobibox.alert(
 							    'success', // Any of the following
 							    {
