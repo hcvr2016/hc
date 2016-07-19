@@ -642,7 +642,7 @@ function getClickLotus (prizeName) {
 			if (leftCount < 5) {
 				
 				// 不够次数，需要邀请好友  邀请好友弹窗
-				
+				console.log('test');
 				respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了'+'\n'+'快邀请好友一起来VR寻找隐莲，'+'\n'+'就可以获得额外机会哦！';
 				
 				$('#gobtn').text('邀请好友');
