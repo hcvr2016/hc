@@ -606,7 +606,7 @@ function getClickLotus (prizeName) {
 	
 		console.log('总 采摘次数  totalCount  '+totalCount);
 		if (totalCount <= 0) {
-			
+			console.log('test222');
 			// 不够次数，需要邀请好友  邀请好友弹窗
 				
 				respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了，快邀请好友一起来VR寻找隐莲，就可以获得额外机会哦！';
