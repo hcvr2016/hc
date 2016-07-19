@@ -1502,7 +1502,8 @@ function krpanoReady(krpanObj)
 							        msg:'获取 登录用户的基本信息和隐莲信息 成功   当前用户 剩余可玩次数   '+totalCount
 							    }
 							);*/
-							
+							getClickLotus ();
+							console.log('WTF');
 							console.log('当前用户 剩余可玩次数   '+totalCount)
 						}
 						
