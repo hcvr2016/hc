@@ -609,7 +609,7 @@ function getClickLotus (prizeName) {
 			
 			// 不够次数，需要邀请好友  邀请好友弹窗
 				
-				respondTxt = ' OMG! 您的采摘次数已经没有了，邀请好友参与游戏，就可获得新的采摘次数哦！';
+				respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了，快邀请好友一起来VR寻找隐莲，就可以获得额外机会哦！';
 				
 				$('#gobtn').text('邀请好友');
 				
@@ -643,7 +643,7 @@ function getClickLotus (prizeName) {
 				
 				// 不够次数，需要邀请好友  邀请好友弹窗
 				
-				respondTxt = ' OMG! 您的采摘次数已经没有了，'+'\n'+'邀请好友参与游戏，'+'\n'+'就可获得新的采摘次数哦！';
+				respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了'+'\n'+'快邀请好友一起来VR寻找隐莲，'+'\n'+'就可以获得额外机会哦！';
 				
 				$('#gobtn').text('邀请好友');
 				
@@ -1393,7 +1393,7 @@ function krpanoReady(krpanObj)
 							    }
 							);*/
 							
-							respondTxt = ' OMG! 您的采摘次数已经没有了，'+'\n'+'邀请好友参与游戏，'+'\n'+'就可获得新的采摘次数哦！';
+							respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了，'+'\n'+'快邀请好友一起来VR寻找隐莲，'+'\n'+'就可以获得额外机会哦！';
 				
 							$('#gobtn').text('邀请好友');
 							
