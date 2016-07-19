@@ -1344,7 +1344,7 @@ function krpanoReady(krpanObj)
 		
 		
 		$('.treaNum').on('click',function () {
-	alert(6);
+
 			//window.location.href = '';
 			
 		})
@@ -1497,7 +1497,6 @@ function krpanoReady(krpanObj)
 							
 							
 							$('#yinlianNum').children('p').text(String( result.data.lotus ));
-							
 							
 							/*Lobibox.alert(
 							    'success', // Any of the following
