@@ -216,6 +216,10 @@
 		<hotspot visible='flase' name="spot10" style="skin_yinlianstyle" ath="-12.519" atv="13.931" linkedscene="www" />
 		<hotspot visible='flase' name="spot11" style="skin_yinlianstyle" ath="107.829" atv="1.183" linkedscene="www" />
 		<hotspot visible='flase' name="spot12" style="skin_yinlianstyle" ath="-67.268" atv="4.752" linkedscene="www" />
+		
+		<hotspot visible='flase' name="spot13" style="skin_yinlianstyle" ath="177.593" atv="11.106" linkedscene="www" />
+		<hotspot visible='flase' name="spot14" style="skin_yinlianstyle" ath="-141.498" atv="20.525" linkedscene="www" />
+		<hotspot visible='flase' name="spot15" style="skin_yinlianstyle" ath="78.127" atv="17.905" linkedscene="www" />
 
 	</scene>
 
