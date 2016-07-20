@@ -485,10 +485,10 @@ html {
     height: auto;
 }
 @media screen and (min-aspect-ratio: 13/8){    
-/*.gameInfo {
+.gameInfo {
     width: 1.5rem;
     height: 1.5rem; 
-}*/
+}
 .gameInfo >p {
     top: .3rem;
     font-size: .08rem;
