@@ -486,8 +486,8 @@ html {
 }
 @media screen and (min-aspect-ratio: 13/8){    
 .gameInfo {
-    width: 1.5rem;
-    height: 1.5rem; 
+    width: 1rem;
+    height: 1rem; 
 }
 .gameInfo >p {
     top: .3rem;
