@@ -484,7 +484,7 @@ html {
     max-width: .7rem;
     height: auto;
 }
-@media screen and (orientation: landscape) {    
+@media screen and (min-aspect-ratio: 13/8){    
 .gameInfo {
     width: 1.5rem;
     height: 1.5rem; 
