@@ -1493,7 +1493,7 @@ function krpanoReady(krpanObj)
 							
 							totalCount = result.data.tickets;
 							getFLowerCount = result.data.lotus;
-							
+							getPrizeCount = result.data.treasures;
 							
 							$('#yinlianNum').children('p').text(String( result.data.lotus ));
 							$('#treaNum').children('p').text(String( result.data.treasures ));
