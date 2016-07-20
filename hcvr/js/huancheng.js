@@ -1492,6 +1492,7 @@ function krpanoReady(krpanObj)
 //							$(".userInfo").textfill();	
 							
 							totalCount = result.data.tickets;
+							getFLowerCount = result.data.lotus;
 							
 							
 							$('#yinlianNum').children('p').text(String( result.data.lotus ));
