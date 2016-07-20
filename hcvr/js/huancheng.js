@@ -1083,7 +1083,7 @@ function krpanoReady(krpanObj)
 			ajaxRequest(false, "post", 'getfriend', postFri, function(result) {
 
 
-				if (result.code != 10000) {
+				if (result.code == 10001) {
 
 
 					/*Lobibox.alert(
@@ -1093,6 +1093,40 @@ function krpanoReady(krpanObj)
 					 }
 					 );
 					 */
+					 
+					 // 没有好友
+								
+						respondTxt = '您目前还没有好友，正在返回大厅...'
+								
+						showTxt(false);
+						
+						setTimeout(function () {
+										
+										$('#overlay').fadeOut('fast');
+									
+										$('#overlay').hide();
+										
+										krpano.call("loadscene('scene_____________2-ok');");
+										
+										$('#VR').show();
+										
+//										$('#chatIcon').show();
+									
+									},700);
+									
+									
+									
+									$('.chatDiv').show();
+									$('#treaNum').removeClass('treaNum');
+									
+									$('#treaNum').addClass('trea');
+									
+									$('#treaNum').children('p').hide();
+									
+									$('.trea').on('click',function () {
+										window.location.href = 'hc/chest';
+										
+									});
 
 				} else {
 
@@ -1133,39 +1167,7 @@ function krpanoReady(krpanObj)
 						}
 					} else {
 								
-						// 没有好友
-								
-						respondTxt == '您目前还没有好友，正在返回大厅...'
-								
-						showTxt(false);
 						
-						setTimeout(function () {
-										
-										$('#overlay').fadeOut('fast');
-									
-										$('#overlay').hide();
-										
-										krpano.call("loadscene('scene_____________2-ok');");
-										
-										$('#VR').show();
-										
-//										$('#chatIcon').show();
-									
-									},700);
-									
-									
-									
-									$('.chatDiv').show();
-									$('#treaNum').removeClass('treaNum');
-									
-									$('#treaNum').addClass('trea');
-									
-									$('#treaNum').children('p').hide();
-									
-									$('.trea').on('click',function () {
-										window.location.href = 'hc/chest';
-										
-									});
 					}
 
 
