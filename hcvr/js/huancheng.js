@@ -1363,33 +1363,60 @@ function krpanoReady(krpanObj)
 			showTxt(true);
 	
 			return;
+			
 	
-		}
-	
-		playCount++;
-	
-	
-		if (playCount == 6) {
-	
-	
-			if (leftCount == 0) {
-	
-	
-				leftCount = totalCount - ( playCount - 1);
-	
+		} else {
+			
+			
+			if (totalCount >= 5) {
+				
+				
+				playCount++;
+
+
+				if (playCount == 6) {
+			
+			
+					if (leftCount == 0) {
+			
+			
+						leftCount = totalCount - ( playCount - 1);
+			
+					} 
+			
+					console.log('剩余 采摘次数  leftCount  '+leftCount);
+			
+			
+					if (leftCount < 5) {
+			
+						// 不够次数，需要邀请好友  邀请好友弹窗
+			
+						respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了'+'\n'+'快邀请好友一起来VR寻找隐莲，'+'\n'+'就可以获得额外机会哦！';
+			
+						$('#gobtn').text('邀请好友');
+			
+						showTxt(true);
+			
+						return;
+			
+					} else {
+			
+						playCount = 0;
+			
+						respondTxt = '这一轮的采摘已经结束，您可以再玩一次！';
+			
+						$('#gobtn').text('再玩一次');
+			
+						showTxt(true);
+			
+						return;
+			
+					}
+			
+				}
+				
 			} else {
-	
-				leftCount = leftCount - ( playCount - 1 );
-	
-			}
-	
-			console.log('剩余 采摘次数  leftCount  '+leftCount);
-	
-	
-			if (leftCount < 5) {
-	
-				// 不够次数，需要邀请好友  邀请好友弹窗
-	
+				
 				respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了'+'\n'+'快邀请好友一起来VR寻找隐莲，'+'\n'+'就可以获得额外机会哦！';
 	
 				$('#gobtn').text('邀请好友');
@@ -1397,22 +1424,11 @@ function krpanoReady(krpanObj)
 				showTxt(true);
 	
 				return;
-	
-			} else {
-	
-				playCount = 0;
-	
-				respondTxt = '这一轮的采摘已经结束，您可以再玩一次！';
-	
-				$('#gobtn').text('再玩一次');
-	
-				showTxt(true);
-	
-				return;
-	
+				
 			}
-	
 		}
+	
+		
 
 		if (IF_NET) {
 
@@ -1446,6 +1462,10 @@ function krpanoReady(krpanObj)
 					 msg:'调取 采隐莲接口 成功  '
 					 }
 					 );*/
+					
+					leftCount = 0;
+					
+					totalCount = result.data.tickets;
 
 
 					simulateClickResult = result.data.type;
