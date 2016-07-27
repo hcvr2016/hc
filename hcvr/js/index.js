@@ -162,16 +162,22 @@ function fakeMessage() {
 							for (var i = 0; i < result.data.length; i++) {
 								
 								
-								var chatShow = '<div class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								$('.atvPic').attr('src', result.data[i].avatar_large);
 								
 								
-								$('#chatContainer').html(chatShow);
+								$('.chatContent').html( result.data[i].msg );
+								
+								
+//								var chatShow = '<div class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								
+								
+//								$('#chatContainer').html(chatShow);
 								
 								
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
 							    
-							    html2canvas( $('#chatContainer'), {
+							    html2canvas( $('.chatShow'), {
 
 
 									onrendered: function (canvas) {
@@ -181,7 +187,7 @@ function fakeMessage() {
 									
 										 krpano.call("addhotspot(chatPng'"+i+"');set(hotspot[chatPng'"+i+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+i+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-i)+"')");
 									
-										 console.log('render chatPng1');
+										 console.log('render chatPng  '+i);
 									
 										 console.log('imgageData  '+imgageData);
 									
