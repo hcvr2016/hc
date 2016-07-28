@@ -162,13 +162,15 @@ function fakeMessage() {
 							for (var i = 0; i < result.data.length; i++) {
 								
 								
-								$('.atvPic').attr('src', result.data[i].avatar_large);
+								/*$('.atvPic').attr('src', result.data[i].avatar_large);
 								
 								
-								$('.chatContent').html( result.data[i].msg );
+								$('.chatContent').html( result.data[i].msg );*/
 								
 								
-//								var chatShow = '<div class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								var chatShow = '<div id="chatPng'+i+'" class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								
+								$('body').append(chatShow);
 								
 								
 //								$('#chatContainer').html(chatShow);
@@ -177,9 +179,9 @@ function fakeMessage() {
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
 							    
-							    html2canvas( $('.chatShow'), {
-
-
+							    html2canvas( $('#chatPng'+i), {
+							    	
+							    	
 									onrendered: function (canvas) {
 								
 								
