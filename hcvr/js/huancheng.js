@@ -566,29 +566,30 @@ document.addEventListener("showGameInfo", function (event) {
 		$('.userInfo').show();
 
 
-		/*html2canvas( $('.chatShow'), {
+		/*		html2canvas( $('.chatShow'), {
 
 
-			onrendered: function (canvas) {
-		
-		
-				 var imgageData = canvas.toDataURL("image/png");
-			
-				 krpano.call("addhotspot(chatPng1);set(hotspot[chatPng1].url,'"+ imgageData + "');set(hotspot[chatPng1].ath,0);set(hotspot[chatPng1].atv,0);");
-			
-				 console.log('render chatPng1');
-			
-				 console.log('imgageData  '+imgageData);
-			
-				 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
-			
-				 console.log('newData  '+newData);
-			
-		
-			}
+		 onrendered: function (canvas) {
 
-		});*/
 
+		 var imgageData = canvas.toDataURL("image/png");
+
+		 krpano.call("addhotspot(chatPng1);set(hotspot[chatPng1].url,'"+ imgageData + "');set(hotspot[chatPng1].ath,0);set(hotspot[chatPng1].atv,0);");
+
+		 console.log('render chatPng1');
+
+		 console.log('imgageData  '+imgageData);
+
+		 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+
+		 console.log('newData  '+newData);
+
+
+		 }
+
+		 });*/
+
+		//		$('.chatShow').hide();
 
 	} else {
 
@@ -616,7 +617,7 @@ function getClickLotus (prizeName) {
 
 			$('.titbg').html('隐莲+1');
 
-			$('.yinLNum').attr('src','img/yinlianPlus.png');
+			$('.yinLNum').attr('src','http://hcvr.github.io/hc/hcvr/img/yinlianPlus.png');
 
 			respondTxt = '太好了，采到隐莲了！';
 
@@ -632,7 +633,7 @@ function getClickLotus (prizeName) {
 
 			$('.titbg').html('隐莲-1');
 
-			$('.yinLNum').attr('src','img/yinlianSub.png');
+			$('.yinLNum').attr('src','http://hcvr.github.io/hc/hcvr/img/yinlianSub.png');
 
 			respondTxt = '倒霉！不小心 采到毒药了！';
 
@@ -907,7 +908,7 @@ function showTxt (ifTriggerInvite) {
 }
 
 
-embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"only+webgl", initvars:{design:"flat"}, passQueryParameters:true, onready:krpanoReady});
+embedpano({swf:"http://hcvr.github.io/hc/hcvr/tour.swf", xml:"http://hcvr.github.io/hc/hcvr/tour.xml", target:"pano", html5:"only+webgl", initvars:{design:"flat"}, passQueryParameters:true, onready:krpanoReady});
  
 
 function krpanoReady(krpanObj)
@@ -930,9 +931,7 @@ function krpanoReady(krpanObj)
 	 setTimeout(function() {
 	 fakeMessage();
 	 }, 100);*/
-	
-	
-	fakeMessage();
+
 
 
 	$('#gobtn').on('click', function(e) {
@@ -1364,33 +1363,60 @@ function krpanoReady(krpanObj)
 			showTxt(true);
 	
 			return;
+			
 	
-		}
-	
-		playCount++;
-	
-	
-		if (playCount == 6) {
-	
-	
-			if (leftCount == 0) {
-	
-	
-				leftCount = totalCount - ( playCount - 1);
-	
+		} else {
+			
+			
+			if (totalCount >= 5) {
+				
+				
+				playCount++;
+
+
+				if (playCount == 6) {
+			
+			
+					if (leftCount == 0) {
+			
+			
+						leftCount = totalCount - ( playCount - 1);
+			
+					} 
+			
+					console.log('剩余 采摘次数  leftCount  '+leftCount);
+			
+			
+					if (leftCount < 5) {
+			
+						// 不够次数，需要邀请好友  邀请好友弹窗
+			
+						respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了'+'\n'+'快邀请好友一起来VR寻找隐莲，'+'\n'+'就可以获得额外机会哦！';
+			
+						$('#gobtn').text('邀请好友');
+			
+						showTxt(true);
+			
+						return;
+			
+					} else {
+			
+						playCount = 0;
+			
+						respondTxt = '这一轮的采摘已经结束，您可以再玩一次！';
+			
+						$('#gobtn').text('再玩一次');
+			
+						showTxt(true);
+			
+						return;
+			
+					}
+			
+				}
+				
 			} else {
-	
-				leftCount = leftCount - ( playCount - 1 );
-	
-			}
-	
-			console.log('剩余 采摘次数  leftCount  '+leftCount);
-	
-	
-			if (leftCount < 5) {
-	
-				// 不够次数，需要邀请好友  邀请好友弹窗
-	
+				
 				respondTxt = ' OMG！你可以寻找隐莲的机会已经用完了'+'\n'+'快邀请好友一起来VR寻找隐莲，'+'\n'+'就可以获得额外机会哦！';
 	
 				$('#gobtn').text('邀请好友');
@@ -1398,22 +1424,11 @@ function krpanoReady(krpanObj)
 				showTxt(true);
 	
 				return;
-	
-			} else {
-	
-				playCount = 0;
-	
-				respondTxt = '这一轮的采摘已经结束，您可以再玩一次！';
-	
-				$('#gobtn').text('再玩一次');
-	
-				showTxt(true);
-	
-				return;
-	
+				
 			}
-	
 		}
+	
+		
 
 		if (IF_NET) {
 
@@ -1447,6 +1462,10 @@ function krpanoReady(krpanObj)
 					 msg:'调取 采隐莲接口 成功  '
 					 }
 					 );*/
+					
+					leftCount = 0;
+					
+					totalCount = result.data.tickets;
 
 
 					simulateClickResult = result.data.type;
