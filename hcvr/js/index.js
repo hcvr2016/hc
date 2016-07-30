@@ -1,5 +1,5 @@
 var $messages = $('.messages-content'),
-    d, h, m,
+    d, h, m, dataLen,
     i = 0;
 
 /*$(window).load(function() {
@@ -121,9 +121,9 @@ var Fake = [
 // 调取 获取留言接口
 function fakeMessage() {
 	
-	$('<div class="message loading new"><figure class="avatar"><img src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80_4.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+	/*$('<div class="message loading new"><figure class="avatar"><img src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80_4.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
 							  
-  	updateScrollbar();
+  	updateScrollbar();*/
 							
   	if (IF_NET) {
 											
@@ -134,35 +134,34 @@ function fakeMessage() {
 						if (result.code != 10000) {
 							
 							
-							Lobibox.alert(
+							/*Lobibox.alert(
 							    'error', // Any of the following
 							    {
 							        msg:result.msg
 							    }
-							);
+							);*/
 						
 						
 						} else {
 							
 							
-							Lobibox.alert(
+							/*Lobibox.alert(
 							    'success', // Any of the following
 							    {
 							        msg:'调取 获取留言 接口 成功  '
 							    }
-							);
+							);*/
 							
 							  /*if ($('.message-input').val() != '') {
 							    return false;
 							  }*/
 							 
-						    $('.message.loading').remove();
+//						    $('.message.loading').remove();
+							 
 							 
 							for (var i = 0; i < result.data.length; i++) {
 								
-<<<<<<< HEAD
 								
-<<<<<<< HEAD
 								/*$('.atvPic').attr('src', result.data[i].avatar_large);
 								
 								
@@ -175,50 +174,12 @@ function fakeMessage() {
 								
 								
 //								$('#chatContainer').html(chatShow);
-=======
-								var chatShow = '<div class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
-								
-								
-								$('#chatContainer').html(chatShow);
->>>>>>> parent of 69d9231... 留言
-=======
-								var chatShow = '<div class="chatShow"><div class="userPic"><img id="atvPic" class="clip-circle user" /></div><div class="chatContent">asdfsdfdf</div></div>'
->>>>>>> parent of 3ccb139... 留言
 								
 								
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
-<<<<<<< HEAD
 							    
-<<<<<<< HEAD
-=======
-							    html2canvas( $('#chatContainer'), {
-
-
-									onrendered: function (canvas) {
-								
-								
-										 var imgageData = canvas.toDataURL("image/png");
-									
-										 krpano.call("addhotspot(chatPng'"+i+"');set(hotspot[chatPng'"+i+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+i+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-i)+"')");
-									
-										 console.log('render chatPng1');
-									
-										 console.log('imgageData  '+imgageData);
-									
-										 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
-									
-										 console.log('newData  '+newData);
-									
-								
-									}
-						
-								});
 							    
->>>>>>> parent of 69d9231... 留言
-							    
-=======
->>>>>>> parent of 3ccb139... 留言
 							    /*html2canvas( $('.message new'), {
 		    	
 						         onrendered: function (canvas) {
@@ -245,14 +206,16 @@ function fakeMessage() {
 						             }
 					         	});*/
 							    
-							    setDate();
+							    /*setDate();
 							    
-							    updateScrollbar();
+							    updateScrollbar();*/
 								
 							}
 							
 							
-							var dataLen = result.data.length;
+							dataLen = result.data.length;
+							
+							console.log('dataLen  '+dataLen);
 							
 							
 							while (dataLen > 0) {
