@@ -162,6 +162,7 @@ function fakeMessage() {
 							for (var i = 0; i < result.data.length; i++) {
 								
 								
+<<<<<<< HEAD
 								/*$('.atvPic').attr('src', result.data[i].avatar_large);
 								
 								
@@ -174,11 +175,43 @@ function fakeMessage() {
 								
 								
 //								$('#chatContainer').html(chatShow);
+=======
+								var chatShow = '<div class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								
+								
+								$('#chatContainer').html(chatShow);
+>>>>>>> parent of 69d9231... 留言
 								
 								
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
 							    
+<<<<<<< HEAD
+=======
+							    html2canvas( $('#chatContainer'), {
+
+
+									onrendered: function (canvas) {
+								
+								
+										 var imgageData = canvas.toDataURL("image/png");
+									
+										 krpano.call("addhotspot(chatPng'"+i+"');set(hotspot[chatPng'"+i+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+i+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-i)+"')");
+									
+										 console.log('render chatPng1');
+									
+										 console.log('imgageData  '+imgageData);
+									
+										 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+									
+										 console.log('newData  '+newData);
+									
+								
+									}
+						
+								});
+							    
+>>>>>>> parent of 69d9231... 留言
 							    
 							    /*html2canvas( $('.message new'), {
 		    	
