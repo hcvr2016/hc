@@ -179,6 +179,30 @@ function fakeMessage() {
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
 							    
+							    html2canvas( $('#chatPng'+dataLen), {
+							    	
+							    	
+									onrendered: function (canvas) {
+								
+								
+										 var imgageData = canvas.toDataURL("image/png");
+									
+										 krpano.call("addhotspot(chatPng'"+dataLen+"');set(hotspot[chatPng'"+dataLen+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+dataLen+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+dataLen+"'].atv,'"+(Math.random()*100-dataLen)+"')");
+									
+										 console.log('render chatPng  '+dataLen);
+									
+										 console.log('imgageData  '+imgageData);
+									
+										 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+									
+										 console.log('newData  '+newData);
+										 
+									
+								
+									}
+						
+								});
+								
 							    
 							    /*html2canvas( $('.message new'), {
 		    	
@@ -218,36 +242,6 @@ function fakeMessage() {
 							console.log('dataLen  '+dataLen);
 							
 							
-							while (dataLen > 0) {
-								
-								
-								html2canvas( $('#chatPng'+dataLen), {
-							    	
-							    	
-									onrendered: function (canvas) {
-								
-								
-										 var imgageData = canvas.toDataURL("image/png");
-									
-										 krpano.call("addhotspot(chatPng'"+dataLen+"');set(hotspot[chatPng'"+dataLen+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+dataLen+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+dataLen+"'].atv,'"+(Math.random()*100-dataLen)+"')");
-									
-										 console.log('render chatPng  '+dataLen);
-									
-										 console.log('imgageData  '+imgageData);
-									
-										 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
-									
-										 console.log('newData  '+newData);
-										 
-										 dataLen--;
-									
-								
-									}
-						
-								});
-								
-							}
-						    
 							  
 						}
 						
