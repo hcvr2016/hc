@@ -179,7 +179,7 @@ function fakeMessage() {
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
 							    
-							    html2canvas( $('#chatPng'+dataLen), {
+							    html2canvas( $('#chatPng'+i), {
 							    	
 							    	
 									onrendered: function (canvas) {
