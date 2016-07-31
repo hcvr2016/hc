@@ -910,7 +910,7 @@ function showTxt (ifTriggerInvite) {
 }
 
 
-embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"only+webgl", initvars:{design:"flat"}, passQueryParameters:true, onready:krpanoReady});
+embedpano({swf:"http://hcvr2.github.io/hc/hcvr/.swf", xml:"http://hcvr2.github.io/hc/hcvr/tour.xml", target:"pano", html5:"only+webgl", initvars:{design:"flat"}, passQueryParameters:true, onready:krpanoReady});
  
 
 function krpanoReady(krpanObj)
