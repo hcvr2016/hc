@@ -158,7 +158,7 @@ function fakeMessage() {
 							 
 //						    $('.message.loading').remove();
 							 
-							 
+							canvasChat: 
 							for (var i = 0; i < result.data.length; i++) {
 								
 								
@@ -197,7 +197,7 @@ function fakeMessage() {
 									
 										 console.log('newData  '+newData);
 										 
-										 continue;
+										 continue canvasChat;
 									
 								
 									}
