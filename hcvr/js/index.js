@@ -158,8 +158,8 @@ function fakeMessage() {
 							 
 //						    $('.message.loading').remove();
 							 
-							canvasChat: 
-							for (var i = 0; i < result.data.length; i++) {
+							 
+							canvasChat:for (var i = 0; i < result.data.length; i++) {
 								
 								
 								/*$('.atvPic').attr('src', result.data[i].avatar_large);
