@@ -1,5 +1,5 @@
 var $messages = $('.messages-content'),
-    d, h, m, i,
+    d, h, m, i, continueChat = {},
     i = 0;
 
 /*$(window).load(function() {
@@ -197,12 +197,22 @@ function fakeMessage() {
 									
 										 console.log('newData  '+newData);
 										 
-//										 continue canvasChat;
-									
+										 html2canvas.dispatchEvent('continuePng');
 								
 									}
 						
 								});
+								
+								
+								if (!html2canvas.hasEventListener('continuePng')) {
+									
+										html2canvas.addEventListener('continuePng', function () {
+										
+										 	continue canvasChat;
+										
+										});
+									
+								}
 								
 								break;
 								
