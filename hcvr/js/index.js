@@ -1,5 +1,5 @@
 var $messages = $('.messages-content'),
-    d, h, m, dataLen,
+    d, h, m, i,
     i = 0;
 
 /*$(window).load(function() {
@@ -187,9 +187,9 @@ function fakeMessage() {
 								
 										 var imgageData = canvas.toDataURL("image/png");
 									
-										 krpano.call("addhotspot(chatPng'"+dataLen+"');set(hotspot[chatPng'"+dataLen+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+dataLen+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+dataLen+"'].atv,'"+(Math.random()*100-dataLen)+"')");
+										 krpano.call("addhotspot(chatPng'"+i+"');set(hotspot[chatPng'"+i+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+i+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-i)+"')");
 									
-										 console.log('render chatPng  '+dataLen);
+										 console.log('render chatPng  '+i);
 									
 										 console.log('imgageData  '+imgageData);
 									
@@ -197,11 +197,14 @@ function fakeMessage() {
 									
 										 console.log('newData  '+newData);
 										 
+										 continue;
 									
 								
 									}
 						
 								});
+								
+								break;
 								
 							    
 							    /*html2canvas( $('.message new'), {
@@ -237,9 +240,9 @@ function fakeMessage() {
 							}
 							
 							
-							dataLen = result.data.length;
-							
-							console.log('dataLen  '+dataLen);
+//							i = result.data.length;
+//							
+//							console.log('i  '+i);
 							
 							
 							  
