@@ -197,7 +197,7 @@ function fakeMessage() {
 									
 										 console.log('newData  '+newData);
 										 
-										 continue canvasChat;
+//										 continue canvasChat;
 									
 								
 									}
