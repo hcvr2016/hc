@@ -197,14 +197,14 @@ function fakeMessage() {
 									
 										 console.log('newData  '+newData);
 										 
-										 html2canvas.dispatchEvent('continuePng');
+//										 html2canvas.dispatchEvent('continuePng');
 								
 									}
 						
 								});
 								
 								
-								if (!html2canvas.hasEventListener('continuePng')) {
+								/*if (!html2canvas.hasEventListener('continuePng')) {
 									
 										html2canvas.addEventListener('continuePng', function () {
 										
@@ -212,7 +212,7 @@ function fakeMessage() {
 										
 										});
 									
-								}
+								}*/
 								
 								break;
 								
