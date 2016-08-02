@@ -1,5 +1,5 @@
 var $messages = $('.messages-content'),
-    d, h, m, i, continueChat = {},
+    d, h, m, i, chatPngNum = 0, continueChat = {},
     i = 0;
 
 /*$(window).load(function() {
@@ -183,13 +183,14 @@ function fakeMessage() {
 							    	
 							    	
 									onrendered: function (canvas) {
-								
+										
+										chatPngNum++;
 								
 										 var imgageData = canvas.toDataURL("image/png");
 									
-										 krpano.call("addhotspot(chatPng'"+i+"');set(hotspot[chatPng'"+i+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+i+"'].ath,'"+(Math.random()*100+i)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-i)+"')");
+										 krpano.call("addhotspot(chatPng'"+chatPngNum+"');set(hotspot[chatPng'"+chatPngNum+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+chatPngNum+"'].ath,'"+(Math.random()*100+chatPngNum)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-chatPngNum)+"')");
 									
-										 console.log('render chatPng  '+i);
+										 console.log('render chatPng  '+chatPngNum);
 									
 										 console.log('imgageData  '+imgageData);
 									
@@ -214,7 +215,7 @@ function fakeMessage() {
 									
 								}*/
 								
-								break;
+//								break;
 								
 							    
 							    /*html2canvas( $('.message new'), {
