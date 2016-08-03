@@ -158,7 +158,10 @@ function fakeMessage() {
 							 
 //						    $('.message.loading').remove();
 							 
-							 
+							
+//							chatPngNum = result.data.length;
+
+							
 							canvasChat:for (var i = 0; i < result.data.length; i++) {
 								
 								
@@ -179,7 +182,7 @@ function fakeMessage() {
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
 							    
-							    $('#chatPng'+i+' #atvPic').waitForImages(function() {
+							    /*$('#chatPng'+i+' #atvPic').waitForImages(function() {
 							    	
 								    // All descendant images have loaded, now slide up.
 								    html2canvas( $('#chatPng'+i), {
@@ -206,10 +209,9 @@ function fakeMessage() {
 							
 									});
 									
-								});
+								});*/
 							    
 							    
-								
 								
 								/*if (!html2canvas.hasEventListener('continuePng')) {
 									
@@ -255,6 +257,39 @@ function fakeMessage() {
 							    updateScrollbar();*/
 								
 							}
+							
+							
+							setTimeout(function () {
+								
+								for (var k = 0; k < result.data.length; k++) {
+							    	
+							    	html2canvas( $('#chatPng'+k), {
+							    	
+										onrendered: function (canvas) {
+											
+											 chatPngNum++;
+									
+											 var imgageData = canvas.toDataURL("image/png");
+										
+											 krpano.call("addhotspot(chatPng'"+chatPngNum+"');set(hotspot[chatPng'"+chatPngNum+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+chatPngNum+"'].ath,'"+(Math.random()*100+chatPngNum)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-chatPngNum)+"')");
+										
+											 console.log('render chatPng  '+chatPngNum);
+										
+											 console.log('imgageData  '+imgageData);
+										
+											 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+										
+											 console.log('newData  '+newData);
+											 
+	//										 html2canvas.dispatchEvent('continuePng');
+									
+										}
+							
+									});
+							    }	
+								
+								
+							}, 500);
 							
 							
 //							i = result.data.length;
