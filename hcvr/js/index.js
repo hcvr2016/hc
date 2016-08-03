@@ -168,7 +168,7 @@ function fakeMessage() {
 								$('.chatContent').html( result.data[i].msg );*/
 								
 								
-								var chatShow = '<div id="chatPng'+i+'" class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user chatPng" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								var chatShow = '<div id="chatPng'+i+'" class="chatShow"><div class="userPic"></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
 								
 								$('body').append(chatShow);
 								
