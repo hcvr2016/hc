@@ -168,7 +168,7 @@ function fakeMessage() {
 								$('.chatContent').html( result.data[i].msg );*/
 								
 								
-								var chatShow = '<div id="chatPng'+i+'" class="chatShow"><div class="userPic"></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								var chatShow = '<div id="chatPng'+i+'" class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user chatPng" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
 								
 								$('body').append(chatShow);
 								
@@ -178,14 +178,15 @@ function fakeMessage() {
 								
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
-							    $('#chatPng'+i+' .userPic').waitForImages(function() {
+							    
+							    $('#chatPng'+i+' #atvPic').waitForImages(function() {
 							    	
 								    // All descendant images have loaded, now slide up.
 								    html2canvas( $('#chatPng'+i), {
 							    	
 										onrendered: function (canvas) {
 											
-											chatPngNum++;
+											 chatPngNum++;
 									
 											 var imgageData = canvas.toDataURL("image/png");
 										
