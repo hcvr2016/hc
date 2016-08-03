@@ -178,31 +178,36 @@ function fakeMessage() {
 								
 //							    $('<div class="message new"><figure class="avatar"><img src="'+ result.data[i].avatar_large +'" /></figure>' + result.data[i].msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
 							    
-							    
-							    html2canvas( $('#chatPng'+i), {
+							    $('#chatPng'+i).waitForImages(function() {
 							    	
+								    // All descendant images have loaded, now slide up.
+								    html2canvas( $('#chatPng'+i), {
 							    	
-									onrendered: function (canvas) {
+										onrendered: function (canvas) {
+											
+											chatPngNum++;
+									
+											 var imgageData = canvas.toDataURL("image/png");
 										
-										chatPngNum++;
-								
-										 var imgageData = canvas.toDataURL("image/png");
+											 krpano.call("addhotspot(chatPng'"+chatPngNum+"');set(hotspot[chatPng'"+chatPngNum+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+chatPngNum+"'].ath,'"+(Math.random()*100+chatPngNum)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-chatPngNum)+"')");
+										
+											 console.log('render chatPng  '+chatPngNum);
+										
+											 console.log('imgageData  '+imgageData);
+										
+											 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+										
+											 console.log('newData  '+newData);
+											 
+	//										 html2canvas.dispatchEvent('continuePng');
 									
-										 krpano.call("addhotspot(chatPng'"+chatPngNum+"');set(hotspot[chatPng'"+chatPngNum+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+chatPngNum+"'].ath,'"+(Math.random()*100+chatPngNum)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-chatPngNum)+"')");
+										}
+							
+									});
 									
-										 console.log('render chatPng  '+chatPngNum);
-									
-										 console.log('imgageData  '+imgageData);
-									
-										 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
-									
-										 console.log('newData  '+newData);
-										 
-//										 html2canvas.dispatchEvent('continuePng');
-								
-									}
-						
 								});
+							    
+							    
 								
 								
 								/*if (!html2canvas.hasEventListener('continuePng')) {
