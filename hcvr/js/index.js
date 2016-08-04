@@ -265,7 +265,7 @@ function fakeMessage() {
 							    	
 							    	html2canvas( $('#chatPng'+k), {
 							    	
-										onrendered: function (canvas) {
+										onrendered: function (canvas ) {
 											
 											 chatPngNum++;
 									
@@ -289,7 +289,7 @@ function fakeMessage() {
 							    }	
 								
 								
-							}, 500);
+							}, 1000);
 							
 							
 //							i = result.data.length;
