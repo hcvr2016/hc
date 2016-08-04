@@ -432,6 +432,7 @@ html {
 		
 }
 
+
 .chatShow {
 	
 	  display: inline-block;
@@ -441,12 +442,25 @@ html {
     background: rgba(255,255,255,.8);
     color: black;
     position: absolute;
-    top: 100%;
-    left: 50%;
+    /*top: 100%;
+    left: 50%;*/
     color: black;
     width: auto;
     height: .3rem;
 }
+
+
+#chatContainer {
+	
+		position: absolute;
+    top: 100%;
+    left: 50%;
+    color: black;
+    width: 90%;
+    height: 90%;
+	
+}
+
 
 .gameInfo {
 	
