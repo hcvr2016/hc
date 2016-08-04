@@ -441,7 +441,7 @@ html {
     /* background-color: white; */
     background: rgba(255,255,255,.8);
     color: black;
-    position: absolute;
+    position: relative;
     /*top: 100%;
     left: 50%;*/
     color: black;
