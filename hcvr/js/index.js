@@ -171,9 +171,9 @@ function fakeMessage() {
 								$('.chatContent').html( result.data[i].msg );*/
 								
 								
-								var chatShow = '<div id="chatPng'+i+'" class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user chatPng" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
+								var chatShow = '<div id="chatPng'+i+'" sytle="top: '+i*0.05+'rem; left: '+i*0.05+'rem;" class="chatShow"><div class="userPic"><img id="atvPic" src="'+ result.data[i].avatar_large +'" class="clip-circle user chatPng" /></div><div class="chatContent">'+ result.data[i].msg +'</div></div>'
 								
-								$('body').append(chatShow);
+								$('#chatContainer').append(chatShow);
 								
 								
 //								$('#chatContainer').html(chatShow);
@@ -261,7 +261,7 @@ function fakeMessage() {
 							
 							setTimeout(function () {
 								
-								for (var k = 0; k < result.data.length; k++) {
+								/*for (var k = 0; k < result.data.length; k++) {
 							    	
 							    	html2canvas( $('#chatPng'+k), {
 							    	
@@ -286,7 +286,31 @@ function fakeMessage() {
 										}
 							
 									});
-							    }	
+							    }	*/
+							   
+							   html2canvas( $('#chatContainer'), {
+							    	
+										onrendered: function (canvas ) {
+											
+											 chatPngNum++;
+									
+											 var imgageData = canvas.toDataURL("image/png");
+										
+											 krpano.call("addhotspot(chatPng'"+chatPngNum+"');set(hotspot[chatPng'"+chatPngNum+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+chatPngNum+"'].ath,'"+(Math.random()*100+chatPngNum)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-chatPngNum)+"')");
+										
+											 console.log('render chatPng  '+chatPngNum);
+										
+											 console.log('imgageData  '+imgageData);
+										
+											 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+										
+											 console.log('newData  '+newData);
+											 
+	//										 html2canvas.dispatchEvent('continuePng');
+									
+										}
+							
+									});
 								
 								
 							}, 1000);
