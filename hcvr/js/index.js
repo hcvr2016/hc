@@ -259,34 +259,8 @@ function fakeMessage() {
 							}
 							
 							
-							setTimeout(function () {
+							/*setTimeout(function () {
 								
-								/*for (var k = 0; k < result.data.length; k++) {
-							    	
-							    	html2canvas( $('#chatPng'+k), {
-							    	
-										onrendered: function (canvas ) {
-											
-											 chatPngNum++;
-									
-											 var imgageData = canvas.toDataURL("image/png");
-										
-											 krpano.call("addhotspot(chatPng'"+chatPngNum+"');set(hotspot[chatPng'"+chatPngNum+"'].url,'"+ imgageData + "');set(hotspot[chatPng'"+chatPngNum+"'].ath,'"+(Math.random()*100+chatPngNum)+"');set(hotspot[chatPng'"+i+"'].atv,'"+(Math.random()*100-chatPngNum)+"')");
-										
-											 console.log('render chatPng  '+chatPngNum);
-										
-											 console.log('imgageData  '+imgageData);
-										
-											 var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
-										
-											 console.log('newData  '+newData);
-											 
-	//										 html2canvas.dispatchEvent('continuePng');
-									
-										}
-							
-									});
-							    }	*/
 							   
 							   html2canvas( $('#chatContainer'), {
 							    	
@@ -313,7 +287,7 @@ function fakeMessage() {
 									});
 								
 								
-							}, 1000);
+							}, 1000);*/
 							
 							
 //							i = result.data.length;
