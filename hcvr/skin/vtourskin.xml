@@ -90,7 +90,7 @@
 
 
 	<!-- include VR support -->
-	<include url="https://hcvr2.github.io/hc/hcvr/plugins/webvr.xml" devices="html5" />
+	<include url="../plugins/webvr.xml" devices="html5" />
 
 	<!-- overwrite some settings from the webvr.xml for the skin integration -->
 	<plugin name="WebVR" keep="true" devices="html5"
