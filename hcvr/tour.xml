@@ -176,6 +176,7 @@
 				delayedcall(3,tween(layer[test].alpha,0);delayedcall(0.3,set(layer[test].visible,false)));
 				
 				"/>-->
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="179.887" atv="-1.451" linkedscene="scene_____________2-ok" />
 			
 		
 	
