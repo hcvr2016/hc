@@ -176,7 +176,8 @@
 				delayedcall(3,tween(layer[test].alpha,0);delayedcall(0.3,set(layer[test].visible,false)));
 				
 				"/>-->
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="179.887" atv="-1.451" linkedscene="scene_____________2-ok" />
+				
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="179.887" atv="-1.451" linkedscene="scene_4" />
 			
 		
 	
@@ -248,6 +249,28 @@
 
 	</scene>
 	
+	<scene name="scene_4" title="阵营" onstart="" thumburl="panos/tiles4/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.000" vlookat="0.000" fovtype="MFOV" fov="126.914" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/tiles4/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="2560" tiledimageheight="2560">
+				<cube url="panos/tiles4/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1280" tiledimageheight="1280">
+				<cube url="panos/tiles4/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="640" tiledimageheight="640">
+				<cube url="panos/tiles4/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		
+
+	</scene>
 	
 	<!-- load -->
 	<layer name="startpic_container"
