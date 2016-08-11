@@ -594,6 +594,19 @@ document.addEventListener("showGameInfo", function (event) {
 
 
 	} else {
+		
+		if (curSce == 'scene_2') {
+			
+			$('.gameInfo').children('p').html('红莲即将绽放，命运的轮转已经开始！帮卡索寻找真正的隐莲，解锁下一关卡！')
+			
+		} else if (curSce == 'scene_3') {
+			
+			$('.gameInfo').children('p').html('宝石 即将绽放，命运的轮转已经开始！帮卡索寻找真正的宝石，解锁下一关卡！')
+			
+		} else {
+			
+			$('.gameInfo').children('p').html('选阵营！')
+		}
 
 		$('.gameInfo').show();
 
@@ -967,7 +980,7 @@ function krpanoReady(krpanObj)
 			$('#overlay').fadeOut('fast');
 
 
-			krpano.call("loadscene('scene__________');");
+			krpano.call("loadscene('scene_2');");
 
 
 			$('.treaNum').on('click',function () {
