@@ -336,8 +336,8 @@
 	       onloaded="if(linkedscene AND skin_settings.tooltips_hotspots, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); );"
 	       />
 	       
-	<style name="skin_menstyle1" url="men.png" scale="0.5" edge="top" distorted="true"
-	       tooltip="绿色场景"
+	<style name="skin_menstyle1" url="men2.png" scale="0.5" edge="top" distorted="true"
+	       tooltip="炼术场"
 	       onclick="webvr.exitVR();hideChat();if(linkedscene, set(enabled,false); skin_hidetooltips(); tween(depth|alpha|oy|rx, 4000|0.0|-50|-60, 0.5, default, loadscene(get(linkedscene),null,get(skin_settings.loadscene_flags),get(skin_settings.loadscene_blend)); skin_updatescroll(); ); );"
 	       onover="tween(scale,0.55);copy(layer[skin_tooltip].html, tooltip);
 	                     set(layer[skin_tooltip].visible, true);
@@ -361,6 +361,15 @@
 	       onout="tween(scale,0.3);"
 	       onloaded="if(linkedscene AND skin_settings.tooltips_hotspots, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); );"
 	       />
+	       
+	       
+	<style name="skin_stonestyle" url="baoshi.png" scale="0.3" edge="top" distorted="true"
+	       tooltip=""
+	       onclick="add(clickTime, 1);trace( get(clickTime) );doneClick();if(linkedscene, set(enabled,false); skin_hidetooltips(); tween(depth|alpha|oy|rx, 4000|0.0|-50|-60, 0.5, default, loadscene(get(linkedscene),null,get(skin_settings.loadscene_flags),get(skin_settings.loadscene_blend)); skin_updatescroll(); ); );"
+	       onover="tween(scale,0.35);"
+	       onout="tween(scale,0.3);"
+	       onloaded="if(linkedscene AND skin_settings.tooltips_hotspots, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); );"
+	       />       
 	       
 	<!--<layer name="tooltip" keep="true"
 	       url="%SWFPATH%/plugins/textfield.swf"
