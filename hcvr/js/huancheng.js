@@ -511,6 +511,8 @@ $('#pano').on('click', function () {
 
 
 $('#begin').on('click', function () {
+	
+	krpano.call("webvr.enterVR()");
 
 	krpano.call('showHotSpots');
 
@@ -995,6 +997,8 @@ function krpanoReady(krpanObj)
 
 
 			$('#treaNum').children('p').show();
+			
+			
 			$('.treaNum').on('click',function () {
 				//window.location.href = '';
 
