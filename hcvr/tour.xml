@@ -8,7 +8,7 @@
 	               maps_type="bing"
 	               maps_bing_api_key=""
 	               maps_zoombuttons="false"
-	               gyro="true"
+	               gyro="false"
 	               littleplanetintro="false"
 	               title="true"
 	               thumbs="true"
@@ -68,10 +68,10 @@
 	<include url="skin/vtourskin_design_flat_light.xml"  if="design === 'flat_light'"  />
 	<include url="skin/vtourskin_design_ultra_light.xml" if="design === 'ultra_light'" />
 	<include url="skin/vtourskin_design_117.xml"         if="design === '117'"         />
-
-
+	
 	<!-- startup action - load the first pano/scene -->
 	<action name="startup" autorun="onstart">
+		
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		
 		loadscene(get(startscene), null, MERGE);
@@ -112,7 +112,6 @@
 		copy(layer[%1].height, new_height);
 	 
 	</action>
-	
 	
 	
 	<scene name="scene_____________2-ok" title="冰国宫殿" onstart="" thumburl="panos/tiles2/thumb.jpg" lat="" lng="" heading="">
@@ -226,7 +225,7 @@
 	</scene>
 
 
-	<scene name="scene_3" title="绿色场景" onstart="" thumburl="panos/tiles3/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_3" title="练术场" onstart="" thumburl="panos/tiles3/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.000" vlookat="0.000" fovtype="MFOV" fov="126.914" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
