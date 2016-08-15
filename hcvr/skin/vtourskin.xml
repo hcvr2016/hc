@@ -90,7 +90,7 @@
 
 
 	<!-- include VR support -->
-	<include url="../plugins/webvr.xml" devices="html5" />
+	<include url="%SWFPATH%/plugins/webvr.xml" devices="html5" />
 
 	<!-- overwrite some settings from the webvr.xml for the skin integration -->
 	<plugin name="WebVR" keep="true" devices="html5"
@@ -98,8 +98,9 @@
 	        mobilevr_touch_support="true"
 	        multireslock.mobile.or.tablet="true"
 	        mobilevr_fake_support="true"
+	        mobilevr_autocalibration="true"
 	        vr_cursor_onover="if(handcursor, tween(hotspot[vr_cursor].scale,0.4,0.1); );"
-	        onavailable="removelayer(webvr_enterbutton); webvr_onavailable();"
+	        onavailable="removelayer(webvr_enterbutton); webvr_onavailable(); skin_arrange_buttons();"
 	        onentervr="skin_showloading(false); webvr_onentervr(); webvr_setup();"
 	        onexitvr="webvr_onexitvr(); webvr_setup();"
 	        />
