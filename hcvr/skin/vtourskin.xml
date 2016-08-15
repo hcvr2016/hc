@@ -97,6 +97,7 @@
 	        multireslock.desktop="true"
 	        mobilevr_touch_support="true"
 	        multireslock.mobile.or.tablet="false"
+	        mobilevr_fake_support="false"
 	        vr_cursor_onover="if(handcursor, tween(hotspot[vr_cursor].scale,0.4,0.1); );"
 	        onavailable="removelayer(webvr_enterbutton); webvr_onavailable();"
 	        onentervr="skin_showloading(false); webvr_onentervr(); webvr_setup();"
