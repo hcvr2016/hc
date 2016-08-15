@@ -237,7 +237,7 @@
 
 	<action name="vr_setup">
 		<!-- disable cursor -->
-		set(webvr.vr_cursor_enabled, false);
+		<!--set(webvr.vr_cursor_enabled, false);-->
 		
 		<!-- hide VR buttons -->
 		tween(layer[webvr_exitbutton].alpha,0);
