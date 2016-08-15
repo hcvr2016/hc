@@ -20,7 +20,7 @@
 	        mobilevr_sensor_mode="3"
 	        mobilevr_autocalibration="false"
 	        mobilevr_touch_support="false"
-	        mobilevr_fake_support="false"
+	        mobilevr_fake_support="true"
 	        
 	        vr_cursor_enabled="true"
 	        vr_cursor_onover="if(handcursor, tween(hotspot[vr_cursor].scale,0.4,0.1); vr_auto_click(get(vr_timeout)); );"
@@ -119,7 +119,6 @@
 		webvr_hide_all_non_vr_layers();
 
 		<!-- when the screen size is unknown an no custom size is set, open the setup screen on entering the VR mode -->
-		
 		<!--if(webvr.ismobilevr == true AND !webvr.isfake AND ask_user_for_screensize == true AND webvr.mobilevr_screensize == 'auto',
 			set(ask_user_for_screensize, false);
 			vr_setup();
