@@ -503,7 +503,6 @@
 		<!-- enable cursor -->
 		set(webvr.vr_cursor_enabled, true);
 		
-		set(layer[vr_setup_bg].handcursor, true);
 		
 	</action>
 
