@@ -5,7 +5,7 @@
 	        url="webvr.js"
 	        onloaded="copy(webvr, plugin[WebVR]);"
 	        mousespeed="0.00125"
-	        worldscale="3.5"
+	        worldscale="9.0"
 	        multireslock="true"
 			fullscreen_mirroring="false"
 	        mobilevr_support="true"
