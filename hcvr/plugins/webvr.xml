@@ -12,7 +12,7 @@
 	        mobilevr_ipd="63.5"
 	        mobilevr_screensize="auto"
 	        mobilevr_lens_overlap="1.0"
-	        mobilevr_lens_fov="96"
+	        mobilevr_lens_fov="150"
 	        mobilevr_lens_dist="0.6"
 	        mobilevr_lens_dist2="1|0|0|0"
 	        mobilevr_lens_ca="0.0"
