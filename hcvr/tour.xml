@@ -244,17 +244,17 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
-		<hotspot visible='false' name="spot1" style="skin_stonestyle" ath="90.070" atv="15.687"  linkedscene = "www" />
-		<hotspot visible='false' name="spot2" style="skin_stonestyle" ath="125.653" atv="25.233" linkedscene = "www" />
-		<hotspot visible='false' name="spot3" style="skin_stonestyle" ath="-94.688" atv="1.780" linkedscene = "www" />
+		<hotspot visible='false' name="spot1" scale="0.3" style="skin_stonestyle" ath="90.070" atv="15.687"  linkedscene = "www" />
+		<hotspot visible='false' name="spot2" scale="0.3" style="skin_stonestyle" ath="125.653" atv="25.233" linkedscene = "www" />
+		<hotspot visible='false' name="spot3" scale="0.3" style="skin_stonestyle" ath="-94.688" atv="1.780" linkedscene = "www" />
 		
-		<hotspot visible='false' name="spot4" style="skin_stonestyle" ath="-48.457" atv="14.844" linkedscene="www" />
-		<hotspot visible='false' name="spot5" style="skin_stonestyle" ath="-118.132" atv="6.649" linkedscene="www" />
-		<hotspot visible='false' name="spot6" style="skin_stonestyle" ath="177.590" atv="19.866" linkedscene="www" />
+		<hotspot visible='false' name="spot4" scale="0.3" style="skin_stonestyle" ath="-48.457" atv="14.844" linkedscene="www" />
+		<hotspot visible='false' name="spot5" scale="0.3" style="skin_stonestyle" ath="-118.132" atv="6.649" linkedscene="www" />
+		<hotspot visible='false' name="spot6" scale="0.3" style="skin_stonestyle" ath="177.590" atv="19.866" linkedscene="www" />
 		
-		<hotspot visible='false' name="spot7" style="skin_stonestyle" ath="163.622" atv="5.638" linkedscene="www" />
-		<hotspot visible='false' name="spot8" style="skin_stonestyle" ath="-161.381" atv="7.666" linkedscene="www" />
-		<hotspot visible='false' name="spot9" style="skin_stonestyle" ath="70.323" atv="9.365" linkedscene="www" />
+		<hotspot visible='false' name="spot7" scale="0.3" style="skin_stonestyle" ath="163.622" atv="5.638" linkedscene="www" />
+		<hotspot visible='false' name="spot8" scale="0.3" style="skin_stonestyle" ath="-161.381" atv="7.666" linkedscene="www" />
+		<hotspot visible='false' name="spot9" scale="0.3" style="skin_stonestyle" ath="70.323" atv="9.365" linkedscene="www" />
 		
 		
 
