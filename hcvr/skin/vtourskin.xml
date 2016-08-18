@@ -360,11 +360,11 @@
 	       />
 	       
 	       
-	<style name="skin_stonestyle" url="baoshi.png" scale="0.3" edge="top" distorted="true"
+	<style name="skin_stonestyle" url="baoshi.png" scale="0.13" edge="top" distorted="true"
 	       tooltip=""
 	       onclick="add(clickTime, 1);trace( get(clickTime) );doneClick();if(linkedscene, set(enabled,false); skin_hidetooltips(); tween(depth|alpha|oy|rx, 4000|0.0|-50|-60, 0.5, default, loadscene(get(linkedscene),null,get(skin_settings.loadscene_flags),get(skin_settings.loadscene_blend)); skin_updatescroll(); ); );"
-	       onover="tween(scale,0.35);"
-	       onout="tween(scale,0.3);"
+	       onover="tween(scale,0.17);"
+	       onout="tween(scale,0.13);"
 	       onloaded="if(linkedscene AND skin_settings.tooltips_hotspots, copy(tooltip,scene[get(linkedscene)].title); loadstyle(skin_tooltips); );"
 	       />       
 	       
