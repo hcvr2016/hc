@@ -13,7 +13,7 @@
 	        mobilevr_screensize="auto"
 	        mobilevr_lens_overlap="1.0"
 	        mobilevr_lens_fov="150"
-	        mobilevr_lens_dist="0.6"
+	        mobilevr_lens_dist="0.0"
 	        mobilevr_lens_dist2="1|0|0|0"
 	        mobilevr_lens_ca="0.0"
 	        mobilevr_lens_vign="100"
@@ -91,9 +91,11 @@
 					if(dt GT vr_aclk_timeout,
 						set(vr_aclk_waiting,false);
 						set(hotspot[vr_cursor].crop,'0|0|80|80');
+						
 						<!-- call onclick 
 						  krpano.call('');
 						-->
+						
 						onclick();
 					  );
 				  );
