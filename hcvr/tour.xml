@@ -8,7 +8,7 @@
 	               maps_type="bing"
 	               maps_bing_api_key=""
 	               maps_zoombuttons="false"
-	               gyro="false"
+	               gyro="true"
 	               littleplanetintro="false"
 	               title="true"
 	               thumbs="true"
