@@ -94,9 +94,10 @@
 						
 						<!-- call onclick 
 						  krpano.call('');
-						-->
 						
 						onclick();
+						
+						-->
 					  );
 				  );
 				);
