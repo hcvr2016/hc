@@ -13,7 +13,7 @@
 	        mobilevr_screensize="auto"
 	        mobilevr_lens_overlap="1.0"
 	        mobilevr_lens_fov="150"
-	        mobilevr_lens_dist="0.3"
+	        mobilevr_lens_dist="0.5"
 	        mobilevr_lens_dist2="1|0|0|0"
 	        mobilevr_lens_ca="0.0"
 	        mobilevr_lens_vign="100"
