@@ -26,8 +26,8 @@
 	        
  			vr_cursor="hotspot[vr_cursor]"
 	        vr_cursor_enabled="true"
-	        vr_cursor_onover="if(handcursor, tween(hotspot[vr_cursor].scale,0.4,0.1); vr_auto_click(get(vr_timeout)); );"
-	        vr_cursor_onout="tween(hotspot[vr_cursor].scale,0.3,0.1);"
+	        vr_cursor_onover="if(handcursor, tween(hotspot[vr_cursor].scale,1.5,0.1); vr_auto_click(get(vr_timeout)); );"
+	        vr_cursor_onout="tween(hotspot[vr_cursor].scale,1.0,0.1);"
 	        
 	        onavailable="webvr_onavailable();"
 	        onunavailable=""
@@ -56,7 +56,7 @@
 	         enabled="true"
 	         distorted="true"
 	         crop="0|0|80|80"
-	         scale="0.7"
+	         scale="1.0"
 	         depth="1000"
 	         
 	         />
@@ -66,7 +66,7 @@
 	     hotspot to trigger automatically a click after some time.  -->
 	<action name="vr_auto_click">
 		if(webvr.isenabled,
-			if(%1 != null, set(vr_aclk_timeout, %1), set(vr_aclk_timeout, 2000));
+			if(%1 != null, set(vr_aclk_timeout, %1), set(vr_aclk_timeout, 200));
 			copy(vr_aclk_t1, timertick);
 			set(vr_aclk_waiting, true);
 			set(hotspot[vr_cursor].crop,'0|0|80|80');
