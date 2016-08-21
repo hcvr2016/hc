@@ -94,8 +94,6 @@
 
 	<!-- overwrite some settings from the webvr.xml for the skin integration -->
 	<plugin name="WebVR" keep="true" devices="html5"
-	        multireslock.desktop="true"
-	        multireslock.mobile.or.tablet="false"
 	        onavailable="removelayer(webvr_enterbutton); removelayer(webvr_exitbutton); removelayer(webvr_setupbutton); webvr_onavailable(); "
 	        onentervr="skin_showloading(false); webvr_onentervr(); "
 	        />
