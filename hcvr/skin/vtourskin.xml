@@ -95,7 +95,8 @@
 	<!-- overwrite some settings from the webvr.xml for the skin integration -->
 	<plugin name="WebVR" keep="true" devices="html5"
 	        onavailable="removelayer(webvr_enterbutton); removelayer(webvr_exitbutton); removelayer(webvr_setupbutton); webvr_onavailable(); enterVR(); "
-	        onentervr="skin_showloading(false); webvr_onentervr(); "
+	        onentervr="skin_showloading(false); webvr_onentervr(); webvr_setup();"
+	        onexitvr="webvr_onexitvr(); webvr_setup();"
 	        />
 
 	<!-- webvr button style (adjust to match default skin style) -->
@@ -118,6 +119,7 @@
 	        />
 
 	<action name="webvr_setup">
+		 
 		if(webvr.isenabled,
 			set(display.hotspotrenderer, webgl);
 			copy(loadscene_flags_backup, skin_settings.loadscene_flags);
@@ -130,7 +132,6 @@
 			  );
 		  ,
 			set(display.hotspotrenderer, auto);
-			
 			
 			
 			if(loadscene_flags_backup !== null, copy(skin_settings.loadscene_flags, loadscene_flags_backup));
