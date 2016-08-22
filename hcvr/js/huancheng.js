@@ -1,4 +1,4 @@
-var krpano, constantScreenWidth, constantScreenHeight, resizeTimer,
+var krpano, constantScreenWidth, constantScreenHeight, resizeTimer, curSce,
 	WRatio, HRatio, chatData, whPortraitArr = [], whLandscapeErr = [], chatCanvas,
 	ifshowChat = false, adoptRatio, devicefontSize, friPage = 1,
 	resizeTriggerNum = 0, screen_nameArr = [], uidArr = [], fritoken = '',
@@ -512,7 +512,12 @@ $('#pano').on('click', function () {
 
 $('#begin').on('click', function () {
 	
-	krpano.call("webvr.enterVR()");
+	if (curSce == 'scene_3') {
+		
+		krpano.call("webvr.enterVR()");
+		
+	}
+	
 
 	krpano.call('showHotSpots');
 
@@ -551,7 +556,7 @@ function onnewSceneLay() {
 
 document.addEventListener("showGameInfo", function (event) {
 
-	var curSce = krpano.get('xml.scene');
+	curSce = krpano.get('xml.scene');
 
 	console.log('showGameInfo  curSce  '+curSce);
 
