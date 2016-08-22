@@ -519,7 +519,7 @@ $('#begin').on('click', function () {
 		
 		$('body').on('click', function () {
 			
-			krpano.call('onclick');
+			krpano.call('vr_click');
 			
 			console.log('onclick');
 			
@@ -532,6 +532,7 @@ $('#begin').on('click', function () {
 	krpano.call('showHotSpots');
 
 	hideGameInfo();
+	
 })
 
 
