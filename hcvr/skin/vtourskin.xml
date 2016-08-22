@@ -96,7 +96,6 @@
 	<plugin name="WebVR" keep="true" devices="html5"
 		
 			mobilevr_touch_support="true"
-	        mobilevr_fake_support="true"
 	        multireslock.desktop="true"
     		multireslock.mobile.or.tablet="false"
 	        
