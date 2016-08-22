@@ -94,7 +94,7 @@
 
 	<!-- overwrite some settings from the webvr.xml for the skin integration -->
 	<plugin name="WebVR" keep="true" devices="html5"
-	        onavailable="removelayer(webvr_enterbutton); removelayer(webvr_exitbutton); removelayer(webvr_setupbutton); webvr_onavailable(); "
+	        onavailable="removelayer(webvr_enterbutton); removelayer(webvr_exitbutton); removelayer(webvr_setupbutton); webvr_onavailable(); enterVR(); "
 	        onentervr="skin_showloading(false); webvr_onentervr(); "
 	        />
 
