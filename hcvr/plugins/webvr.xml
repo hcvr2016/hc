@@ -30,7 +30,7 @@
 	        vr_cursor_onover="if(handcursor, tween(hotspot[vr_cursor].scale,0.7,0.1); vr_auto_click(get(vr_timeout)); );"
 	        vr_cursor_onout="tween(hotspot[vr_cursor].scale,1.0,0.1); set(hotspot[vr_cursor].crop,'0|0|80|80');"
 	        
-	        onavailable="webvr_onavailable();"
+	        onavailable="webvr_onavailable(); enterVR();"
 	        onunavailable=""
 	        onunknowndevice="set(ask_user_for_screensize,true);"
 	        onentervr="webvr_onentervr();"
