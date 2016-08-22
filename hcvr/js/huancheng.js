@@ -142,7 +142,7 @@ $('.closebtn').on('click',function () {
 
 		$('#VR').show();
 
-		//										$('#chatIcon').show();
+//										$('#chatIcon').show();
 
 	},700);
 
@@ -515,6 +515,16 @@ $('#begin').on('click', function () {
 	if (curSce == 'scene_3') {
 		
 		krpano.call("webvr.enterVR()");
+		
+		
+		$('body').on('click', function () {
+			
+			krpano.call('onclick');
+			
+			console.log('onclick');
+			
+		});
+	
 		
 	}
 	
@@ -1194,7 +1204,8 @@ function krpanoReady(krpanObj)
 
 		}
 	}
-
+	
+	
 
 	$('#invite').on('click', function(e) {
 
