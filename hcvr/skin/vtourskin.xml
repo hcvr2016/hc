@@ -100,7 +100,7 @@
 	        multireslock.desktop="true"
     		multireslock.mobile.or.tablet="false"
 	        
-	        onavailable="removelayer(webvr_enterbutton); removelayer(webvr_exitbutton); removelayer(webvr_setupbutton); webvr_onavailable();"
+	        onavailable="removelayer(webvr_enterbutton); removelayer(webvr_exitbutton); removelayer(webvr_setupbutton); skin_arrange_buttons(); webvr_onavailable();"
 	        onentervr="skin_showloading(false); webvr_onentervr(); webvr_setup();"
 	        onexitvr="webvr_onexitvr(); webvr_setup();"
 	        />
