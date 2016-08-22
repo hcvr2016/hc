@@ -97,7 +97,7 @@
 		
 			mobilevr_touch_support="true"
 	        multireslock.desktop="true"
-    		multireslock.mobile.or.tablet="false"
+    		multireslock.mobile.or.tablet="true"
 	        
 	        onavailable="removelayer(webvr_enterbutton); skin_arrange_buttons(); webvr_onavailable();"
 	        onentervr="skin_showloading(false); webvr_onentervr(); webvr_setup();"
