@@ -92,7 +92,7 @@
 					sub(dt, 100);
 					if(dt GT vr_aclk_timeout,
 						set(vr_aclk_waiting,false);
-						<!--set(hotspot[vr_cursor].crop,'0|0|80|80');-->
+						set(hotspot[vr_cursor].crop,'0|0|80|80');
 						
 						onclick();
 						trace('vr_click');
