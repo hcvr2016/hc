@@ -95,6 +95,7 @@
 						<!--set(hotspot[vr_cursor].crop,'0|0|80|80');-->
 						
 						onclick();
+						trace('vr_click');
 						
 					  );
 				  );
