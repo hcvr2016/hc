@@ -962,6 +962,7 @@ var krpanoplugin = function () {
 		}, function () {
 			return Vr()
 		}), Nn[e](O, n), Nn[e](l, n), Nn[e](Nt, n), Nn[e]("onentervr", n), Nn[e]("onexitvr", n), Nn.entervr = Gr, Nn.exitvr = Yr, Nn.togglevr = Zr, Nn.resetsensor = ei, Nn.loadsettings = qo, Nn.savesettings = Ro, Nn.calibrate = Vo, Nn.resetcalibration = $o, Nn.update = Qr;
+		debugger
 		if (xn.webGL) {
 			debugger
 			xn.webVR = or;
