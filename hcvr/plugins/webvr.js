@@ -35,6 +35,7 @@ var krpanoplugin = function () {
 	}
 
 	function Cr(e) {
+		debugger
 		window[o](e.type, Cr, t), e.type == f || e.type == h && e[K] && e.rotationRate ? (sr = r, er = r, tr = r, Tn[E] && (nr = r), Rr(), xn[J](Nn[O], Nn)) : Tn[E] && _n ? Tr() : sr == t && (sr = r, xn[J](Nn[l], Nn))
 	}
 
