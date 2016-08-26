@@ -191,6 +191,7 @@ var krpanoplugin = function () {
 	}
 
 	function Gr() {
+		debugger
 		if (er && Zn == t)if (tr == t) {
 			var e = Kr();
 			Sn[u](Tn[w][k][Yt], li), or[a] = r, Ir(r), ur = r, rr = t, Xn == t && Tn[_] && (rr = r), rr && (ur = t), e[Tn[w][k].requestfullscreen]({vrDisplay: kr, vrDistortion: ur}), Tn[at] && ei(xn[p][V]), ur == t && zr()
