@@ -1725,6 +1725,7 @@ function embedhtml5(gd, mb) {
                 c.perspective && (b.css3d = !0, _[217] == c.perspective && L.matchMedia && (u = L.matchMedia(_[195]))) && (b.css3d = 1 == u.matches);
                 t = null;
                 b.webgl = function () {
+                 debugger
                     var a = null;
                     try {
                         for (var c = Ja(2), C = 0; 4 > C && !(a = c.getContext([_[30], _[83], _[116], _[112]][C])); C++);
