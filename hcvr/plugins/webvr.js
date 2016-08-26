@@ -11,6 +11,7 @@ var krpanoplugin = function () {
 	}
 
 	function xr() {
+		debugger
 		ar = 0;
 		if (Tn[at] || _n)if (Tn[_]) {
 			var e = ("" + navigator.userAgent)[c]()[s]("ucbrowser") > 0;
@@ -27,10 +28,12 @@ var krpanoplugin = function () {
 	}
 
 	function Tr() {
+		debugger
 		sr == t && (sr = r, er = r, tr = r, nr = r, rr = t, Rr(), xn[J](Nn[O], Nn))
 	}
 
 	function Nr() {
+		debugger
 		window[o](f, Cr, t), window[o](h, Cr, t), Tn[E] && _n ? Tr() : sr == t && (sr = r, xn[J](Nn[l], Nn))
 	}
 
@@ -40,6 +43,7 @@ var krpanoplugin = function () {
 	}
 
 	function jr(e) {
+		debugger
 		var i;
 		for (i = 0; i < e[kt]; i++)if (e[i] instanceof HMDVRDevice) {
 			kr = e[i], kr[F] ? (Dr = kr[F](mt), Pr = kr[F](Tt), Ar = Dr[pn], Or = Pr[pn], Mr = Dr[Et], _r = Pr[Et]) : kr[$] && kr[C] && (Ar = kr[$](mt), Or = kr[$](Tt), Mr = kr[C](mt), _r = kr[C](Tt));
@@ -958,6 +962,7 @@ var krpanoplugin = function () {
 			return Vr()
 		}), Nn[e](O, n), Nn[e](l, n), Nn[e](Nt, n), Nn[e]("onentervr", n), Nn[e]("onexitvr", n), Nn.entervr = Gr, Nn.exitvr = Yr, Nn.togglevr = Zr, Nn.resetsensor = ei, Nn.loadsettings = qo, Nn.savesettings = Ro, Nn.calibrate = Vo, Nn.resetcalibration = $o, Nn.update = Qr;
 		if (xn.webGL) {
+			debugger
 			xn.webVR = or;
 			var u = Tn[_] && Tn[Ht], f = document[Q].requestPointerLock || document[Q].mozRequestPointerLock || document[Q].webkitRequestPointerLock, c = document.exitPointerLock || document.mozExitPointerLock || document.webkitExitPointerLock;
 			f && c && (mr = r, gr = f, yr = c);
