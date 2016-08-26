@@ -1,5 +1,1056 @@
 /*
-	krpano 1.19-pr3 WebVR Plugin (build 2015-08-04)
+	krpano 1.19-pr3 WebVR Plugin (build 2016-07-24)
 	http://krpano.com/plugins/webvr/
 */
-"[[KENCPUZRm[^Ggf>l/v8q>JZNtkv$iR-;*HdE(#PbO2G[Ln0,8)W2KK;DsV45Kek'0QYM5uC$(O;x%[2k'==u`)9IN?dN9YWsQR4xk1n*vg,t%3bNJ^Ox(x<CTu@4EjQ4)ecq%1F3CY'.d5LGug-EfcfeLb]TN.P-CXU.Zn(X9vBggHM`k)`EZ+DHMfZ<1Kp$1N94/YK.TNJ.JPbZ5<]W@Rs7Jo`.REU4R(cwM%:F.,l>wOWxENnK+R@;pLa9t%]Mu)A/LDNj;-1bG#cpWSCx7#Z6IB6mR_*b+1>xxV4s3>VRW1dFC^0)re7H;R$]bHcEpV]#<lh8(4'*vCf*bSXw)6?+YDe,W.^sXW4;lGuVIxu?GROHpF_M#Yd[6M.hJ`d6B'oR6h$ocdUC4qR(Rj`H,`bX-b:Zs]%UvJQJsi]cHb3vZ.3.UnQZGXU[r-BdK4Y&2a]t))?-e?r2N@T%e.8`b0u.[sF]UgdBFg%*@1DU*,k197dpiEcaVkY?,Pn_/C(^atG$H,Gi:?sbncMbM?.*[lTP8ErN*il$O,DL@D?OcO4<r<7x=^_XY+L`dR@3C#jO,T6=R&&qnLL-JRDkGhxblqR$bI=XUF7O+o-#8,&%s/,;rfTX77LPo'/%In8'h^0kf33AH?7Hl`K&m2=mx=Rj<q#P[O7cCSV^Yr<0EOEn8_x=?oiT)L:iKK(?ImuBwQ)3/xnCNu.5:'cZ.Z#oq0iQA86ai$/Un'e'hR'g[,.]Ip%o#)>JZs?2]5'pONX;4e@+O[mFYNeiNIT/6L>6)<e(K>VsQg#j5J_smr]u;BdtC4+FR`pZbNp%uUf`bFu0Vgea?^fI#*PS9aO^`7:fc#;+^-<S;YX(8%XVF-Bh*S6-*RJ]j>8>-99h`qL/i4Y<4o]GZ]:jC.Ar:q87Vq`BZGrHbq^HFC<.AXIgHX/8mp;<it7-5D%#Xu.#o];-T+hPact]'F@]'EF>:8QG%P`j&]&'CG:8UjYE,qT:gcoo_Dtg/Y2?N#opL*Y4>SRH]dTiFL'@ZPK;Ow^=;bfYnYE*^[@[H,xYs)GiQ&EVHc__qr3Ci#qTZJC-6+v>t9)=vYg:v^;3nd>0&0n9SZf0_(UKoJ$Ys.p3+c,[h&*,f0-(J#(%efx6=*wGAi.*s2^V?bo/u^n>lup+SY3&pt]#DU3jZoC6$#I*GmQbJ6:$kr_Y`suGneUMFDm`g,Zo?5/TX2Qe*TGmgG#$]Sd:Lng:=Y6c+PE&R3eZ%CiPQL7PK?eM2*%]g>V9-tOC)spZ*t_^oS@YSeE'V_Vv%]/mhUoaRRGX-p>Y<OY@bS/>O/M8HZJV-6%TM@q+bqCBXXIJe#*x#S-9Us'<Gf`=+Wmh(:-7&rEv,1)DkSbH:sZtpMPQVhf5@KiN^EVNbDsGDq%S5-,W*i4:=IDpuAU'6]%mf<gWlvU6m#)O4V>o17LK/TGENQJ6.kmE<l#CXNmL<>8V0[sqf-&#H+'?:^gw*<FKl_0ppbbYqGZ`2E4.h6=`ZVmBv@8,&fA9(D8_3dBP6VqlKn*k2Om#ld:dDel>[V^bw'3/upi68:EM88Ee5,5$j>UL:-H$Eb]XKogVQ,a?GEMmZqA#w<ievxL.nkkHg#FqDrAaqH/n1j_tJ$0shF<LWwN/@_'gjE8&7NSM[)9`_3=U'lLEf=8WL'0?+0jMb=@##<Af8nS_d5HMIl49#o@wePWbfmRI,90AM?bE2gc3qqhcnl&o6-W'O#%=S]+9hJZEXX$9B'lf3P-M_bTC%:h,qdBQ27h.YR7:uO0?G.Ixt@nD*4siUDrc*k'+I%arP3`I043h.7I%l/25QIIs@lZ$e%?.>1<]&UUBXJu6TXXXc.PQit%4g[u$B*gD4ralBj[m&Uj`G1=5n33lTX^i<u(4Lg,QTKk,m6S1]`:i_wtkE.RMrpGob9@uw3Vsd,%b4&e4)..(t1bh@]8w<oi;Nu9mmgL,b:`0JHalIfn^0d8k?.9LG09hN_WlipI@IZ/YjI+^92i/VrYjdbNQ.eVM7HX/Ub:LM:oLaMkLT?2v3,xYMN.0go3OG%Z,Nlt06'?.jBct/N9C8S=f85BNs01A9;Grn'mN#rx+CAi2s@4flXHLeDn)]N+l++0jG_Q[V-RelR&&Y8s;Pm^c3:fD/0jn.H'`](9=tAJ.Kc>/1HPT1tGtmjgShZvgaFKc$grv(SGt*s6c1'fImeaAIE;6OY)t1xVW#Z[Lg-P$0l35&SSn0q+dqOE#<k?U:0ZKqpcs-U9m]iw*UxeR)6Akx8ZWd'/eJu6`>RONV.bco%W0^t-1dGF?U6wq8G^K`@P=,hAPvg]-Q`Zuv9=$p>-hD3VTfbvuTcpA/qa)=u?;ID)>tQpA:kvraC.*l1@8**Sq%B`QO;xD%11*O8I$)S?6WSjcd.Hj3[sk808pg5^+pp#Hfa`rO>q'$kU:-%Q,Qsvf25La%u&c_^hw$7Bd]jcL]TZA4SSJ$(99k>G8mc3v^)#m&F[WDF/I;^uV)K(tMuC$3@iof,n_>aREK:M,lXRJ.(#rwNR`bl$kaj0Ti`sJbT,V6.b34x5Q%sYOtanU%gkc7/b38c7v-G4Q]Z)#NR'#[3mw8Q3-J:GpYoG?iTQEHb1gDRi^2(b:Q%<P[3b'$v%kI.q9]VtNa`(1aV&Lw<M$]d?/BdU7?>.2w.#HpYSu7*ics4d/+%?N(uit&IcRjQ7<*fnOlm9WF_@N3Ue)GSSE4H,E+*/wICAYg6G-Sb0)lu%2M?b)H^)<v<q=a-6+xNeVu[rnje]MxlrpJO?%>op*W`n-B6*0oQiBZPo+lvt`kJdV*9.M?h-AG7dhdbgvRO_E^`1.RS7^Rf&X8r)Z4(:9A3XNr<9][-3Z_Gb$6E6A`HGGIVq7Fq8WV3?xV.#])iSG]];;YSg9]?G$Z)-L&#.v#[SBTd3XSWiJ?S(cKW.%Vg-#4]o^_/i_-jqYgF#o80^&m%UI,w/V+^cag+K3@vbJ@Z[MAto-7mc0O8Et@FeDeSCYHKUK=b`G^B,YDwo0uwx,::^s;hXa/KT:dZj^6*OV7l`8?WC1[uref_HV+5Rd:*D^Dc0l:9Tkw.4Gji7]SlJsCnu,,Yb*$?NT^g<hFfZ>ieZnqHJ1eq@'A,;=pan&AO&@3gAT7XRqSpD5Cl&kaaftx;rtEuBl7LU.<1xLl^,bNXEA?6[4gxs$EFt92)]Sq6(b]jt,Zm_>3CS^FC*ZaXoCENT.fYXD7TukLo.;%XOwo`Dd=Ph4G%1/T/Y*:_]%-CRucAvdqx)tWXTlUuH=Z`<u;O,W`(H@gwUJh8npHJe'f@E<5BJwuNf8Rr0?/'#CV,c^hn&m-wn0ZtBeNFT,_B=idk;8Sp=jBQ>_]D<?/`:aegUIBetj(>u@X_4;DRlWwr6-Vgq=fJ3T5NPPNJQS.A8CQNJ=LnX]%3g_q1$GaV0K4x%vT#S9SsXV&Ck[c#$CUG:hpNPxCQBBntEU4#26N+l(9,^@bJ.Jk891I5+iM$vCA?SvFdtcgd^fhtP.n&>cH5s()G;,G<LSB?QuF?Ef6-.vr;<TIw%=n)HO.`ZtH8VM8(VY'Zr*)l[UBm+OD44M#0QiN#B#2wfwr1C*lu+2*Mj`QpCO:vs?'7K@8+>L;O(uM@LgN@LI+V)sw_%wOo7xtq>kLG#ZL042V?Z2__rvX-sFB*(PHSLP,pvh;ZOKg[B`7W<.l<2p&EiFqNTHpJU@*rikBt#=UpVroLCmfMN);#B.<`P[vpc;MZeQ?r/k1is]H*?Y=0Xq_2oeCcu:sIJBOA2[^QvSVU#Imo$nQA0wP9o7&/iAO)Q6^4h,_M0iTEG4oO`FZ&Rf4QW5'<c7htR^G6]./]g+HtUdQYt3C`&D^b(0E`n%TwQsc&%g.w7>U2cEN?[Y#sR.4)ax%S(5<:eIqQKw$IL:r3@jd%2+vBYa7OTDbtd&OIDP/lDegXl#1gQLf(LQFKKn]QoD[7QMfa1bECxq6%<FKap9jj^Su_&aJ0$bvmH?=v,7T`rFGP/jUKoF5EA*(WULB@A`Q_oMN6Fd]gcua7^QB`vmDSEP.ojaKO9MR;0B5X=o[]Qbb0ct9;8gE(x,G%:%<OSmM?B];.$oA&,I;?$qdLZ47Olu;xw0Z.fxLFw)sJr0?&'t:lR1WI[AWE1$89/2<;w0V9pklf11Bb0.P9'f(QN/TUZMOEc``440Wh$9GhB@-@HFsuQ*GpUWx$cW?gTo&CAAQ2iU#=e^$$JY2s)_)Q8JgZ%T0a)Xi%X;c'Pk7N#`WB&03deuQ[OfWLFaUgs<5'H'n^'.^O5nk9fuU6_U:HR/aaR<K.U0.uInn(WocdQ^*o=f,hkCKIQETeCN95-.C-_C(epr'r+?GgNZdfu#^*@:;UoS<G:q2`*g<@te;o`n2P@?t`,WSWgR7sIAuQ4+0LLnrFP8?OU;(h>CM]3Kl`UBOdY,gu$P;heLPW9sNgdBx])&OB'Q+:xt)?Ol,o<rHARUUkq7ZO,7$Pr/*U5iiE(tNH-a2i<oDE=cKnsXR9DZcbj4Q0OG8L*3ACO'B85XWn'6%s#duNOq[BU9#T?Td,Xpj5d9Eo(X-Oh/`Y(h<r[d-w`:r_FaIYP[w(?iPP#QR%'BMPaTx<MkhYw[6#9,S(QY^VNdP;pF51L$4W_,0Apl,,L`p/=Sx_7-1tg<f&AvB:quQiYPvNUpFu(Q=hA.ZV/TgC),9EQ90.)7?[UL',6QxIjuu#vV;w(JN@BblYHPT'SI*SSBnTx?IBCx33h,0iltr@`v7tF/RZk1S/4K@/(bZS*q/].Nm'QGRQET<V*4&#0]1.g(oVQijt<QKg#-xfo#(nZb]tBZO8*jUAsB.Hf/]ea;nZ@'C9V#6.mN'eXpjE<=;97j*9v=gmbv1l[SaS:17(w%eJQw.:C#.UqBwUfgK27EY9A;A[nbSWF_B;@;9dw%UR.4)[A+4_*<lDrEoO*+v(`oRGnCFJvTwkB*lH0RUEC.g-C3rQJY1r(]4b%K%NCcErmsg3u8C(c;0rQwfQJsQr[gB@30JdC=jQmNsC1KK[iq&tW9,lWG^j`VklnuK8qMrot@Z:H7hwP`EWm3=(a$Z`i2av?5%uP;`Jj?GZ&q22VeeL$e#%;t7X;#+&Zlfc[N%T8Eh:P(,6Kw[xS=Qf9>s*W@KB#'U)pLbfA[@7[miMdbR&*a$&D#<=Uf4WdpsR(iG/27`8F_aC3mJt>gjIc`UG[ckfMEOBReV:&R0E9i)#WkQ,E17TsbfJuQ'Lb12Lx@NaGS5t=6&m[etx-=abix4=;eneUf++KYmBGed*h=8OH>eAM-8mBr[S@oqk*k[hdcOp7c=p6e-?GqABLCP%fY*Xd8C[wnG0:g[?J6kp9vSu>i9iwu>/L-PH9FqAC8LZkD&sSq#<*wu'SIR2lNCkp^=U27l*`^NN2RI`KmEUd1L$L#i5hor]B1*1_Pj'MP/ZM&0=3J3wN`Ies5kT/eaV9r=4#hu7%_ZgS?V?=H$icU=i`R/+9dch[H:$_DJ@9M?F%xiXpP_TRsE%&rL8H)Uirt&^sB^0GmE-kAab#90r##+-bnhapjh<RJKu[Q#n=@%t=Kd7.=N;PlhqvkYlr_G<vq)S9^1Oc<.aoM#H-ks^M<nhAk,C;q./Ed$qQ<qePouln0t'X/c+N8D9F2TEsHTVn`7a-RO.v;1`U6lTOk@ellZ3DHZunB8L_X'[*6Bf%m^?tEBSl[tCfQiC:g=-<K'$YN^aO7o.V02sbnU%EGN<%$i,f$GHH$4+s6J5`GBtg5J/;oKSg7^h0lR[<$>XB<Fi=_txoG+%cH'%KBnZ5,IK1l`#ul27p'TsB>8]2AQR'cd#J7cbW[WOUV'Gf<PP;FnQmxEc@k@XkuHb^d@6>QoG)OI5msQ'$Jo1.Q%^`oKK)GniGX)<aTl?R[^s/[IY4=#[G,pDsVrmZl6AT6<R(A#HpGfVQqmrcuH+NF)*@[bs6)$WUfkt25OC+EqcndJV*k^70>n@2Q/la:iQ:d>msuZN$2,WQgxOpjYdp1V-f#xj]:@'*q[h_>4j<a^Ilcv,U_n:]d'LEGOo`-Qgqc)OjXW8^P`r04g1])sF</x2lveh-Efd0GIpYxuQLZ/roK>^,v-R06_,^[uIu1X]2^%r,WH%Y6xm[4uP(.^aWcGSesJjmn6LPDZUUva-[I6t:%qACt+U9EpmTvuN_W0soa=pM9_q4&jS#]F/[N/xggC_7b#1g@>7iiDcoex+Xaxu0+h*`P?]lq2ZCJAj244c@)T[UbcZ%W+u`0FwDxki>Z6SrA4Zt^bi6*4-=Pn#YGM3wnT=qSkopKoOE]S`lLH%lH#uE4s=$d5WZn4DWrY(Q:YFW]%,DLf8-SJ[[ed>6<)]TjouO4<v/Ds&Idnm[No?5mVGphpjcHWOJf;41[6;tBH])DUR5^6XK^7q18Dwm1T<?)9J(YcF)p50D[aU_HNS5]9^#&A@Bm^CpGPn`Zw*3`NV@Gtgx<c9;=-`xvtiZhRD=fMRI@o4>Ojj^k;9'IiP*kj@T0nRpS'?1(+;X3v8.rLD#QK<q6<X$NQ>eIojl45/#`Dc.GH8Q@&18C:I-8[)LL*G7O&+#IdUOX+tJFL;u&ZJ2e1tOBf>K`Qp2>$n9`=I:Wu:%^CU&;o:d5oJtp4o[%EoY<$QuVP7SXU.[/l6S/&B_vtY4[XHsN'Lpg6.pg/S#,4;SoIUh5NM10_dvcc+A#Whs<c_ZO6uwZ1ApF.qS[;Tng5m;J(OrC)xAKcc-PL5<QVVm93WxJt7EP0GErTNZ/G`2vSK'Ug?p/1%H`c,UiUlB2enN-$P+=<PH%I3SvtoGg+eIdBl<k7%T#A?v.ZosqjXLc58Jr#k;AcGRiwQ07^F9EfvkK?:QZLXQg.B[ekw)9k$<@tq'qhg,8L*]@'Mm]86x]W2P;VR7X;'Q@4Hk0NWJ<V7hBUL7/ev@h^a]ruq=t^Q(3,T_)qZ,(LuI#DaV41T8jT9*a[Eg:9xjon,[xjoqhuAmk._XKBY+'tTcCQB7S$FD>[ZR@[@U%X0>+(&-HF-VZp.+Te&^rhnhh53B'4C@A//'K1mjp?9$&a]q1k>eHA3R;%@6fUe'W>1AH6T*,jdWNf#3'bkT(r][H@Jq7x7e$KPn(H_iVI)AkW]VXfY(dUFu;]ut[$_CoOQ7K=lm*vqqv$b$M':)J4<5V.x6Vvv#r*0T.lTFCNi:qI2aRjc&-LYP-=X:4F.N*CI,9;/;Du1-3UTA6%7[IL%eaKbAqqT3#m62ikg2@Z&eNc(SbFMYl0#j^xQ];&]Ec0ZB#7U*^R7P]8=]N9l7Bi-hoodM4/<qx:$rMH*XGU4TUdm&5539b+LP(r;**s*Rd@;-0.6D<*MC9#m^ZNW[0YQ+K@O=qYJE*-8?IjwE8s&Q9IwiJBYsNY<k622Ob.H1.T3aAJ$X[f;SQuAJ*@nnEql2`QEt)[rIl7DI/umW7QOQDq<i*4wUBAHi[pfY]Z:Q94SRbPW-SO,AUf[9ev&5oBj6-]x36=Q'f]S1rF$<Z:fm7VW6R[t_W;vE9U<GYt,(_%AIQH>8P#rq,`-T7/gXRVBaq<O9Da[W//1<<bnE%V^.Nd2C,b9a/QQQ+7g[)dQN(d1g?Ge:$VQ9Y<./r=SNlI.-9w%4::gT@gn8UpW%'auk7Zg],9&j9)<]d0a%W[66M]Q9;3DM_W*?E-W`p3Y2epp#g,L4DboI84,-[X5A[_]l:i$`,d/VJ@[2h)[8^Rj[ejtv<+()RffT3,^UoIi+g`xNux8_]K^ct$8NsT1,+*0o+,3rM[2?wvv7,nVBS1$;&oSaac$W#0w9pCMel@uCUZDK?WV+QgUfd#i(auI.8>>)n0BXn_,t3(K9-%Wr5n'&.grbO,&=<R1.;[dRWqHs6N-9A+@M,lQn)bUVfl_5>v^s5NjNpG-Zn2@as5fH1=xr0i]_`n4b.)A.^<DnW%9HE9'.8DBS82tm?v'<RRBU]_[%RaX).JP5O39O-9dX7FUuLu#]2YNdP_JW<Pc4AhC^jHqw73-ep,3usN/7IpN;N+^UHMLgG5W*Itq*tNDgK),G0gH>R%?bU#OtF?Zk;sH^IJH*ZktSq@o;.tW6+JQhljH7#id`UG>F'igqdx.NuQ+OR9lOV8G#uG2%CF0)17<]lD5lf#e%(w4?JvRtiA%ZDN`>27>38t+R=<$igl6N3q1='ofKj[0s^+i&PPVHrYKpjx-,X;`&nw2[uPbZi+<n@:^:FdYIrDwGqNjq=bEvG4MeqQ$Fox66THW*8d4+nChrr^_vN6iUTIKk+PA1W,$3b[G.qn6r5-;jdGawVh47ew^BB03JBnc3^L1.%8.mUX9,h9JfA3V]5`IeiYGY28_%4q5pHZ_lm$]%G@Di-hrSDYmMx+;v^T`w0l(F49DaG%-_CCY2A:%QWh:HYI&/ch^%QK8aU?2W%v/(G4?-@MB($sk$Y?&8?(Da42lWJ;7hJ*>KD(U7l>@82>(E&6;9gi*GRc6F2N0^C>;f*$P+=UcCI-iYmQOWUc-V4f=Nvp)s]5Jx(]]?ZQJEZqA=3b9*S+;bLQ5n<XqU4q%xSelEpql(?m]$QbrJA>.3>0L'9edX9OZGV)1t<ISHC$E@nkc?FP6$;G_Ut;-r[@gI23#(sRo)vT[<=O+N3H*tN`L_JJKuH,5j/4(@<*@3g8Sl^u,j*IA1P6eb3W_'f<_;tJ8hs9jes[j.xeGgD=5eq$?Kw7[,t_;WH_'ND<d*lnt<_=wdtEBDtuxAx)*GE*)BGX5[A(@IN*.`-R0ia/-doB8?j8e,9XC]2+4W^;sO/X%Ud>4&FlLRG&OnK+_9APlV$bo##R(Pt:YO`@?=3jZu;@wOl1LocL%J0v.-4FD?he*C?P$jfZEgnG+jrXYeK`=7?52E%R))oJ(MP3H2do39xQZn?=h;-(?^_&3S&,kjAK.5*lXXks,ls5_ZW>dliQ(v`u?1_mE*]&*e=%s0%5rIB=1:w@I?XGqkdCWBgoW#RkHwM#UjRWVUP>6eY'E5lDg#AB+Sw_6)t:E0YNQGxtahl%I8M@AX#fZqi:G/[bZ]ol2mkJ.Plf3;^^/fnOJkW=nStYE;7`R_9RZ@$+_Tjxf$THBCsrY?sZ<Z=0B<&&LltUdQpS?oxljc/nb4Q`p#67*I)Dsqi]uI_V9g6q=evb8B?Sws^hb&$x9`;QQ'4_25(ABn_S@`6M%h=t0uPQPAZK<N.DdNHg]&ng>+KJ;hJJ8;.X<BsMi*-u4gDQW%@18@vh0-,VeZ_8(MTw&mCI%Qw.*-GAT@x;.*bUi,9WZ44dbh)KZE8>Mn1bi(Tl>S=6bE3VhF]hR5.S-_,'P9[[6Jc)(oOFh0>JdIGM6;ZKPoC&'c(1;I-dpfBok@iq[@Ob3DbHaL28Yk.+FjNFS?7?HtfnTQbhAf#SHDE$Y+1vAE;GlHJIv^<sFi4dvs>>qjPpZ$]_lV/a8.(=+Q,en$(4Hm_X0R<JhF/i/Sv1S>O77RKepB*QG-9(V?=7Jcs4rjDKXMP>(Bjn%/?=.5h^wE6,Sw@;^,@mp'_dKU:sCOUvM^fHj(h4Vb/`(I-&wToC<f>[d=pb?Fsf>e?KO#G-EO`q+en_l23F86<bMd*q3,ed1&NGkZ[QZJ&0[i+G]uUb8@<=A9g10>MVc]]Fa1M:+5F1sjsQEYTA'G6niPTWRBZ2hGmBTtV^BS9ae8:eg1Z8g]iRP(qNKqZxoMaP^;;'T05mET>58QkoXntaK<DZ+3<j/GJQ^PF'U2cOCv]PB`kC/qLMQdc]gsKw:i#4,MgFS[0^UsHQZOjV]_SGQRs,g$FTv-.cR:<H^0,u5CLP]f_(&H.G+_J2(#NY>k3v5DwhQ$,CdD*qP@2pZ%Qg4wd;mTP^%*6]'Zo_v[HTNch<q'.<Y8;OeP=$U>*[t^GMW<Qh6YXTB[A1%T*KO)@r+eid2)<W+=+uJCW;MPECufiNE?pN?[cu%sLln=m@6&J2B_G_C.0:qA'7%Kx>b%gdDnSO[X5.?_no+pcw%ejl0i>>[T<@[*?nF-#Vp3opGpFGUr4GNsU]t5GII$cww-hvr]T8@VM)r1'$$Xe]67Er``2:0bF'>a&slc+t;+'WEFuZ[KS'u&m_1hvI`dK6.qdqrl,v^B/^*l^Hb#r[hpY%W[%u%*2[aG3<7XpHgZ?Is2;(v9e9X-HIZrM?NYC[Mc93A9cl>;2)p@j)d)@nWCvag_Al2^)2)g<1>0J5lrVDL*BW2W56qrCSX)/4TpxKVJ_ed3=m';RQM=F7`a5B%43uot79nbO8Q%vevv0;re'RRkV-(a<hh.9mcj*@ScH2%%U=wL@fr&)O,$bYa*&,UXH6dD9xTlYuxVfV8exCb'^s/6#hMV9bN#`P=@I9[hjU^&EW,lDFi<QY@*o-j@MG9PW@wI4Vjj#4A^T`qpN>/3#65q]b(QGE=5g0df&EhPp]W2/3fdUbtW:()J@m+4F#2Al&@t9;HVb=2/m_elOO)r3eNbg+Yx*A<@EO2R;A9iib@fL$u=(U+i&FoZ%Sq9k3Y*Y:o*OvDWNKmJB>s_sj=3Nwt.s/&ZY?g%I;k12At3:#q8f^N3O4.-K#vCY=nG>s:+PTZ.E5_lHr[EOEuo3u*=7rl[wJ<o*w^GX/#sGf[LVVMLcf'HN6p'u2w$69LCC9?Sf$(F0->p:;i#Gri/qfWU0d-%11>7WR1^96Sll&IKFNSDo`3n'$:qSQKPr<xs-tV%W#-YerIft$PGTwDk(W'mduSbSh%P(/0hLLfsIkjMDw]@HFh%L^)V;-iZcH5%oW5_221GGA#=9aQmehj7YN1K#AGc%jRth-2qki$(>N.C#2M0i&X02kw291])sxXw3p%5Y0<4fl6kt^/[kqoh`.QfK>`+Nv:EV)PE]Z`'pMiSvD<Tqn5e^j4)J1`pgmISuNX9I_AV*<][F:No%?902oHZN$]k]/vn$e9P:ji8'+Thr'e,?Shl`Y%PGKG-WRU8EZ)AG/0->h$()mNODLAdxA=T0jb&i&+<U<Lg;Hv8w)K'=3txc1^wf^JSIgDI>9C1RmY0W/Ow)Y#UP&6B&@]SduA`1&uZK*fT%(OrW)TG+Co*uO][Jbj,0/L&fP`BVQPo%gb?k1I0I(?')RVMQ$:TbS,-c/UL`Ok>8h'_K^GB?iUko$TqELG$K6vaq>hWjP,<xC&6Qr/7<uj@3g*&]vcr*DqaZ7BREN39kEw=X7F@eog5NXJx#b'=7,:eIkxMXY@rdNE-HTH^8%o;bA+f<)4S&.8/ivcrJS.j?ngWi>73KrCBF^hRpx:(6LgOpAbS<+V@-Eb[*F&^_T2p9ON&pk3Ox'1&MpEBgl+<ikT2'&/HrKr)nGpXPP:84UEnT`W399L+>P;,G9e=].:JmZl%:qA^@N<tVY#(x6j.JDg^O7;dJJHU+rpIRN::+BcLwfA5X-I+Y>mkwV<v^h]L=56`LQ8UPNP6i*PE@7Ln9YeZL?B=Qx*$-1v`^F'Tm]Vt)mc[okXMClxs'YYKd#O2.wFc>=B5e=#3E2E=dx7Fa*/oRC]]1]vGahKh5E@XvM4g-[S#De(@C0A.tHK01s_>CB8B2#xUP+)-hNtTLrhO,tZk&_sqIq66=O:Q&'r&F[T^78_/lW`eS3FQTb`:St8`L80s&2N.6Tr8FKR.&G)A8]_L-N+-j/mN&Y_P.6^ua2Vx^lG/6*Y%(c*`*)[tI^GJt$h:$DLp)cVtgPnjWfZp^Q^WJWD$rK1H`hHg[#dp]I%:.Z+;FE<*M5*D=RgDPAHNTL#?HxC)`W`PA:@0NeImF9qOe)*Z&fYvUE/#e(Re@HSsKtKQ>;NXB+u$^`gXAY96@4M.-%BEL/`ukhkWeiXg@*.-v#sf]Ee^kKK%tWwTCN0Ss(=BJM5?x[PttD:95n(s'F<-:_]7YE-Y>i>EHHDh^AOlHQRjun:q5UlO(&)bl5N?>h2L5tjK<N.uZ=C+@=Y2L:r6/xi#DEH7C^?;1SL3&86f'u5r@C3P64u9Q^%gsHhNC4gIBldEh?t02@NUlJ#w'VBBX0'_q.AURG(N5HD*9KF^2=wVl>?OSe7nus3jxr;&N;6G]X@k/,3<e:HaQRF%9ZED1k<_I,ea&j&IJ;gG.21],Oo^Ow&(e_cPtZF@i@*836f$LgLsv]O15G+HQ`(Bv/Ac3=w;ko@CEk`P*3%.-CG@%9l^lrjv?9r+Ipsq7.6(h%MeJRO%opi/4GIuUM;HnjeF4W&BbA&0:Ra]b2^ZsT`,x_sB:F-/q=>N4&bm]w4gR$)l/LIp</.K%jDJ%c8^AmAtv3/=$,PcUf*5tfj%b;-4Set5`.Keg`f??IY87.RltbqLp0%NChmshk4:CuW$uNbA=jMEB+m]_HJqvD<twMiC9FNdECVSqmos]QJMckkESqIbZI/<d4aIg5,>@xMK?`*YlvT6(1S(N6?XEmk@j#Wkc>8e5j_'kMnuj@t1]p2K$JVWi'7Tu&J^%IKu75VMe)F8hD4Luh;qkI@gBZ98_1pUqur&BnWdp=F4]mj;g0)Nt5xoP_EF77F786Hh1xC(&`j-`[9jf;<#3mv`[ci_d<]SGs'1eWCklE>W'nHQqU%6oYber(D`6L3bngTFEeBn<l`E6VSOPeSbgC61Ns,I+)Z+Z50Shr)JoxNDE(R1xE110INNJo/4A6),udT8m/@AZ#3ueJUf_ME@O2]l^b4,is^_DX?Wp^<^Bb3+jmPsD4Wle+/ZfnV2m).C*U:pLG]l9_Au01ZfYe&^--_xAN*mJAlpoZ4(Wg5UbEUcIjVm3*pZwe4&N2i:'&#8_q]rseBmJ2:x)mK$eB17de>J[dR]Tf=ia#pbPLaqI5UReh4S::Nk8l35YO*SbT22s8P,b?7'3`o1%j8k05Q`X97,,oB?fU_^&H7jBrh$lJCT(]io@rfO3jsjkELGdpB7wTF`a`p9xJ07)q=bJ6j0Fx?]qD&TC);qw$(7xYYLqcnRlODj4H^Wg^Vcob7WK+Z43u4wPl)=RpB;BI.;W8bP@N.+^RkvMqe+mtSnXP.ZlS.04fsh<ua2iG[8?,<G*Hd$Lt(%e8n1aJ#MCTY117Xx+i2#:CsmUIOv95w26IJ%d-)`t%T]^[%W?;x<p)Pp<Zt:/G@QxMn_Y&EEpv<bx+7T#nlfSBd506m%d,MC,?sSnfJ4@l)<2(;$dk8990hMMkR0*oILxl);XFOH[a>%5LP&XOZ4sGBeuaq1(G0_Lm=`m`$cxSY%*RB1SrpFRtt]8[()0TS(L[P*oP8C*2sr(P.S5P^%iG%13G[9xF-322T`&CA=%8ZxuN=Ha<qG6O(n>GP5)XH)w.oKvsc2PUs#Lg&6^3nc_2wA3'+F/>LUUa<=kag,'`e7<'FgW]:#,grYcx>8rk6nu2olI-m`)CSk:3uF,XK/_K`LNdE=WT4JB[C*_hd(2w3k<Co;a&,D'.eXG-,o@(YveJVn8aMI*QJmfCgLOU@e.KB7etix]crcP$JL_e^4#gA^&Jd6HwRG%3XJj9B[d0:]?(5UHXIgGfd>GnbB6=p6W;J@#;w3F6iW:Kt7[Ik20b>8Redps((3/W<%GE[g'_D0aNVZaJ^GKw8'ur4$+4[:NYMIp$(H]ikR1bVY>&GF+D,#1913Ee?#KEPai>%6u#jJZUETI+S.-OAlwg,i/YLHsPE)c9Ax_*N#blY'Umr-JejX,=UF2VPrv:kYHR3o06XBasf:.uDK,L/MhA40(fU>nBK]]R]ZM8WuL%ocLv3]Frm'CdLrrEma.5*M5GjZHj-bnY#OD'so_^V&_6N>Y*=jx(msgGh'9Bd81TdWuuO::a_KeA/:AMt0/K^.)_;lC?-%sMg,*-/YI'6XIR&1``=Q:P<qGubW]Nd;glOhOM,Y555LEjRhot2sw/0Jb%j,aJ,&hUqvOY_)lXeWpwNWV#uNFQQ9ej76>/u@?nXI%Lkkme+lv+H;UdD+:vs2$V/L*wtbs5Ge^G<ifA1HAa(vv9@7H+^fTaT9St/bFq'Z5S&YU:hBxr@Lfhnb]#s3kZx^O%8EHwM9QRk.3ZRM;:3K=,ajf5mo`)uQ6?^/(fR?[-4(:BC'qIwG6/TJpFpJu_#_]gk:>V?Pd3.Tpi@V`;No3^Nmu-OpT/J%X2XZNgT@V'olOj7bh2W#h)XZ1p=I1x)Yo9gfF'.&qe-5a3Edm8abk/=9Ke8(BJ`iP7XJjK=bL/6GlVW4-K]dOmRUjOA2l1';w5]8Nk/A_1bR*AqmMVM7uJ<kAs=qpBm&mw%.lQwcit0$qnN@7mw:Hhm[ufUPfi30J3$Zp:pOJ?$ae#sEd))Fbl'E@/:1rND%M7;?:ep2$5[<@'5v#F7:wtS]`ih<nF`8..&a2?BniRAPsU4*1`qO9rgbblBs_ml-ah]gXo7ebLT*fAbs]xCelSuBlFnlbrbMJ8_#IPQds0f^#P/%pQT2c9/[ofxA2$*j*#sCd59)E?f,OlB2?CR`P?oi:#foo'Hm?3h@j8x'o/lVKkesn9l,>IBfsGPxJ;Ptt>spAvePqB0PIJTP8wk)rFw@hq*b&<*697q(GG4O*ah8&-27m+R1]I=>%+mHGljhaGM7GW8=4`<P?)4&4K]f^APV7QGpwceV_MSLDlA_^AN%a9X<+smw%FWH`4OvgC`50h`qnE`/.fA[Zni5RTI['fDNl2Z=k9C>PnfYpr+mG<%'];AgtPj)4+$RArc:JwT>tv:pVR+Dnoq,T*EWAYu2E85ObDPU7s)17Z;Le1F;$:#$uD@2iREn-9iXP0`h,C42pBpT%^lr4GaeM.OL$:jTi8t2]f)`H%DAEj8Da+YU>aVK=n_+X&/q7+3qLK*Qo8F%sMVT@RPoRILI=JGt+,cPi=F/1FE$5cHPEKfnTZaZs<AhOojF=l1<YfU]]OWP3f+R/7;W.cs$*x.n&Ev7s[wRVRiHbislfru/-H)q,Hs$6w^r%&tOl=AiS=rEGuQKVhR=v2?72?4WHYSs*)eN6`<jjweNF9TPqW*1%/YO2f20sM:99VY^A:n8L(;s&Yi%Tqj?CG%jD&7DAg$ZZkj6ViPu.T+Sk6?0KjNocGUDx8(akfLpVkWtqQv:-o.ZE%r^FBf0Z8ABCi7K[cUN_RR?Teus'A_vp7lJtOTH&bLfr4c-<QHwhDuMHP*Y9;skSD1d7Y>80`AmHf.:E'H54R&k-[8dSlfN2h^oS4TM+*9m0<+(8ElED/+dG*2?d=q<-sIl79<3BG4*-GXp`3HMM[N14[4*xlnL*qb`09+scW?rfPb3o1[feCYFkq2%<mB[eUkB)NN5F<bniZ.v<TDP@GgtjBg9bYI1Z0`14vZ*4/)bgo'MdSdB]/9qsi+MJV%E`qCek$]:3'9s6:Sf@MnWjS=^=jeN&IY)L7u2TT:E=^O'sb*2rl/s1tjkPD1bMcT&tA./39P`cv>Er[#^geg&%pf/W8'u=Mx)JC`Fr*i:u2$[>4mwr1;Z.$b*KLoJ'Lm>k+i2Bk4oMoM9Zo(TLDd[t;*@bQn$s'cpcu++YXJ'Gsmr@jTR1';Z&Y]Sh(HTg$(@-1J2wD[=xG&Ve[5?L5s4Y%j'BU',ou7VA+bCfuWp@l*@t2p-HFZ=[j6bE1hJmGRnL@g$*n`xDx)/,A+X#0%KFO.kH)C&=aTtCJgI81Mn%0]ugZS;wh^ks9Oq9K^#ThI>Zhap@fDDpvg+thq$h<'hr&BGYf_nAr9dg.FnbHiE_9#L,Ph60;4>L*h?)]ZbJ;k&YQ,0XnZP')BqXa/h=]%-vZD*5NWP<P[tnA6/)@5jn3TqYPU%If>/i-OP-gJJrbBhB$v>#c'x0/6G6Ruh$/k[&=0'iaTE&VO^_[<8`o^g8(2ge'2.2]8V-jXH^pjC'9eYUD_imv)EOPMoZ9?;`s*H'%:4eOeU/,g)fEYFW,QEYc1wG`$'t^QmX##pN_X(cX%qmK8_c0nfdSM9>hs:dJk_tu%2$gcBn?rKjfK,5Be3O]stV^#NOA`h978rTUCvO;'w6%(H^s1fRASl:>-d;;&<oQ#BcVZ?kj=L*K:7kLvBu]J@^XDjZj0RrP;U&MRBm[S%`U0?w`52P[d9N^`XL,?t4Mmi<uMwDsAqmAXJ:w,7<c'c+pK'$DUO6pftQURCbb;n6UBGG^@JNc3>SAD&f/gA6a&-AhNsgBO%_oR)ebW0)xdjq&cwF*W4hG#vL<m>[]4(CouxKRmTal9Vn_?miNPRUq@*%27[L)VP[,o0b)7ZYYP?/?O)v6`610U+dU.n9GwGo14*UudR6T*5)HMmhHJ.ji'ts<5s+:T=mm3I7N(Y@Jhj#tc*tu6YkS2,ss0oq)E^CRZ>g3kOBLPe^I.lKqhEE3$n+'qB6O<6Wg&Z:?lJvUG@-_^PI:)RGs0;p1YQvY$v]Fs/JaZ9<XMge0W^w+:kYIQeuEvuiqM^(XKQe'^;&2>UZRmR/xiDr_ZwJ2kNOIA3eL1HjfZ-9SA?cqu%]qfRUMJ[ITR@b[`/R%bo7J;(+`wSTj(U[5SFl(t^Bv.-3`3Btb2UXZkF97k#0gwafS%K$JLXHrrVF(X)Wia=93c_UN'oP;_h$=8CtnkpM)k/1YI:q&?xu6aN8oLRFNZY.X%1`f2iNYZs'aDBl>Xfp#;_'F?<';O`-82kBaqYe[n4b_Jp;9N%V7SEis0L_1'[/NfT'k_VPfZGM7'Iu+eb9?hN/IPlaq>mdGYZ$;3U$02(LNd[nhaUY;O*L94_OYTlONu77n<bS/)[@n%.-djA3`m0b&*@=c1fI#.SdO^brH0S5*6BOqq@NcWr%+:SL3C0$xS`??=$N#p(WIRHGBA(a_AKC=sfc,Tf.Ln;EkW4PB2pL<9bDhRq9B33DsAI/cdYp]vmua'&_s,Sveq=KD_JkP0_<Ygd/IA^C1:taVWK*)V2]i>BVqjw^%'pan-aHI>*ZLRftNF]9L+?[bcRi?a^BlOF#'-6FcEp.#HM<cai(*)61TcI@3V0:[%;2]4&-]uA.+H@GkV&YZ9E;tlsqWL5%[2SeHCT4710^#S'qWS'0dXwX1e[D;nMv)paol8c_#dc2Lp_B7J@Xu02<'^UE1aWt2W;?]oM]2K.[RSlG+<%7=kckvk4=5ALLE5tj3x*/(Xc:C%b*q'>ad%-vZjXUE>BLhvY%wjK.b?qjNn^Rl,]%0WKPvDGVM@Pe/O)%TC/@Lbfx*9u-B9W1[JrXjRV:S5&Q2L[;lt*te(q;-UQMFOG)#Eipq5e,n`j`Jpa@RKMqo;4jX>)W?Z&(Z;tJR#qaEXQ`m+Sa<0nV<I[c.,jhgT`9xjkBo+8=#fv7=(GLdFxk<5^Ip#$/Uom'((9I>uaGeJV1*uDm4QJ9wU8,1sHZC0QQ?KXP#c8fQN_*>IKaAKYh>@7_W/YEh[<pe3@#ajKvXW(jA)VdjsnKps5qenZY`w;;7'A0I4-]jT'%=9gEM;Zt&$1j1Ds2+@GGFh3*^9Y@q`IAH*0Tc@k+;J<lre/4.RlFr#F#a&rKkZ:1k7$rXUnJ_v]v@r9ZFafK1L%MM3PUiU6>LM51Ok3uj(P[]:21W/@=`3@K+47,:hfZAkR%I?5/B_L*b#/b',hh[lrsL,l#$j0bp&-1(d,D[OO]ME,n=g98%3Gx4x>NRpP)4FL;fHBp$5YS2TV-<@'RE4j4kW*nCt9kKQ0m0463`j2*oAZu_+Pl8:kWKGDRHh/(u&N^cPkEv+1-DOClKP406=&hT,d6KHGGHqZ#RkP-8eOr^=oEt`[Yr?K9JJu+SAO6v`qdKvo%jH;tJ*9PNLA(.s@7K(aI:F7JcBGP%+p^1[Nke+8,DW&*TVnv_7@:HDncZIjco+,1NnPk$LRS2Uc(7_n;p1OQB@cjCCB7#KB_cQq(Jew6N=]A]cXUaH/6Mn/h*LOPg-5uPr32BtdvQn8CA*dt/U6h(Iau[tJ3^OL`kBT0*MM<p.M.s#,#t92,2dFmlP-;BZHpPi=^:ieOUE8HpGZ&m;4&,T]x`XCdUjHUNNh*rG*iU@Uf#9ups`B+#H[b))(t-$X#leDK'+K(3b?bu.QK+t6M+xGIEYW6kZ/kG'nuiF8)PZJkU7[lG2c>3pZX99Nx8nT?n>&X7VM%MAQ7Txj:?YsZ@$trMv)=sQpt_AfiDhODmKr;nDAr)rQeq^rZNCNm%r&<jMOBArZ$Gq.M1tp=>uQYN3[pQp;7EM-*=QanceUt)Tq98TnJSaH_onCIqj'/bWN1Z)+Ndb`uV)ce9,&$>XHMv?+j6QL'[?n/AgkIcGT*DvO9-7=WYE'(JV:Iv<7^Wk]Qc->jE&`l4GF^_W7RbP?gC`[:D3:BLbxjsnMi?sqfZ,?8LK'U=m0vC(;r=b0fcxi.L$23]CSIJ&8CiIOM'_s.Sk$@@iXLxAW`PSt`j<Vejw<GYZ8L[fhhIdU2nx/`&Z=b+6vi1>gtks$=RI%`0=+v1Bd<2>^eSb(rCGfii4233em*LXG-bpVMiN+;a/dF)1*bUHM],vFe_`Ml=#5::F*EsF$HuKs+l3NY=>q^Xk,N&:rkmW0Uvn4HfWIiE$n)+tRXhnMB;invoNXkmj+6BcWep%Dr5%_u;[Y[]8[vM6O<3Y`hSwKlOJKGE0*sBnm8P-)kIPcuFdBZC8x%hafqca4)qWCKBr$&MT0f;KqAJBk#CUL%JSFST,iU)@OFQU1:/6fIcI)9M6/^CBp39WJ&2J&HuYL_]j7<kKI>]14,0sbpfWMj/PYo*V,%a[,(R`s(Qi>/:GXsa`$R/IIgCKA^*&s-AF_JMrLLbreEcD,29<`kN,OWSgSZ9.M%5q$e77Fn8^SLE3:*P,g0#?3V#b]ThSfPn,I=GaI7Zhg#b$TZbOVL%25-F]3BknAK&YCBI)Q<R:]Al,QX6o%qX?k'p*Z1RKct>8@j%$G1o+U(`)`?S8sdJ5oH`mkFSHbMfGY/(K.L#7lj&/_VAp`^@_bxau:Qdh]EXkxR-OWllM)=fpbX61J1cr3G5R=-RAEhK/P$m`TWd^l,]ET%m%:-8X@P7_E;Z$w&0PGc?_D#W,lUR<a4#@]Z=GgSc^@fIfLQDF]cu[p3SJqSJ@Rs4CP`gTjuEWj',++BmDd.=rR#s^GQLubdp,^;c_K-)-jB<h'2r-S):?f+r4T*.]-a9$u)TZ/JKdVxe;D1vtUk$4Wk%g&rO_eokjLtfiTg%uQrh<pOhK3<LXYxgermi7R<i`i-OI)Ox=27a?%fa(O;bG$i=Qq&Q@bZR#Hli(7eaXZ3nh`bjLR.pWsIc1J]DfeK(#REwZE9Jv/)avSFKLEJ3]QlH=IT[EN/9`j*Rj=@@@MPLM#cZw'2>'7J93`abr+CtAmNTl2aNI%A@=0KCvE,A)mwm$SB@m2aM5r_#9v&O)gIP?f2vR;QKNtmFRA$uq.=B?54ts.[Fo]+u*Sv2&2[mI$DE;&Khbp;*]XZ4U_Cn2(Y,?.dk-([8=c9&.4ftKifw9Hi.#]6;cio`XfeYBOcX,[kL6U.[3g=X<C*Ja56#E?XPr#xRLIl%uOKZSKViH`Q@VCQTwfEjfdaD/'I(Ks^7trD:hp+2Z2P:(4TnII8l#=/KI<ISk`DA#^9[L(m41&W48.<?(GWuT5,gwsqRgIh%<pHnYUAj&dD)p$m%RH7k'eHH4[BWgs#ih&W+g#KbHtl(tI1@JO)OxjL9)i&s9GoHBWl:vUBhl,tJpPZ2NPqgAmoM4.@I/c/Qpm.S2S92oK>__fnpjd&73:CH]ZX4A6Qb#rtk+TWY--$&*M#j'pw=*Sxx']0[:gGrSs'5R@V%9d&/&$D`-QCe`=I3sT1'+-<p_QKS8SBG0j1oRX1@&ZgU[_(RfQf`JeC.AHNl#P^aE7sux^,/WG$&_W(_SlG67''nMrt9:+^+'F,u>a#0a08MhS',mljdc<A9DhmbgOKTftg?:_>;*,wn5uf5ASVf*VgQ?'%r'&<%1h<fk0Zq(=OrGFd/Bp],wQOfsV*t?RH/L^B;$xc3=Jp^OOPDVl:7EtcF_&16:gY<9?oKtl6rQ-NFBV9?Ks#ZLDin'NanG=sPi(7_)+6;/RFDT?:Zw>pVbf0A/=f.#6a<DG*#?&x,e+/vf-Nl1#;[(nROi11p?ciMougopd2Y&h+:3Yn.hbG<+eMSM]8T)xaifE3O[uJ?k,Yd7R^,<aUrhcfHX`,Pfjc@E$_L7r(>d(fADo3]`N+Mr^Rrq]8baZp/k3XTOJxnD^dh9Fx@4Y8I=f.%Ae%Vv7jQRGVcrnk>.C&A8/_Ne/D.a@-k7_x2a;U6^`nb>kN=f`0F:`ekipe[$7Af]C>C#L=E)=hO:v;3gKN7=*cpP^CnsGg2N`YkuMCXt*q7hdZ#X&d4h8$,fKa#09lHGr/]NDN1,9KE?5(:A%O0ruRlqc9>r-cH=TLQp?#0CQ]a/oU#tU1rk^+cg7VU0b;gI[qkC[>-0_SP6XhQ$c%Ve'T;WP+P-*#ZxVrWO8ShGnl/q>Pf5c$dM_]qI6c@O/vJiZ*e[$6Cj('M2wRh<mA+.1e/*RGW/<aUYNq`O@@3Fp+D8q#&qKt7i0n^a7Ld]oGv<pnnSGadT%]Rm[rYH0`>/kG;tG;%X(fbA/+%4TH.cNE23-'<Lg/p6r@*F$I5h'c2=>IgT2s*kIFQ_aW>mKM_6L7AuKNdKB&V&2cjcZu2b%utFNtT4hXq)e<j6T?2U;Nbm&IoLs_IrdPp=rr$p#eL%fd'25kYp5J&m82K&:[GDoF<b6q`rKa(CN5]af%4JQeDH@5#_#kvJ=c.fCZqsZsZf<X96S*'mi5/*>O0T;0LA?v7?LVPIbFb@m/>Ni9paQ=QbW;h:nwO1B_H=5xF=<)k62`O^B-h.wP96e#=q%adJ/NS@lkwIa?bE_e;[SB']=IeuK&Cq^7h9rt([wBNYjH83K5%inA@k5nN@@?tMOA3A9%8<U3k;t$r4R]q3?Gu2,m#aYTE&IH:WSNjuT$6C*p4tGSC)TNuC4X&,C=>WOPB4]RZ8cetXQ@r&UR^#M&Q5UlmtjJQ?J>q8MB4dfFVL_^ef8QAC`#>uR&B*CN?#[Mna2;[<>c2[$$0;;^J+J&S'Jc%R<R9/2C_xjQ%vN6Qf2Ua4.OO(^P1,K#J:<svmqmia)RXFa^Th;#5fuQK)4nN%?tdQV5h6S:75[UJ@KdnDZG/*W@t$kh2U7*g=2Q73L/]+0[X[%C)DLXX+@6?q#Yv;2e+F@IW`'I`/1hhax?.SDrE[UAmdg`@]bFi[JlH7;-046sgCbD9NhXt(]rw2>kEx1l]WC=.Gq^A1c;&Cdif7IWJ/VLG<LO]kO%Y=0%Tx9.)bq3])Nj4>3Nv&eRe/4M>&s?f?SPaX&Ql&1EZU?GP[kT+],95rGm7EX@kW[S.aN;dP_ZF54v,4ao_Ee</'bk&+wlJJ/Y7caR,O*8hcH9mXUh*w_bk2_,s#3&FVn[C5pbO2pUZ_$IeZ%8Ji5[YI?M@B8:MaVsO3fg>%wYrL6>`=ktv@=Pcft2h7H3adMRZiDf7UCFJ]`bsxShEJwdi0hQG>^]'e@N'[[]FN>ZAKfL4n$M0[9,C*-L4F+)DQN4sRlA17:'vgplBVnwl60$_:_=)(4>%Jnd:2ujQamDeJ-3$0n4/68pw$CarqMkcQB6;/@^1et'=A1-lQBdX8x_tJQUtuP7M'UA<F&@8r%/A8[C-GwYJ>Zhre$?ep;3R>bT&+sGwa;,dX<JO_]h:F':_Y,YU7vEYNQ_g8tST=3iPFWdcEaukHC%^E_oCS)'3k``P?5^)7i1Yp-He$d=79Y@XS[p1IgA/@@]D9jWKd&-nbQbF%^]D<Mpkr'HrXsZ(jF'ig^,ql-qQ*O><*a'pDl7?g?sFI:7`uO/QAdba^L:8=lrl42avvc5Ck'MH?G44x0QBpuNQ*Xu1hVU5V5TMpFX<g-?MJCvVcnVfm%Dcd+1G0mI6_O`eg.p%JvV'69f:XQU]ar#<S6eqjcdQcMcN1A;9^ol&YS@%cxn^;V[&Sxe(R]$$NaA,p?6TV';BGP.;[?3;EU2'h,qZjoiJC?W;IsFH++Uv;b#S.?U$3rKS26/F91#Z0G_@(ALbKR-2I9gR-pdvW$KsfH3/&G-P?*EnMFO0)6b]h)WHnRHP[amDE[Yce[Ol4#`kLlZ=^>Dg8uP05_uY0x=R=BbVrP5Ph$<:.NlbAwLRjK1/[_t[*U9*B_i^kb],Rx90h%nMmr0drfQ*]W5,Q)J)Pr9:9(17EkxR/Z<jMB3pw8E2[Pv2RL1FEvY=3q-]21]be0v-b<VT`UA;$gY;gX*B;s2Ei>&o-/5:HqUI6CfLBHd*?Tr9gM;LY+49fr(uW@`,UoaV8.SaTXEAr'v>/:5f@j9ToGeHu$hu%W9P4e/[WKY,$9u0=M/,?%6muYL;pwBFvOXwXBjevFMb-ihVZ>$BG;#[sZpwHWp:Z]]qM&T?N/M=.M6H;_>8t/GHJ;B:M,b%&W)=oQ8L<iUDR?r7_JAuDb<lVAOd]6RC3w14a]QDX/E*&hxm][DH8C4k4f841F%u&M+F$.MjY%A23x*?5@-COYbVeVY-5CGWZm-bn_QH.>Js3TlJYI(SYe>N+09OkfW'D)IP+UonQQ_w5FDBYM&87K;roAfh0Ji?q*^%&f.B#M#w=d5q[]%./Ua,%::..$EVr,xKA<s5$1c_atwUrJ6/@wqY2Cd_2m<nP^6eGsXLNHZn9J>A-0F/`Y.U.)lfXeXCVwi<e-;at3ijDO(;B?Ms;/w1GlFFw[7IMcjuPh(=^2TI?'6MIkkB#KohiZKcW6l[N1]sasnsGFUAivQMC#(KeG+Uket4%`ZwKM@e.SK[Y:oNB3_YS+>>H7h^_+w,9k-O=MAGmPtAG(gV#j5^Mt`)1twken(DCGpOqG4Vp%$0UeWT@Of^/,r@bx*9W^i-3FDJI)V]wrr.8/o`s<?U5d#,ii5;NC$<cB`vWh7s%'Uhk$I*e+*W,(xd2h7j1hCcI@F7')K+o6CbL`NDP5bTBq#q#1emnNu(4f-*RX7SQ.=;U.>v-`.>m+NpxW]mLiPYUC.-&#dt76Q)Yhjm8fQio4g=xLUsOLx[*+F=Y47pU4gdB5[(?^9s%3-u6@ClmDK(ltp@2#G9Cpjta8aFbT;o@^]p>5LRo(7$Xh#1nPh,A<:c5nbtlW_lhCgtxRP45Z.WS[jiT(LN.)7pNL<iN]TL+Y_ALD$0S@4NYqfXeGV8>0G]p*V%DETZOar[u6jL0ER^BL.r`[$S),Ql7#a01OoYBbKBf>&+S,q7@d]V)*lajtnar6(*6>x13ov#q:pb**ENL`2iQA8E3j05MXW'9F;^r(3aGI9EgGN`'QFK^LotwZ11EUdl&Kwfl#s%hYi[.>gQ?cZJ00on2cnY-i1-Rd$Ie;c+IfKi25Ug>L,m_d9J,.9^eVEK[W,n:3xi5b]*roeOxBAhgaa,6*oYlRfDp1CJBwZH(7h5:tjpg0B'r.m8Z$DLW8Cv,DX173-'?*asWxqi+[56Ic.t<l8tsO;0vqeJ&=96=3,2cYc:iH2*+;eh&SJDsZw].<iYU4p1EQR@*__D7'dbVm#0PYM/+HVQU[feVGEP#Ku<vDc?^ZP&)BY<0P=nrXX6Fpf?sE9M2k:/+ueZqF+tN*7/5-%I]]";
+var krpanoplugin = function () {
+	function Er(e) {
+		return ".yes.on.true.1"[s](("." + e)[c]()) >= 0
+	}
+
+	function Sr(e) {
+	}
+
+	function xr() {
+		ar = 0;
+		if (Tn[at] || _n)if (Tn[_]) {
+			var e = ("" + navigator.userAgent)[c]()[s]("ucbrowser") > 0;
+			Tn.chrome || Tn[Ht] ? ar = 2 : e && (ar = 2)
+		} else ar = 2;
+		if (ar > 0) {
+			Vn == 0 && (ar = 1);
+			if (Tn[E] && _n)setTimeout(Nr, 10); else {
+				window[u](ar == 1 ? f : h, Cr, t);
+				var i = Nn[l] != "" && Nn[l] != n;
+				setTimeout(Nr, Tn[E] ? 10 : i ? 1500 : 3e3)
+			}
+		} else sr == t && (sr = r, xn[J](Nn[l], Nn))
+	}
+
+	function Tr() {
+		sr == t && (sr = r, er = r, tr = r, nr = r, rr = t, Rr(), xn[J](Nn[O], Nn))
+	}
+
+	function Nr() {
+		window[o](f, Cr, t), window[o](h, Cr, t), Tn[E] && _n ? Tr() : sr == t && (sr = r, xn[J](Nn[l], Nn))
+	}
+
+	function Cr(e) {
+		window[o](e.type, Cr, t), e.type == f || e.type == h && e[K] && e.rotationRate ? (sr = r, er = r, tr = r, Tn[E] && (nr = r), Rr(), xn[J](Nn[O], Nn)) : Tn[E] && _n ? Tr() : sr == t && (sr = r, xn[J](Nn[l], Nn))
+	}
+
+	function jr(e) {
+		var i;
+		for (i = 0; i < e[kt]; i++)if (e[i] instanceof HMDVRDevice) {
+			kr = e[i], kr[F] ? (Dr = kr[F](mt), Pr = kr[F](Tt), Ar = Dr[pn], Or = Pr[pn], Mr = Dr[Et], _r = Pr[Et]) : kr[$] && kr[C] && (Ar = kr[$](mt), Or = kr[$](Tt), Mr = kr[C](mt), _r = kr[C](Tt));
+			var s = 2 * Math.max(Mr.leftDegrees, Mr.rightDegrees), o = 2 * Math.max(Mr.upDegrees, Mr.downDegrees);
+			Br = Math.max(s, o);
+			break
+		}
+		for (i = 0; i < e[kt]; i++)if (e[i] instanceof PositionSensorVRDevice)if (kr == n || kr[vn] == e[i][vn]) {
+			Lr = e[i];
+			break
+		}
+		kr || Lr ? (er = r, Xn == t && Tn[_] && (rr = r), xn[J](Nn[O], Nn)) : sr == t && (sr = r, xn[J](Nn[l], Nn))
+	}
+
+	function Ir(e) {
+		Zn = e;
+		if (e) {
+			Fr = {
+				imagehfov: xn.image.hfov,
+				continuousupdates: xn[p][g],
+				usercontrol: xn[y][it],
+				mousetype: xn[y][St],
+				contextmenu_touch: xn[Rt].touch,
+				loadwhilemoving: xn[m][A],
+				stereo: xn[m][Ct],
+				stereooverlap: xn[m][j],
+				hlookat: xn[p][V],
+				vlookat: xn[p][jt],
+				camroll: xn[p][an],
+				fovmin: xn[p][ft],
+				fovmax: xn[p][ht],
+				fisheye: xn[p][X],
+				fov: xn[p].fov,
+				maxpixelzoom: xn[p][d],
+				fovtype: xn[p][G],
+				stereographic: xn[p][x],
+				fisheyefovlink: xn[p][b],
+				pannini: xn[p][nt],
+				architectural: xn[p][v],
+				limitview: xn[p][T],
+				area_mode: xn[Lt].mode,
+				area_align: xn[Lt].align,
+				area_x: xn[Lt].x,
+				area_y: xn[Lt].y,
+				area_width: xn[Lt][Y],
+				area_height: xn[Lt][N],
+				maxmem: xn.memory[en]
+			}, xn[Lt].mode = "align", xn[Lt].align = "lefttop", xn[Lt].x = "0", xn[Lt].y = "0", xn[Lt][Y] = "100%", xn[Lt][N] = "100%", xn[Rt].touch = t, xn[p][g] = r, nr && Tn[E] && !mr ? xn[y][St] = "drag2d" : xn[y][it] = "off", xn[m][Ct] = r, xn[m][A] = r, xn[p][T] = "off", xn[p][nt] = 0, xn[p][v] = 0, xn[p][G] = "VFOV", xn[p][ft] = 0, xn[p][ht] = 179, xn[p][X] = 0, xn[p].fov = Br, xn[p][d] = 0, xn[p][x] = r, xn[p][b] = 0, cr = xn[p][V], ci = 0, Tn[E] || (cr -= Ci()), ui();
+			if (tr || rr)zr(0, 0), nr && Tn[E] && !mr || (xn[yt] = r);
+			ri(), Dn && oi(r), xn.set("events[__webvr].keep", r), xn.set("events[__webvr].onnewpano", ii), xn.set("events[__webvr].onresize", si), (tr || rr) && Ko(r), xn[J](Nn.onentervr, Nn)
+		} else if (Fr) {
+			xn.set("events[__webvr].name", n), xn[p][g] = Fr[g], xn[y][it] = Fr[it], xn[y][St] = Fr[St], xn[Rt].touch = Fr.contextmenu_touch, xn[m][A] = Fr[A], xn[m][Ct] = Fr[Ct], xn[m][j] = Fr[j], xn[p][an] = 0;
+			if (Fr.imagehfov == xn.image.hfov)xn[p][ft] = Fr[ft], xn[p][ht] = Fr[ht], xn[p].fov = Fr.fov, xn[p][d] = Fr[d], xn[p][G] = Fr[G], xn[p][T] = Fr[T], xn[p][X] = Fr[X], xn[p][x] = Fr[x], xn[p][b] = Fr[b], xn[p][nt] = Fr[nt], xn[p][v] = Fr[v]; else {
+				var i = xn.xml[p];
+				xn[p][ft] = i && !isNaN(Number(i[ft])) ? Number(i[ft]) : 1, xn[p][ht] = i && !isNaN(Number(i[ht])) ? Number(i[ht]) : 140, xn[p].fov = i && !isNaN(Number(i.fov)) ? Number(i.fov) : 90, xn[p][X] = i && !isNaN(Number(i[X])) ? Number(i[X]) : 0, xn[p][nt] = i && !isNaN(Number(i[nt])) ? Number(i[nt]) : 0, xn[p][v] = i && !isNaN(Number(i[v])) ? Number(i[v]) : 0, xn[p][d] = i && !isNaN(Number(i[d])) ? Number(i[d]) : 2, xn[p][G] = i && i[G] ? i[G] : "MFOV", xn[p][T] = i && i[T] ? i[T] : pt, xn[p][x] = r, xn[p][b] = .5
+			}
+			xn[Lt].mode = Fr.area_mode, xn[Lt].align = Fr.area_align, xn[Lt].x = Fr.area_x, xn[Lt].y = Fr.area_y, xn[Lt][Y] = Fr.area_width, xn[Lt][N] = Fr.area_height, xn[W] = -1, xn[D] = t, xn.memory[en] = Fr[en], Fr = n, Qn && (ji(Qn, t), Qn = n), Ko(t), oi(t), ui(), xn[J](Nn.onexitvr, Nn)
+		}
+	}
+
+	function Rr() {
+		if (qr)return qr;
+		var e = "Unknown", t = 0, n = 1536, r = Math.min(screen[Y], screen[N]), i = Math.max(screen[Y], screen[N]), o = window.devicePixelRatio || 1;
+		if (Tn.iphone)if (i == 568) {
+			var u = xn.webGL.context, a = "" + u.getParameter(u.VERSION);
+			a[s]("A8 GPU") > 0 ? (e = ln, t = 4.7) : (e = "iPhone 5", t = 4, n = 1024)
+		} else i == 667 ? o == 2 ? (e = ln, t = 4.7) : (e = on, t = 5.5) : i == 736 && (e = on, t = 5.5); else {
+			var f = navigator.userAgent[c]();
+			f[s]("gt-n710") >= 0 ? (t = 5.5, e = "Note 2") : f[s]("sm-n900") >= 0 ? (t = 5.7, e = "Note 3") : f[s]("sm-n910") >= 0 ? (t = 5.7, e = "Note 4") : f[s]("gt-i930") >= 0 || f[s](sn) >= 0 ? (t = 4.7, e = "Galaxy S3") : f[s]("gt-i950") >= 0 || f[s](sn) >= 0 ? (t = 5, e = "Galaxy S4") : f[s]("sm-g900") >= 0 || f[s]("sc-04f") >= 0 || f[s]("scl23") >= 0 ? (t = 5.1, e = "Galaxy S5") : f[s]("sm-g920") >= 0 || f[s]("sm-g925") >= 0 ? (t = 5.1, e = "Galaxy S6") : f[s]("lg-d85") >= 0 || f[s]("vs985") >= 0 || f[s]("lgls990") >= 0 || f[s]("lgus990") >= 0 ? (t = 5.5, e = "LG G3") : f[s]("lg-h810") >= 0 || f[s]("lg-h815") >= 0 || f[s]("lgls991") >= 0 ? (t = 5.5, e = "LG G4") : f[s]("xt1068") >= 0 || f[s]("xt1069") >= 0 || f[s]("xt1063") >= 0 ? (t = 5.5, e = "Moto G 2g") : f[s]("xt1058") >= 0 ? (t = 5.2, e = "Moto X 2g") : f[s]("d6653") >= 0 || f[s]("d6603") >= 0 ? (t = 5.2, e = "Xperia Z3") : f[s]("xperia z4") >= 0 ? (t = 5.5, e = "Xperia Z4") : f[s]("htc_p4550") >= 0 || f[s]("htc6525lv") >= 0 || f[s]("htc_pn071") >= 0 ? (t = 5, e = "One M8") : f[s]("nexus 4") >= 0 ? (t = 4.7, e = "Nexus 4") : f[s]("nexus 5") >= 0 ? (t = 5, e = "Nexus 5") : f[s]("nexus 6") >= 0 ? (t = 6, e = "Nexus 6") : f[s]("lumia 930") >= 0 && (t = 5, e = "Lumia 930")
+		}
+		t == 0 && (xn[J](Nn[Nt], Nn), t = 5);
+		var l = Math[Bt](t * t / (1 + r / i * (r / i))) * 25.4, h = l * r / i;
+		return qr = {screendiagonal_inch: t, screenwidth_mm: l, screenheight_mm: h, screenwidth_px: i * o, screenheight_px: r * o, devicename: e, best_res: n}, qr
+	}
+
+	function Ur() {
+		Fn < 1 ? Fn = 1 : Fn > 179.9 && (Fn = 179.9), In < 0 ? In = 0 : In > 5 && (In = 5);
+		var e = qn[mn]("|"), t;
+		for (t = 0; t < 4; t++) {
+			var n = Number(e[t]);
+			isNaN(n) && (n = t == 0 ? 1 : 0), Rn[t] = n
+		}
+		Un = Rn[0] != 1 || Rn[1] != 0 || Rn[2] != 0 || Rn[3] != 0, or[a] && (tr || rr) && (zr(0, 0), Ko(r))
+	}
+
+	function zr(e, n) {
+		var i = Rr(), s = 0, o = 0, u = xn.webGL.canvas;
+		if (u) {
+			var a = Number(xn[m].framebufferscale);
+			s = u[Y], o = u[N], !isNaN(a) && a != 0 && (s /= a, o /= a)
+		}
+		if (e <= 0 || n <= 0)e = s, n = o;
+		var f = Fn, l = In;
+		f = Math.tan(f * .5 * br), l = Math.exp(l) - 1;
+		var c = Math.atan(f) * 2 / 2, h = l * 1e3, p = 1e3, d = p * Math.sin(c), v = p * Math.cos(c), g = 2 * Math.atan(d / (h + v));
+		f = Math.tan(g / 2);
+		var y = l, b = Hn;
+		b /= jn;
+		var w = i.screenwidth_mm, E = i.screenheight_mm;
+		if (Bn > 0) {
+			var S = Math.min(screen[Y], screen[N]), x = Math.max(screen[Y], screen[N]);
+			w = Math[Bt](Bn * Bn / (1 + S / x * (S / x))) * 25.4, E = w * S / x
+		}
+		var T = w / 2 - b, C = 2 * (T / w), k = e, L = n, A = i.screenwidth_px, O = i.screenheight_px, M = r;
+		if (nr || Tn.tablet || n > e)M = t;
+		k <= 0 && (k = s), L <= 0 && (L = o);
+		var _ = E / 70.9, D = f;
+		D *= _, hr = _ / .69, M && (D *= L / O, C = 2 * (w * (k / A) / 2 - b) / (w * (k / A)));
+		var P = 2 * Math.atan(D) * wr;
+		pr = P, dr = y, vr = C, Wr()
+	}
+
+	function Wr() {
+		var e = xn[p];
+		pr > 0 && (e[X] = dr, e.fov = pr, e[ft] = pr, e[ht] = pr, e[d] = 0, e[G] = "VFOV", e[x] = r, e[b] = 0, e[T] = "off", xn[m][j] = vr)
+	}
+
+	function Xr() {
+		return Tn[E] && kr && kr.deviceName ? kr.deviceName : (Rr(), qr ? qr[Gt] : "")
+	}
+
+	function Vr() {
+		return qr ? qr.screendiagonal_inch : 0
+	}
+
+	function $r(e) {
+		if (("" + e)[c]() == pt)Bn = 0, Ur(); else {
+			var t = parseFloat(e);
+			if (isNaN(t) || t <= 0)t = 0;
+			Bn = t, Ur()
+		}
+	}
+
+	function Jr() {
+		var e = Bn;
+		return e <= 0 ? pt : e
+	}
+
+	function Kr() {
+		return Tn[_] ? xn[m].viewerlayer : xn.webGL.canvas
+	}
+
+	function Qr() {
+		xn.trace(0, "update - stereo=" + xn[m][Ct]), or[a] && (tr || rr) && (zr(0, 0), Ko(r))
+	}
+
+	function Gr() {
+		if (er && Zn == t)if (tr == t) {
+			var e = Kr();
+			Sn[u](Tn[w][k][Yt], li), or[a] = r, Ir(r), ur = r, rr = t, Xn == t && Tn[_] && (rr = r), rr && (ur = t), e[Tn[w][k].requestfullscreen]({vrDisplay: kr, vrDistortion: ur}), Tn[at] && ei(xn[p][V]), ur == t && zr()
+		} else {
+			Sn[u](Tn[w][k][Yt], li), or[a] = r, Ir(r);
+			if (Tn[at] || Tn.tablet)ar == 1 ? window[u](f, Mi, r) : ar == 2 && window[u](h, Bs, r);
+			nr == t && Tn[w][k].touch && xn[y][$t][u](Tn[w][k][Kt], ni, t)
+		}
+	}
+
+	function Yr() {
+		or[a] = t, xn.get(yt) && xn.set(yt, t), window[o](f, Mi, r), window[o](h, Bs, r), Tn[w][k].touch && xn[y][$t][o](Tn[w][k][Kt], ni, t), Ir(t), xn[p].haschanged = r
+	}
+
+	function Zr() {
+		er && (Zn ? Yr() : Gr())
+	}
+
+	function ei(e) {
+		e === undefined ? e = 0 : (e = Number(e), isNaN(e) && (e = 0));
+		var t = xn[p][V];
+		if (Lr) {
+			try {
+				Lr.resetSensor !== undefined && Lr.resetSensor()
+			} catch (n) {
+			}
+			try {
+				Lr.zeroSensor !== undefined && Lr.zeroSensor()
+			} catch (n) {
+			}
+			t = 0, cr = 0
+		}
+		nr && (xn[p][V] = e), cr = cr - t + e, ci = 0
+	}
+
+	function ni(e) {
+		var i = t;
+		if (Mn == t)i = r; else {
+			var s = xn[y].getMousePos(e[fn] ? e[fn][0] : e);
+			s.x /= xn.stagescale, s.y /= xn.stagescale;
+			if (e.type == Tn[w][k][Kt])ti == n ? (ti = s, xn[y][$t][u](Tn[w][k][un], ni, r), xn[y][$t][u](Tn[w][k][gn], ni, r)) : i = r; else if (e.type == Tn[w][k][gn])i = r; else if (e.type == Tn[w][k][un] && ti) {
+				var a = ti.x, f = s.x;
+				if (xn[m][Ct]) {
+					var l = xn.stagewidth * .5;
+					(a >= l || f >= l) && (a < l || f < l) && (f = a)
+				}
+				var c = xn[cn](a, ti.y, t), h = xn[cn](f, s.y, t), p = h.x - c.x;
+				ti = s, cr -= p
+			}
+		}
+		i && (ti = n, xn[y][$t][o](Tn[w][k][un], ni, r), xn[y][$t][o](Tn[w][k][gn], ni, r))
+	}
+
+	function ri() {
+		if (An == t)xn[W] = -1, xn[D] = t; else if (xn.image.type == "cube" && xn.image.multires) {
+			var e = Rr().best_res, n = 0, s = -1, o = 0, u = xn.image.level.getArray(), a = u[kt];
+			if (a > 0)for (i = 0; i < a; i++) {
+				var f = u[i].tiledimagewidth, l = Math.abs(f - e);
+				if (s == -1 || l < s)n = f, s = l, o = i
+			}
+			if (s > 0) {
+				xn[W] = o, xn[D] = r;
+				if (n > 0) {
+					var c = 4 + 8 * (n * n * 6 + 1048575 >> 20);
+					c > xn.memory[en] && (xn.memory[en] = c)
+				}
+			}
+		}
+	}
+
+	function ii() {
+		or[a] && ri()
+	}
+
+	function si() {
+		ii(), Ur()
+	}
+
+	function ui() {
+		fr = 0, ki.t = 0, Li.t = 0, yo(), So = 0, go = t, Ls = n
+	}
+
+	function fi(e) {
+		ai == 1 ? (yr.apply(document), ai = 0) : (gr.apply(Kr()), ai = 1)
+	}
+
+	function li(e) {
+		var n = Kr(), i = !!(Sn[Jt] || Sn[Mt] || Sn[zt] || Sn[gt] || Sn[qt]);
+		if (i && or[a]) {
+			try {
+				Tn[E] && mr && (gr.apply(n), nr && (ai = 1, xn[y][$t][u](nn, fi, t)))
+			} catch (s) {
+			}
+			Tn[E] && n[u](rn, hi, t)
+		} else window[o](f, Mi, r), window[o](h, Bs, r), n[o](rn, hi, t), xn[y][$t][o](nn, fi, t), or[a] = t, Ir(t)
+	}
+
+	function hi(e) {
+		var t = Kr();
+		if (Sn.pointerLockElement === t || Sn.mozPointerLockElement === t) {
+			var n = e.movementX || e.mozMovementX, r = e.movementY || e.mozMovementY;
+			if (!isNaN(n)) {
+				ci += n * kn;
+				while (ci < 0)ci += Math.PI * 2;
+				while (ci >= Math.PI * 2)ci -= Math.PI * 2
+			} else n = 0;
+			nr && (isNaN(r) && (r = 0), xn[p][V] += n * kn * wr, xn[p][jt] = Math.max(Math.min(xn[p][jt] + r * kn * wr, 120), -120))
+		}
+	}
+
+	function pi(e, t, n, r) {
+		this.x = e, this.y = t, this.z = n, this.w = r
+	}
+
+	function di(e) {
+		var t = Math[Bt](e.x * e.x + e.y * e.y + e.z * e.z + e.w * e.w);
+		t === 0 ? (e.x = e.y = e.z = 0, e.w = 1) : (t = 1 / t, e.x *= t, e.y *= t, e.z *= t, e.w *= t)
+	}
+
+	function vi(e) {
+		e.x *= -1, e.y *= -1, e.z *= -1, di(e)
+	}
+
+	function mi(e, t) {
+		return e.x * t.x + e.y * t.y + e.z * t.z + e.w * t.w
+	}
+
+	function gi(e) {
+		return Math[Bt](e.x * e.x + e.y * e.y + e.z * e.z + e.w * e.w)
+	}
+
+	function yi(e, t) {
+		var n = e.x, r = e.y, i = e.z, s = e.w, o = t.x, u = t.y, a = t.z, f = t.w;
+		e.x = n * f + s * o + r * a - i * u, e.y = r * f + s * u + i * o - n * a, e.z = i * f + s * a + n * u - r * o, e.w = s * f - n * o - r * u - i * a
+	}
+
+	function bi(e, t) {
+		var n = t.x, r = t.y, i = t.z, s = t.w, o = e.x, u = e.y, a = e.z, f = e.w;
+		e.x = n * f + s * o + r * a - i * u, e.y = r * f + s * u + i * o - n * a, e.z = i * f + s * a + n * u - r * o, e.w = s * f - n * o - r * u - i * a
+	}
+
+	function wi(e, t, n) {
+		var r = e.x, i = e.y, s = e.z, o = e.w, u = r * t.x + i * t.y + s * t.z + o * t.w;
+		u < 0 ? (u = -u, e.x = -t.x, e.y = -t.y, e.z = -t.z, e.w = -t.w) : (e.x = t.x, e.y = t.y, e.z = t.z, e.w = t.w);
+		if (u >= 1) {
+			e.w = o, e.x = r, e.y = i, e.z = s;
+			return
+		}
+		var a = Math.acos(u), f = Math[Bt](1 - u * u);
+		if (Math.abs(f) < .001) {
+			e.w = .5 * (o + e.w), e.x = .5 * (r + e.x), e.y = .5 * (i + e.y), e.z = .5 * (s + e.z);
+			return
+		}
+		var l = Math.sin((1 - n) * a) / f, c = Math.sin(n * a) / f;
+		e.w = o * l + e.w * c, e.x = r * l + e.x * c, e.y = i * l + e.y * c, e.z = s * l + e.z * c
+	}
+
+	function Ei(e, t, n) {
+		var r = n / 2, i = Math.sin(r);
+		e.x = t.x * i, e.y = t.y * i, e.z = t.z * i, e.w = Math.cos(r)
+	}
+
+	function Si(e, t, n, r, i) {
+		var s = Math.cos(t / 2), o = Math.cos(n / 2), u = Math.cos(r / 2), a = Math.sin(t / 2), f = Math.sin(n / 2), l = Math.sin(r / 2);
+		return i === "XYZ" ? (e.x = a * o * u + s * f * l, e.y = s * f * u - a * o * l, e.z = s * o * l + a * f * u, e.w = s * o * u - a * f * l) : i === Wt ? (e.x = a * o * u + s * f * l, e.y = s * f * u - a * o * l, e.z = s * o * l - a * f * u, e.w = s * o * u + a * f * l) : i === "ZXY" ? (e.x = a * o * u - s * f * l, e.y = s * f * u + a * o * l, e.z = s * o * l + a * f * u, e.w = s * o * u - a * f * l) : i === "ZYX" ? (e.x = a * o * u - s * f * l, e.y = s * f * u + a * o * l, e.z = s * o * l - a * f * u, e.w = s * o * u + a * f * l) : i === "YZX" ? (e.x = a * o * u + s * f * l, e.y = s * f * u + a * o * l, e.z = s * o * l - a * f * u, e.w = s * o * u - a * f * l) : i === "XZY" && (e.x = a * o * u - s * f * l, e.y = s * f * u - a * o * l, e.z = s * o * l + a * f * u, e.w = s * o * u + a * f * l), e
+	}
+
+	function xi(e, t, n) {
+		var r, i, s, o, u, a, f, l, c, h, p, d;
+		i = t.x, s = t.y, o = t.z, u = Math[Bt](i * i + s * s + o * o), u > 0 && (i /= u, s /= u, o /= u), a = n.x, f = n.y, l = n.z, c = Math[Bt](a * a + f * f + l * l), c > 0 && (a /= c, f /= c, l /= c), r = i * a + s * f + o * l + 1, r < 1e-6 ? (r = 0, Math.abs(i) > Math.abs(o) ? (h = -s, p = i, d = 0) : (h = 0, p = -o, d = s)) : (h = s * l - o * f, p = o * a - i * l, d = i * f - s * a), e.x = h, e.y = p, e.z = d, e.w = r, di(e)
+	}
+
+	function Ti(e, t, n) {
+		function r(e, t, n) {
+			return e < t ? t : e > n ? n : e
+		}
+
+		if (!t || isNaN(t.x) || isNaN(t.y) || isNaN(t.z) || isNaN(t.w))return;
+		var i = t.x * t.x, s = t.y * t.y, o = t.z * t.z, u = t.w * t.w;
+		if (n === "XYZ")e[0] = Math[tt](2 * (t.x * t.w - t.y * t.z), u - i - s + o), e[1] = Math.asin(r(2 * (t.x * t.z + t.y * t.w), -1, 1)), e[2] = Math[tt](2 * (t.z * t.w - t.x * t.y), u + i - s - o); else if (n === Wt)e[0] = Math.asin(r(2 * (t.x * t.w - t.y * t.z), -1, 1)), e[1] = Math[tt](2 * (t.x * t.z + t.y * t.w), u - i - s + o), e[2] = Math[tt](2 * (t.x * t.y + t.z * t.w), u - i + s - o); else if (n === "ZXY")e[0] = Math.asin(r(2 * (t.x * t.w + t.y * t.z), -1, 1)), e[1] = Math[tt](2 * (t.y * t.w - t.z * t.x), u - i - s + o), e[2] = Math[tt](2 * (t.z * t.w - t.x * t.y), u - i + s - o); else if (n === "ZYX")e[0] = Math[tt](2 * (t.x * t.w + t.z * t.y), u - i - s + o), e[1] = Math.asin(r(2 * (t.y * t.w - t.x * t.z), -1, 1)), e[2] = Math[tt](2 * (t.x * t.y + t.z * t.w), u + i - s - o); else if (n === "YZX")e[0] = Math[tt](2 * (t.x * t.w - t.z * t.y), u - i + s - o), e[1] = Math[tt](2 * (t.y * t.w - t.x * t.z), u + i - s - o), e[2] = Math.asin(r(2 * (t.x * t.y + t.z * t.w), -1, 1)); else {
+			if (n !== "XZY")return;
+			e[0] = Math[tt](2 * (t.x * t.w + t.y * t.z), u - i + s - o), e[1] = Math[tt](2 * (t.x * t.z + t.y * t.w), u + i - s - o), e[2] = Math.asin(r(2 * (t.z * t.w - t.x * t.y), -1, 1))
+		}
+	}
+
+	function Ni(e, t) {
+		var r, i, s, o;
+		e == n ? (r = Math.tan(50 * br), i = Math.tan(50 * br), s = Math.tan(45 * br), o = Math.tan(45 * br)) : (r = Math.tan(e.upDegrees * br), i = Math.tan(e.downDegrees * br), s = Math.tan(e.leftDegrees * br), o = Math.tan(e.rightDegrees * br));
+		var u = 2 / (s + o), a = 2 / (r + i);
+		t[0] = u, t[1] = 0, t[2] = 0, t[3] = 0, t[4] = 0, t[5] = -a, t[6] = 0, t[7] = 0, t[8] = (s - o) * u * .5, t[9] = -((r - i) * a * .5), t[10] = 65535 / 65536, t[11] = 1, t[12] = 0, t[13] = 0, t[14] = 65535 / 65536 - 1, t[15] = 1
+	}
+
+	function Ci() {
+		var e = Number.NaN, t = screen[Y] > screen[N], n = screen[st] || screen.msOrientation || screen.mozOrientation;
+		if (n) {
+			n = ("" + n)[c]();
+			var r = n[s]("portrait") >= 0, i = n[s]("landscape") >= 0, o = n[s]("primary") >= 0, u = n[s]("secondary") >= 0;
+			r && o ? e = 0 : i && o ? e = 90 : i && u ? e = -90 : r && u && (e = 180), !isNaN(e) && !Tn[at] && (e -= 90)
+		}
+		return isNaN(e) && (e = xn._have_top_access ? top[st] : window[st]), isNaN(e) && (Tn[at] ? e = t ? 90 : 0 : e = t ? 0 : 90), Tn.tablet && Tn[Ht] && (e += 90), e
+	}
+
+	function Mi(e) {
+		if (!or[a])return;
+		var t = xn[B], r = t - Hs;
+		Hs = t;
+		var i = Ci() * br, s = e.alpha * br, o = e.beta * br, u = e.gamma * br;
+		Oi === n && (Oi = s), s = s - Oi + Math.PI;
+		var f = Math.cos(s), l = Math.sin(s), c = Math.cos(o), h = Math.sin(o), p = Math.cos(u), d = Math.sin(u);
+		s = Math[tt](-l * h * p - f * d, l * d - f * h * p), o = -Math.asin(c * p), u = Math[tt](c * d, -h) - Math.PI, ki.q.x = Li.q.x, ki.q.y = Li.q.y, ki.q.z = Li.q.z, ki.q.w = Li.q.w, ki.t = Li.t;
+		var v = Li.q;
+		Li.t = t, fr++, Si(v, o, s + i, u - i, Wt)
+	}
+
+	function _i() {
+		if (or[a]) {
+			xn[p][g] = r;
+			var e = [0, 0, 0];
+			if (Lr) {
+				Hr = Lr.getState();
+				if (Hr) {
+					rr && Wr();
+					if (Ln) {
+						var t = Hr.position;
+						if (t) {
+							ci = 0;
+							var i = 400;
+							xn[p].tx = t.x * i, xn[p].ty = t.y * i, xn[p].tz = t.z * i
+						}
+					}
+					Ti(e, Hr[st], Wt);
+					var s = 0;
+					Tn[_] && (s = Ci()), s += cr, xn[p][V] = (-e[1] + ci) * wr + s, xn[p][jt] = -e[0] * wr, xn[p][an] = -e[2] * wr
+				}
+			} else if (tr) {
+				Wr();
+				if (fr > lr) {
+					var o = n;
+					if ($n == 0)o = Li.q; else if (($n == 4 || $n >= 6) && ar == 2)o = Li.q, Ds(o); else if ($n <= 3 || $n == 5 || ar == 1)if (ki.t > 0 && Li.t > 0) {
+						var u = xn[B], f = Li.t - ki.t, l = 0, c = 0, h = 1;
+						$n == 1 || $n == 2 ? l = u - Li.t : (l = u - ki.t, h = 2), f <= 0 ? c = 1 : (c = l / f, c > h && (c = h)), Ai.x = ki.q.x, Ai.y = ki.q.y, Ai.z = ki.q.z, Ai.w = ki.q.w, wi(Ai, Li.q, c), o = Ai
+					}
+					if (o) {
+						Ti(e, o, Wt);
+						var s = Ci();
+						xn[p][V] = cr + (-e[1] + ci) * wr + s, xn[p][jt] = -e[0] * wr, xn[p][an] = -e[2] * wr
+					}
+				}
+			}
+		}
+	}
+
+	function Di(e, n) {
+		tr == t && ur == r && Ni(e == 1 ? Mr : _r, n)
+	}
+
+	function Pi(e) {
+		var t = 0;
+		return e == 1 ? Ar && Ar.x ? t = Ar.x : t = -0.03 : e == 2 && (Or && Or.x ? t = Or.x : t = .03), t *= 320 / Cn, t
+	}
+
+	function Hi(e, i) {
+		var s = !!(Sn[Jt] || Sn[Mt] || Sn[zt] || Sn[gt] || Sn[qt]);
+		if (or[a] && s && tr == t && ur == r) {
+			var o = 0, u = 0;
+			if (Dr)o = Dr[lt][Y] + Pr[lt][Y], u = Math.max(Dr[lt][N], Pr[lt][N]); else if (S in kr) {
+				var f = kr[S](mt), l = kr[S](Tt);
+				o = f[Y] + l[Y], u = Math.max(f[N], l[N])
+			} else if (H in kr) {
+				var c = kr[H]();
+				o = c[Y], u = c[N]
+			} else z in kr ? (o = kr[z][Y], u = kr[z][N]) : (o = 2e3, u = 1056);
+			if (o > 0 && u > 0) {
+				var h = 1;
+				return o *= h, u *= h, {w: o, h: u}
+			}
+		} else or[a] && (tr || ur == t) && zr(e, i);
+		return n
+	}
+
+	function Bi(e) {
+		var e = ("" + e)[c](), i = e[s](dn), o = e.lastIndexOf("]");
+		if (i >= 0 && o > i) {
+			var u = e[It](i + 8, o), a = dn + u + "]";
+			a != Jn && (Jn = a, Qn && (ji(Qn, t), Qn = n), Qn = xn.get(Jn), Qn && ji(Qn, r))
+		}
+	}
+
+	function ji(e, i) {
+		if (i == r)e[Vt] = {visible: e[Ft], enabled: e[a], flying: e.flying, scaleflying: e[ot], distorted: e[xt], zorder: e.zorder, scale: e.scale, depth: e.depth, onover: e.onover, onout: e.onout}, e[a] = t, e.flying = 1, e[ot] = t, e[xt] = r, e.zorder = 999999999; else {
+			var s = e[Vt];
+			s && (e[Ft] = s[Ft], e[a] = s[a], e.flying = s.flying, e[ot] = s[ot], e[xt] = s[xt], e.zorder = s.zorder, e.scale = s.scale, e.depth = s.depth, e.onover = s.onover, e.onout = s.onout, e[Vt] = s = n)
+		}
+	}
+
+	function Fi() {
+		if (Jn) {
+			var e = Qn;
+			e == n && (e = xn.get(Jn), e && (ji(e, r), Qn = e));
+			if (e) {
+				if (!or[a])return e[Ft] = t, n;
+				e.onover = Gn, e.onout = Yn, e[a] = Kn, e[Ft] = r
+			}
+			return e
+		}
+		return n
+	}
+
+	function Ii() {
+		this.x = 0, this.y = 0, this.z = 0
+	}
+
+	function qi(e, t, n, r) {
+		e.x = t, e.y = n, e.z = r
+	}
+
+	function Ri(e, t) {
+		e.x = t.x, e.y = t.y, e.z = t.z
+	}
+
+	function Ui(e) {
+		e.x = 0, e.y = 0, e.z = 0
+	}
+
+	function zi(e, t, n) {
+		t == 0 ? e.x = n : t == 1 ? e.y = n : e.z = n
+	}
+
+	function Wi(e) {
+		return Math[Bt](e.x * e.x + e.y * e.y + e.z * e.z)
+	}
+
+	function Xi(e) {
+		var t = Wi(e);
+		t > 0 ? Vi(e, 1 / t) : (e.x = 0, e.y = 0, e.z = 0)
+	}
+
+	function Vi(e, t) {
+		e.x *= t, e.y *= t, e.z *= t
+	}
+
+	function $i(e, t, n) {
+		qi(n, e.x - t.x, e.y - t.y, e.z - t.z)
+	}
+
+	function Ji(e, t, n) {
+		qi(n, e.y * t.z - e.z * t.y, e.z * t.x - e.x * t.z, e.x * t.y - e.y * t.x)
+	}
+
+	function Ki(e, t) {
+		return e.x * t.x + e.y * t.y + e.z * t.z
+	}
+
+	function Qi() {
+		var e;
+		return typeof Float64Array != "undefined" ? e = new Float64Array(9) : e = new Array(9), Yi(e), e
+	}
+
+	function Gi(e) {
+		e[0] = e[1] = e[2] = e[3] = e[4] = e[5] = e[6] = e[7] = e[8] = 0
+	}
+
+	function Yi(e) {
+		e[0] = e[4] = e[8] = 1, e[1] = e[2] = e[3] = e[5] = e[6] = e[7] = 0
+	}
+
+	function Zi(e, t) {
+		e[0] = e[4] = e[8] = t
+	}
+
+	function es(e, t) {
+		e[0] *= t, e[1] *= t, e[2] *= t, e[3] *= t, e[4] *= t, e[5] *= t, e[6] *= t, e[7] *= t, e[8] *= t
+	}
+
+	function ts(e, t) {
+		var n = e[1], r = e[2], i = e[5];
+		t[0] = e[0], t[1] = e[3], t[2] = e[6], t[3] = n, t[4] = e[4], t[5] = e[7], t[6] = r, t[7] = i, t[8] = e[8]
+	}
+
+	function ns(e, t, n) {
+		e[t] = n.x, e[t + 3] = n.y, e[t + 6] = n.z
+	}
+
+	function rs(e, t) {
+		e[0] = t[0], e[1] = t[1], e[2] = t[2], e[3] = t[3], e[4] = t[4], e[5] = t[5], e[6] = t[6], e[7] = t[7], e[8] = t[8]
+	}
+
+	function is(e, t) {
+		var n = e[0] * (e[4] * e[8] - e[7] * e[5]) - e[1] * (e[3] * e[8] - e[5] * e[6]) + e[2] * (e[3] * e[7] - e[4] * e[6]);
+		n != 0 && (n = 1 / n, t[0] = (e[4] * e[8] - e[7] * e[5]) * n, t[1] = -(e[1] * e[8] - e[2] * e[7]) * n, t[2] = (e[1] * e[5] - e[2] * e[4]) * n, t[3] = -(e[3] * e[8] - e[5] * e[6]) * n, t[4] = (e[0] * e[8] - e[2] * e[6]) * n, t[5] = -(e[0] * e[5] - e[3] * e[2]) * n, t[6] = (e[3] * e[7] - e[6] * e[4]) * n, t[7] = -(e[0] * e[7] - e[6] * e[1]) * n, t[8] = (e[0] * e[4] - e[3] * e[1]) * n)
+	}
+
+	function ss(e, t) {
+		e[0] -= t[0], e[1] -= t[1], e[2] -= t[2], e[3] -= t[3], e[4] -= t[4], e[5] -= t[5], e[6] -= t[6], e[7] -= t[7], e[8] -= t[8]
+	}
+
+	function os(e, t) {
+		e[0] += t[0], e[1] += t[1], e[2] += t[2], e[3] += t[3], e[4] += t[4], e[5] += t[5], e[6] += t[6], e[7] += t[7], e[8] += t[8]
+	}
+
+	function us(e, t, n) {
+		var r = t[0], i = t[1], s = t[2], o = t[3], u = t[4], a = t[5], f = t[6], l = t[7], c = t[8], h = e[0], p = e[1], d = e[2];
+		n[0] = h * r + p * o + d * f, n[1] = h * i + p * u + d * l, n[2] = h * s + p * a + d * c, h = e[3], p = e[4], d = e[5], n[3] = h * r + p * o + d * f, n[4] = h * i + p * u + d * l, n[5] = h * s + p * a + d * c, h = e[6], p = e[7], d = e[8], n[6] = h * r + p * o + d * f, n[7] = h * i + p * u + d * l, n[8] = h * s + p * a + d * c
+	}
+
+	function as(e, t, n) {
+		var r = e[0] * t.x + e[1] * t.y + e[2] * t.z, i = e[3] * t.x + e[4] * t.y + e[5] * t.z, s = e[6] * t.x + e[7] * t.y + e[8] * t.z;
+		n.x = r, n.y = i, n.z = s
+	}
+
+	function fs(e, t, n) {
+		n[0] = e[0] + t[0], n[1] = e[1] + t[1], n[2] = e[2] + t[2], n[3] = e[3] + t[3], n[4] = e[4] + t[4], n[5] = e[5] + t[5], n[6] = e[6] + t[6], n[7] = e[7] + t[7], n[8] = e[8] + t[8]
+	}
+
+	function bs(e, t, n) {
+		Ji(e, t, cs);
+		if (Wi(cs) == 0)Yi(n); else {
+			Ri(hs, e), Ri(ps, t), Xi(cs), Xi(hs), Xi(ps);
+			var r = vs, i = ms;
+			Ji(cs, hs, ls), r[0] = hs.x, r[1] = hs.y, r[2] = hs.z, r[3] = cs.x, r[4] = cs.y, r[5] = cs.z, r[6] = ls.x, r[7] = ls.y, r[8] = ls.z, Ji(cs, ps, ls), i[0] = ps.x, i[3] = ps.y, i[6] = ps.z, i[1] = cs.x, i[4] = cs.y, i[7] = cs.z, i[2] = ls.x, i[5] = ls.y, i[8] = ls.z, us(i, r, n)
+		}
+	}
+
+	function ws(e, t) {
+		var n = Ki(e, e), r = Math[Bt](n), i, s;
+		if (n < 1e-8)i = 1 - 1 / 6 * n, s = .5; else if (n < 1e-6)s = .5 - .25 * (1 / 6) * n, i = 1 - n * (1 / 6) * (1 - .05 * n); else {
+			var o = 1 / r;
+			i = Math.sin(r) * o, s = (1 - Math.cos(r)) * o * o
+		}
+		Ss(e, i, s, t)
+	}
+
+	function Es(e, t) {
+		var n = (e[0] + e[4] + e[8] - 1) * .5;
+		qi(t, (e[7] - e[5]) / 2, (e[2] - e[6]) / 2, (e[3] - e[1]) / 2);
+		var r = Wi(t);
+		if (n > Math.SQRT1_2)r > 0 && Vi(t, Math.asin(r) / r); else if (n > -Math.SQRT1_2) {
+			var i = Math.acos(n);
+			Vi(t, i / r)
+		} else {
+			var i = Math.PI - Math.asin(r), s = e[0] - n, o = e[4] - n, u = e[8] - n, a = gs;
+			s * s > o * o && s * s > u * u ? qi(a, s, (e[3] + e[1]) / 2, (e[2] + e[6]) / 2) : o * o > u * u ? qi(a, (e[3] + e[1]) / 2, o, (e[7] + e[5]) / 2) : qi(a, (e[2] + e[6]) / 2, (e[7] + e[5]) / 2, u), Ki(a, t) < 0 && Vi(a, -1), Xi(a), Vi(a, i), Ri(t, a)
+		}
+	}
+
+	function Ss(e, t, n, r) {
+		var i = e.x * e.x, s = e.y * e.y, o = e.z * e.z;
+		r[0] = 1 - n * (s + o), r[4] = 1 - n * (i + o), r[8] = 1 - n * (i + s);
+		var u = t * e.z, a = n * e.x * e.y;
+		r[1] = a - u, r[3] = a + u, u = t * e.y, a = n * e.x * e.z, r[2] = a + u, r[6] = a - u, u = t * e.x, a = n * e.y * e.z, r[5] = a - u, r[7] = a + u
+	}
+
+	function xs(e, t, n, r) {
+		t *= br, n *= br, r *= br;
+		var i = Math.cos(t), s = Math.sin(t), o = Math.cos(n), u = Math.sin(n), a = Math.cos(r), f = Math.sin(r), l = i * u, c = s * u;
+		e[0] = o * a, e[1] = l * a + i * f, e[2] = -c * a + s * f, e[3] = -o * f, e[4] = -l * f + i * a, e[5] = c * f + s * a, e[6] = u, e[7] = -s * o, e[8] = i * o
+	}
+
+	function Ts(e, t) {
+		var n = e[0] + e[4] + e[8], r;
+		n > 0 ? (r = Math[Bt](1 + n) * 2, t.x = (e[5] - e[7]) / r, t.y = (e[6] - e[2]) / r, t.z = (e[1] - e[3]) / r, t.w = .25 * r) : e[0] > e[4] && e[0] > e[8] ? (r = Math[Bt](1 + e[0] - e[4] - e[8]) * 2, t.x = .25 * r, t.y = (e[3] + e[1]) / r, t.z = (e[6] + e[2]) / r, t.w = (e[5] - e[7]) / r) : e[4] > e[8] ? (r = Math[Bt](1 + e[4] - e[0] - e[8]) * 2, t.x = (e[3] + e[1]) / r, t.y = .25 * r, t.z = (e[7] + e[5]) / r, t.w = (e[6] - e[2]) / r) : (r = Math[Bt](1 + e[8] - e[0] - e[4]) * 2, t.x = (e[6] + e[2]) / r, t.y = (e[7] + e[5]) / r, t.z = .25 * r, t.w = (e[1] - e[3]) / r)
+	}
+
+	function Ds(e) {
+		if (js) {
+			var t = Ci();
+			t != Ls && (Ls = t, xs(Os, 0, 0, -t), xs(As, -90, 0, +t));
+			var n;
+			if ($n <= 1 || $n == 3)n = To(); else {
+				var r = xn[B], i = (r - Ns) / 1e3, s = i;
+				$n == 2 ? s += 2 / 60 : $n == 6 ? s += 1 / 60 : $n == 7 && (s += 2 / 60), n = Lo(s)
+			}
+			us(Os, n, _s), us(_s, As, Ms), Ts(Ms, e)
+		}
+	}
+
+	function Bs(e) {
+		if (!or[a])return;
+		var i = xn[B], s = i - Hs;
+		Hs = i, s > 5e3 && (ui(), s = .16), fr++;
+		if (fr < lr)return;
+		go == t && (go = r, yo());
+		var o = e[K], u = o.x, f = o.y, l = o.z;
+		u == n && (u = 0), f == n && (f = 9.81), l == n && (l = 0);
+		var c = e.acceleration;
+		if (c) {
+			var h = c.x, p = c.y, d = c.z;
+			h == n && (h = 0), p == n && (p = 0), d == n && (d = 0), u -= h, f -= p, l -= d
+		}
+		if (Tn.ios || Tn.ie)u *= -1, f *= -1, l *= -1;
+		var v = e.rotationRate, m = v.alpha, g = v.beta, y = v.gamma;
+		m == n && (m = 0), g == n && (g = 0), y == n && (y = 0);
+		if (Tn.ios || Tn[Ht] || Tn.ie) {
+			m *= br, g *= br, y *= br;
+			if (Tn.ie) {
+				var b = m, w = g, E = y;
+				m = w, g = E, y = b
+			}
+		}
+		Uo ? Jo(s, m, g, y) : Pn && Ps(m, g, y, i);
+		var S = zo;
+		m -= S.rx, g -= S.ry, y -= S.rz, qi(Cs, u, f, l), Eo(Cs, s), Ns = i, qi(ks, m, g, y), xo(ks, i);
+		if ($n <= 3 || $n == 5)ki.q.x = Li.q.x, ki.q.y = Li.q.y, ki.q.z = Li.q.z, ki.q.w = Li.q.w, ki.t = Li.t, Ds(Li.q), Li.t = i
+	}
+
+	function yo() {
+		Yi(Qs), Yi(Gs), Gi(Zs), Zi(Zs, ho), Gi(Ys), Zi(Ys, 1), Gi(ro), Zi(ro, po), Gi(to), Gi(eo), Gi(no), Ui(Ws), Ui(Us), Ui(Rs), Ui(zs), Ui(qs), qi(Is, 0, 0, vo), js = t
+	}
+
+	function bo(e, t) {
+		as(e, Is, Rs), bs(Rs, Us, co), Es(co, t)
+	}
+
+	function wo() {
+		ts(Gs, fo), us(Zs, fo, lo), us(Gs, lo, Zs), Yi(Gs)
+	}
+
+	function Eo(e, t) {
+		Ri(Us, e);
+		if (js) {
+			bo(Qs, Ws), t < 5 && (t = 5);
+			var n = 1e3 / 60 / t, i = mo * n, s = 1 / mo, o = Xs;
+			for (var u = 0; u < 3; u++)Ui(o), zi(o, u, s), ws(o, io), us(io, Qs, so), bo(so, Vs), $i(Ws, Vs, $s), Vi($s, i), ns(eo, u, $s);
+			ts(eo, oo), us(Zs, oo, uo), us(eo, uo, ao), fs(ao, ro, to), is(to, oo), ts(eo, uo), us(uo, oo, ao), us(Zs, ao, no), as(no, Ws, qs), us(no, eo, oo), Yi(uo), ss(uo, oo), us(uo, Zs, oo), rs(Zs, oo), ws(qs, Gs), us(Gs, Qs, Qs), wo()
+		} else bs(Is, Us, Qs), js = r
+	}
+
+	function xo(e, t) {
+		if (So != 0) {
+			var n = (t - So) / 1e3;
+			n > 1 && (n = 1), Ri(zs, e), Vi(zs, -n), ws(zs, Gs), rs(Js, Qs), us(Gs, Qs, Js), rs(Qs, Js), wo(), rs(Ks, Ys), es(Ks, n * n), os(Zs, Ks)
+		}
+		So = t, Ri(Fs, e)
+	}
+
+	function To() {
+		return Qs
+	}
+
+	function Lo(e) {
+		var t = No;
+		Ri(t, Fs), Vi(t, -e);
+		var n = Co;
+		ws(t, n);
+		var r = ko;
+		return us(n, Qs, r), r
+	}
+
+	function Ho(e) {
+		var t = e[s]("://");
+		if (t > 0) {
+			var r = e[s]("/", t + 3), i = e[It](0, t)[c](), o = e[It](t + 3, r), u = e[It](r);
+			return [i, o, u]
+		}
+		return n
+	}
+
+	function Bo(e) {
+		if (Mo == n) {
+			var i = Ho(Ao), s = Ho(window[wn].href);
+			if (s[0] == "http" || s[0] == "https") {
+				_o = s[0] + "://" + i[1], Do = _o + i[2];
+				// var o = document[bn]("iframe");
+				// o.style.cssText = "position:absolute;width:1px;height:1px;left:-9999px;visibility:hidden;", xn[m].viewerlayer.appendChild(o), Mo = o, o[u]("load", function () {
+				// 	Oo = r, e(Mo)
+				// }, t), window[u]("message", Fo, t), o.src = Do
+			}
+		} else Oo && e(Mo)
+	}
+
+	function jo(e) {
+		Bo(function (t) {
+			try {
+				t.contentWindow.postMessage(e, _o)
+			} catch (n) {
+			}
+		})
+	}
+
+	function Fo(e) {
+		if (e.origin == _o) {
+			var t = "" + e.data;
+			t[It](0, 15) == "webvr_settings:" && Io(t[It](15))
+		}
+	}
+
+	function Io(e) {
+		var t = e[mn](bt), n = Number(t[0]), i = Number(t[1]), s = Number(t[2]), o = Number(t[3]), u = Number(t[4]), a = Number(t[5]), f = Number(t[6]), l = Number(t[7]), c = Number(t[8]), h = Number(t[9]), p = "" + t[10], d = Number(t[11]);
+		isNaN(f) && (f = 0), isNaN(l) && (l = 0), isNaN(c) && (c = 0), isNaN(h) && (h = 1), isNaN(d) && (d = 0), p[mn]("|")[kt] != 4 && (p = Qt), !isNaN(n) && n >= 30 && n < 90 && !isNaN(i) && i >= 0 && i < 12 && !isNaN(s) && s >= 1 && s < 180 && !isNaN(o) && o >= 0 && o < 10 && !isNaN(u) && u >= 1 && u < 500 && !isNaN(a) && a >= 0 && a < 10 && !isNaN(h) && h > 0 && h < 2 && (Hn = n, Bn = i, Fn = s, In = o, Wn = u, $n = a, zo.rx = f, zo.ry = l, zo.rz = c, jn = h, qn = p, zn = d, ir = r)
+	}
+
+	function qo(e) {
+		if (tr || rr) {
+			if (Po)try {
+				var t = window.localStorage;
+				if (t) {
+					var n = t[tn](Pt);
+					n || (n = t[tn](Dt)), n || (n = t[tn](At)), n || (n = t[tn](Ot)), n && Io(n)
+				}
+			} catch (r) {
+			}
+			("" + e)[c]() != "local" && jo("load.4")
+		}
+	}
+
+	function Ro(e) {
+		if (tr || rr) {
+			var t = Hn + bt + Bn + bt + Fn + bt + In + bt + Wn + bt + $n + bt + zo.rx + bt + zo.ry + bt + zo.rz + bt + jn + bt + qn + bt + zn;
+			if (Po)try {
+				var n = window.localStorage;
+				n && (n[Zt](Pt, t), n[Zt](Dt, t[mn](bt)[It](0, 10).join(bt)), n[Zt](At, t[mn](bt)[It](0, 9).join(bt)), n[Zt](Ot, t[mn](bt)[It](0, 6).join(bt)))
+			} catch (r) {
+			}
+			("" + e)[c]() != "local" && jo("save.4:" + t)
+		}
+	}
+
+	function Vo(e, n) {
+		Zn && tr && !nr && (Uo = r, Pn = t, Wo = e, Xo = n, Jo(-1))
+	}
+
+	function $o() {
+		Uo = t, zo.rx = 0, zo.ry = 0, zo.rz = 0
+	}
+
+	var e = "registerattribute", t = !1, n = null, r = !0, s = "indexOf", o = "removeEventListener", u = "addEventListener", a = "enabled", f = "deviceorientation", l = "onunavailable", c = "toLowerCase", h = "devicemotion", p = "view", d = "maxpixelzoom", v = "architectural", m = "display", g = "continuousupdates", y = "control", b = "fisheyefovlink", w = "browser", E = "desktop", S = "getRecommendedEyeRenderRect", x = "stereographic", T = "limitview", N = "height", C = "getCurrentEyeFieldOfView", k = "events", L = "#ifdef GL_FRAGMENT_PRECISION_HIGH\n", A = "loadwhilemoving", O = "onavailable", M = "float b = texture2D(sm,vB).b;", _ = "android", D = "downloadlockedlevel", P = "float r = texture2D(sm,vR).r;", H = "getRecommendedRenderTargetSize", B = "timertick", j = "stereooverlap", F = "getEyeParameters", I = "uniform1f", q = "vec2 vR = center + v * ca;", R = "vec2 vB = center + v / ca;", U = "precision mediump float;\n", z = "renderTargetSize", W = "lockmultireslevel", X = "fisheye", V = "hlookat", $ = "getEyeTranslation", J = "call", K = "accelerationIncludingGravity", Q = "documentElement", G = "fovtype", Y = "width", Z = "#endif\n", et = "precision highp float;\n", tt = "atan2", nt = "pannini", rt = "uniform sampler2D sm;", it = "usercontrol", st = "orientation", ot = "scaleflying", ut = "vec2 v = tx - center;", at = "mobile", ft = "fovmin", lt = "renderRect", ct = "useProgram", ht = "fovmax", pt = "auto", dt = "uniform float ca;", vt = "uniform float ol;", mt = "left", gt = "webkitFullscreenElement", yt = "fullscreen", bt = ",", wt = "varying vec2 tx;", Et = "recommendedFieldOfView", St = "mousetype", xt = "distorted", Tt = "right", Nt = "onunknowndevice", Ct = "stereo", kt = "length", Lt = "area", At = "krpano.webvr.2", Ot = "krpano.webvr.1", Mt = "mozFullScreenElement", _t = "#ifdef GL_ES\n", Dt = "krpano.webvr.3", Pt = "krpano.webvr.4", Ht = "firefox", Bt = "sqrt", jt = "vlookat", Ft = "visible", It = "slice", qt = "msFullscreenElement", Rt = "contextmenu", Ut = "mozGetVRDevices", zt = "webkitIsFullScreen", Wt = "YXZ", Xt = "void main()", Vt = "_VR_backup", $t = "layer", Jt = "fullscreenElement", Kt = "touchstart", Qt = "1|0|0|0", Gt = "devicename", Yt = "fullscreenchange", Zt = "setItem", en = "maxmem", tn = "getItem", nn = "mousedown", rn = "mousemove", sn = "galaxy s4", on = "iPhone 6+", un = "touchmove", an = "camroll", fn = "changedTouches", ln = "iPhone 6", cn = "screentosphere", hn = "createppshader", pn = "eyeTranslation", dn = "hotspot[", vn = "hardwareUnitId", mn = "split", gn = "touchend", yn = "#else\n", bn = "createElement", wn = "location", En = this, Sn = document, xn = n, Tn = n, Nn = n, Cn = 1, kn = .00125, Ln = t, An = r, On = r, Mn = t, _n = t, Dn = r, Pn = t, Hn = 63.5, Bn = pt, jn = 1, Fn = 96, In = .6, qn = Qt, Rn = [1, 0, 0, 0], Un = t, zn = 0, Wn = 100, Xn = t, Vn = 1, $n = 3, Jn = "", Kn = r, Qn = n, Gn = n, Yn = n, Zn = t, er = t, tr = t, nr = t, rr = t, ir = t, sr = t, or = {
+		enabled: t,
+		eyetranslt: Pi,
+		updateview: _i,
+		prjmatrix: Di,
+		getsize: Hi,
+		getcursor: Fi
+	}, ur = r, ar = 0, fr = 0, lr = 6, cr = 0, hr = 1, pr = 0, dr = 0, vr = 0, mr = t, gr = n, yr = n, br = Math.PI / 180, wr = 180 / Math.PI;
+	En.registerplugin = function (i, s, o) {
+		xn = i, Nn = o;
+		if (xn.version < "1.19" || xn.build < "2015-07-09") {
+			xn.trace(3, "WebVR plugin - too old krpano version (min. 1.19)");
+			return
+		}
+		if (xn.webVR)return;
+		Tn = xn.device, Nn[e]("worldscale", Cn, function (e) {
+			var t = Number(e);
+			isNaN(t) || (Cn = Math.max(t, .1))
+		}, function () {
+			return Cn
+		}), Nn[e]("mousespeed", kn, function (e) {
+			var t = Number(e);
+			isNaN(t) || (kn = t)
+		}, function () {
+			return kn
+		}), Nn[e]("pos_tracking", Ln, function (e) {
+			Ln = Er(e)
+		}, function () {
+			return Ln
+		}), Nn[e]("multireslock", An, function (e) {
+			An = Er(e), or[a] && ri()
+		}, function () {
+			return An
+		}), Nn[e]("mobilevr_support", On, function (e) {
+			On = Er(e)
+		}, function () {
+			return On
+		}), Nn[e]("mobilevr_touch_support", Mn, function (e) {
+			Mn = Er(e)
+		}, function () {
+			return Mn
+		}), Nn[e]("mobilevr_fake_support", _n, function (e) {
+			_n = Er(e)
+		}, function () {
+			return _n
+		}), Nn[e]("mobilevr_ipd", Hn, function (e) {
+			var t = Number(e);
+			isNaN(t) || (Hn = t), Ur()
+		}, function () {
+			return Hn
+		}), Nn[e]("mobilevr_screensize", Bn, function (e) {
+			$r(e)
+		}, function () {
+			return Jr()
+		}), Nn[e]("mobilevr_lens_fov", Fn, function (e) {
+			var t = Number(e);
+			isNaN(t) || (Fn = t, Ur())
+		}, function () {
+			return Fn
+		}), Nn[e]("mobilevr_lens_overlap", jn, function (e) {
+			var t = Number(e);
+			isNaN(t) || (jn = t, Ur())
+		}, function () {
+			return jn
+		}), Nn[e]("mobilevr_lens_dist", In, function (e) {
+			var t = Number(e);
+			isNaN(t) || (In = t, Ur())
+		}, function () {
+			return In
+		}), Nn[e]("mobilevr_lens_dist2", qn, function (e) {
+			qn = e, Ur()
+		}, function () {
+			return qn
+		}), Nn[e]("mobilevr_lens_ca", zn, function (e) {
+			var t = Number(e);
+			isNaN(t) || (zn = t, Ur())
+		}, function () {
+			return zn
+		}), Nn[e]("mobilevr_lens_vign", Wn, function (e) {
+			var t = Number(e);
+			isNaN(t) || (Wn = t, Ur())
+		}, function () {
+			return Wn
+		}), Nn[e]("mobilevr_webvr_dist", Xn, function (e) {
+			Xn = Er(e)
+		}, function () {
+			return Xn
+		}), Nn[e]("mobilevr_wakelock", Dn, function (e) {
+			Dn = Er(e)
+		}, function () {
+			return Dn
+		}), Nn[e]("mobilevr_autocalibration", Pn, function (e) {
+			Pn = Er(e)
+		}, function () {
+			return Pn
+		}), Nn[e]("mobilevr_sensor", Vn, function (e) {
+			Vn = parseInt(e) & 1
+		}, function () {
+			return Vn
+		}), Nn[e]("mobilevr_sensor_mode", $n, function (e) {
+			var t = parseInt(e);
+			t >= 0 && t <= 7 && ($n = t), fr = 0
+		}, function () {
+			return $n
+		}), Nn[e]("vr_cursor", Jn, function (e) {
+			Bi(e)
+		}, function () {
+			return Jn
+		}), Nn[e]("vr_cursor_enabled", Kn, function (e) {
+			Kn = Er(e)
+		}, function () {
+			return Kn
+		}), Nn[e]("vr_cursor_onover", Gn, function (e) {
+			Gn = e
+		}, function () {
+			return Gn
+		}), Nn[e]("vr_cursor_onout", Yn, function (e) {
+			Yn = e
+		}, function () {
+			return Yn
+		}), Nn[e]("isavailable", er, function (e) {
+		}, function () {
+			return er
+		}), Nn[e]("isenabled", Zn, function (e) {
+		}, function () {
+			return Zn
+		}), Nn[e]("iswebvr", !tr, function (e) {
+		}, function () {
+			return !tr || rr
+		}), Nn[e]("ismobilevr", tr, function (e) {
+		}, function () {
+			return tr || rr
+		}), Nn[e]("isfake", nr, function (e) {
+		}, function () {
+			return nr
+		}), Nn[e]("havesettings", ir, function (e) {
+		}, function () {
+			return ir
+		}), Nn[e](Gt, "", function (e) {
+		}, function () {
+			return Xr()
+		}), Nn[e]("devicesize", "", function (e) {
+		}, function () {
+			return Vr()
+		}), Nn[e](O, n), Nn[e](l, n), Nn[e](Nt, n), Nn[e]("onentervr", n), Nn[e]("onexitvr", n), Nn.entervr = Gr, Nn.exitvr = Yr, Nn.togglevr = Zr, Nn.resetsensor = ei, Nn.loadsettings = qo, Nn.savesettings = Ro, Nn.calibrate = Vo, Nn.resetcalibration = $o, Nn.update = Qr;
+		if (xn.webGL) {
+			xn.webVR = or;
+			var u = Tn[_] && Tn[Ht], f = document[Q].requestPointerLock || document[Q].mozRequestPointerLock || document[Q].webkitRequestPointerLock, c = document.exitPointerLock || document.mozExitPointerLock || document.webkitExitPointerLock;
+			f && c && (mr = r, gr = f, yr = c);
+			try {
+				u == t && navigator.getVRDevices ? navigator.getVRDevices().then(jr) : u == t && navigator[Ut] ? navigator[Ut](jr) : On ? xr() : sr == t && (sr = r, xn[J](Nn[l], Nn))
+			} catch (h) {
+			}
+		} else sr == t && (sr = r, xn[J](Nn[l], Nn))
+	}, En.unloadplugin = function () {
+		Yr(), oi(t, r), xn.webVR = n
+	};
+	var kr = n, Lr = n, Ar = n, Or = n, Mr = n, _r = n, Dr = n, Pr = n, Hr = n, Br = 100, Fr = n, qr = n, ti = n, oi = function () {
+		var e = n, r = n;
+		return function (i, s) {
+			if (Tn[at] && nr == t)if (i)Tn.ios ? e = window.setInterval(function () {
+				window[wn] = window[wn], window.setTimeout(window.stop, 0)
+			}, 15e3) : Tn[_] && (r == n && (r = document[bn]("video"), r.setAttribute("loop", ""), r.canPlayType("video/webm") != "" && (r.src = Qo)), r.play()); else {
+				e && (window.clearInterval(e), e = n);
+				if (r && s) {
+					r.pause();
+					try {
+						r.src = "", r.removeAttribute("src")
+					} catch (o) {
+					}
+					r = n
+				}
+			}
+		}
+	}(), ai = 0, ci = 0, ki = {q: new pi(0, 0, 0, 1), t: 0}, Li = {q: new pi(0, 0, 0, 1), t: 0}, Ai = new pi(0, 0, 0, 1), Oi = n, ls = new Ii, cs = new Ii, hs = new Ii, ps = new Ii, ds = new Ii, vs = Qi(), ms = Qi(), gs = new Ii, ys = new Ii, Ns = 0, Cs = new Ii, ks = new Ii, Ls = n, As = Qi(), Os = Qi(), Ms = Qi(), _s = Qi(), Ps = function () {
+		var e = 0, t = 0, n = 0, r = 0, i = 0, s = 0, o = 0, u = 0, a = 0, f = 0, l = 1, c = 0, h = 0, p = 0, d = .03;
+		return function (c, h, p, v) {
+			var m = c - e, g = h - t, y = p - n, b = v - r;
+			e = c, t = h, n = p, r = v;
+			var w = Math[Bt](m * m + g * g + y * y);
+			if (b > 500) {
+				i = 0;
+				return
+			}
+			if (i == 0) {
+				i = b, s = w;
+				return
+			}
+			i = i * .95 + .05 * b;
+			var E = Math.min(15 * i / 1e3, .5);
+			s = s * (1 - E) + E * w;
+			var S = zo;
+			s < d ? (o++, u += c, a += h, f += p, o > 19 && (S.rx = S.rx * (1 - l) + l * (u / o), S.ry = S.ry * (1 - l) + l * (a / o), S.rz = S.rz * (1 - l) + l * (f / o), l > .5 && (l *= .9), s = 10, d *= .5)) : (o = 1, u = c, a = h, f = p)
+		}
+	}(), Hs = 0, js = t, Fs = new Ii, Is = new Ii, qs = new Ii, Rs = new Ii, Us = new Ii, zs = new Ii, Ws = new Ii, Xs = new Ii, Vs = new Ii, $s = new Ii, Js = Qi(), Ks = Qi(), Qs = Qi(), Gs = Qi(), Ys = Qi(), Zs = Qi(), eo = Qi(), to = Qi(), no = Qi(), ro = Qi(), io = Qi(), so = Qi(), oo = Qi(), uo = Qi(), ao = Qi(), fo = Qi(), lo = Qi(), co = Qi(), ho = 20, po = .5, vo = 9.81, mo = 1e7, go = t, So = 0, No = new Ii, Co = Qi(), ko = Qi(), Ao = "http://d8d913s460fub.cloudfront.net/krpanocloud/webvr_localstorage.html?v=4", Oo = t, Mo = n, _o = n, Do = n, Po = r, Uo = t, zo = {rx: 0, ry: 0, rz: 0}, Wo = n, Xo = n, Jo = function () {
+		function i() {
+			var t = 0, r = n * 3, i = 0, s = 0, o = 0, u = 0, a = 0, f = 0, l = 0, c = 0, h = 0, p = 0;
+			for (t = 0; t < r; t += 3)i += e[t | 0], s += e[t + 1 | 0], o += e[t + 2 | 0];
+			i /= n, s /= n, o /= n;
+			for (t = 0; t < r; t += 3)l = e[t | 0] - i, c = e[t + 1 | 0] - s, h = e[t + 2 | 0] - o, u += l * l, a += c * c, f += h * h;
+			u = Math[Bt](u / n), a = Math[Bt](a / n), f = Math[Bt](f / n), p = Math[Bt](u * u + a * a + f * f);
+			if (p < .05) {
+				var d = zo;
+				d.rx = i, d.ry = s, d.rz = o, Wo && xn[J](Wo, Nn)
+			} else Xo && xn[J](Xo, Nn)
+		}
+
+		var e = new Array(300), n = 0, r = 0;
+		return function (s, o, u, a) {
+			if (s < 0) {
+				n = 0, r = xn[B];
+				return
+			}
+			var f = xn[B] - r;
+			if (f > 500) {
+				var l = n * 3;
+				e[l | 0] = o, e[l + 1 | 0] = u, e[l + 2 | 0] = a, n++;
+				if (n > 100 || f > 2500)Uo = t, i()
+			}
+		}
+	}(), Ko = function () {
+		function u(t) {
+			for (i = 0; i < t[kt]; i++)if (e && t[i] === e || s && t[i] === s)t.splice(i, 1), i--
+		}
+
+		var e = n, r = "" + _t + L + et + yn + U + Z + Z + rt + wt + dt + vt + Xt + "{" + "float g = texture2D(sm,tx).g;" + "vec2 center = vec2(0.5 + (0.5 - ol)*(step(0.5,tx.x) - 0.5), 0.5);" + ut + q + P + R + M + "gl_FragColor=vec4(r,g,b,1.0);" + "}", s = n, o = "" + _t + L + et + yn + U + Z + Z + rt + wt + "uniform vec2 sz;" + "uniform float ss;" + dt + vt + "uniform float vg;" + "uniform vec4 dd;" + Xt + "{" + "float vig = 0.015;" + "float side = step(0.5,tx.x) - 0.5;" + "float aspect = (sz.x / sz.y);" + "vec2 center = vec2(0.5 + (0.5 - ol)*side, 0.5);" + ut + "v.x = v.x * aspect;" + "v *= 2.0 * ss;" + "float rs = dot(v,v);" + "v = v * (dd.x + rs*(dd.y + rs*(dd.z + rs*dd.w)));" + "v /= 2.0 * ss;" + "v.x = v.x / aspect;" + "vec2 vG = center + v;" + "float a = (1.0 - smoothstep(vG.x-vig - side*ol, vG.x - side*ol, center.x - 0.25)) * " + "(1.0 - smoothstep(center.x + 0.25 - vG.x + side*ol - vig, center.x + 0.25 - vG.x + side*ol, 0.0)) * " + "(1.0 - smoothstep(vG.y-vig, vG.y, 0.0)) * " + "(1.0 - smoothstep(1.0 - vG.y-vig,1.0 - vG.y, 0.0));" + "a *= smoothstep(rs-vig, rs+vig, vg);" + q + R + P + "float g = texture2D(sm,vG).g;" +
+			M + "gl_FragColor=vec4(a*r,a*g,a*b,1.0);" + "}";
+		return function (i) {
+			var a = xn.webGL;
+			if (a) {
+				var f, l = a.context, c = a.ppshaders, h = 1 - zn * .1 / hr;
+				Un == t && h > .999999 && h < 1.000001 && (i = t), xn[m][Ct] == t && (i = t);
+				if (i)if (Un) {
+					s == n && (s = a[hn](o, "ss,ca,dd,ol,sz,vg"));
+					if (s) {
+						var p = 1 / Rn[0], d = Rn[1], v = Rn[2], g = Rn[3];
+						a[ct](s.prg), l[I](s.ss, hr), l[I](s.ca, h), l.uniform4f(s.dd, p, p * d, p * v, p * g), l[I](s.ol, .5 * vr * (1 + (jn - 1) * .1)), l[I](s.vg, Wn / 30), a[ct](n), u(c), c.push(s)
+					}
+				} else e == n && (e = a[hn](r, "ca,ol")), e && (a[ct](e.prg), l[I](e.ca, h), l[I](e.ol, .5 * vr * (1 + (jn - 1) * .1)), a[ct](n), u(c), c.push(e)); else u(c)
+			}
+		}
+	}(), Qo = "data:video/webm;base64,GkXfowEAAAAAAAAfQoaBAUL3gQFC8oEEQvOBCEKChHdlYm1Ch4ECQoWBAhhTgGcBAAAAAAABzRFNm3RALE27i1OrhBVJqWZTrIHfTbuMU6uEFlSua1OsggEuTbuMU6uEHFO7a1OsggGw7AEAAAAAAACkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVSalmAQAAAAAAAEMq17GDD0JATYCMTGF2ZjU2LjMuMTAwV0GMTGF2ZjU2LjMuMTAwc6SQC+JFWnEfyt4nOD98NcnLDESJiAAAAAAAAAAAFlSuawEAAAAAAABCrgEAAAAAAAA514EBc8WBAZyBACK1nIN1bmSGhVZfVlA4g4EBI+ODgw9CQOABAAAAAAAADrCBCLqBCFSwgQhUuoEIH0O2dQEAAAAAAAAo54EAo6OBAACAEAIAnQEqCAAIAABHCIWFiIWEiAICAAwNYAD+/6PeABxTu2sBAAAAAAAAEbuPs4EAt4r3gQHxggF88IED"
+};
