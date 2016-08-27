@@ -473,6 +473,7 @@ var krpanoplugin = function () {
 	}
 
 	function Bi(e) {
+		debugger
 		var e = ("" + e)[c](), i = e[s](dn), o = e.lastIndexOf("]");
 		if (i >= 0 && o > i) {
 			var u = e[It](i + 8, o), a = dn + u + "]";
